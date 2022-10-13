@@ -112,6 +112,12 @@ workspace "digital-services" "All the systems under the responsibility of the di
                     }
 
                 } 
+                fiServeDomain = softwareSystem "Fiserve Abstraction Applications" "FiServe API and Services" "partnerService" {
+                    fiserveService = container "Fiserve Application APIs" "The FiServe Service Abstraction Layer" "partnerServiceApi" {
+                        component FiserveBridge "Fiserve Bridge Service or API"
+                        component FiserveAccount "Fiserve Account Service or API"
+                    }
+                } 
 
             }
             customer -> mobileApp "uses mobile application with their IOS or Android device" "https" "userWeb"
@@ -138,6 +144,10 @@ workspace "digital-services" "All the systems under the responsibility of the di
             corePaymentsDomain -> kongApiGateway "route to payment domain service via gateway" "grpc" "rpc"
             coreAccountsDomain -> kongApiGateway "route to payment domain service via gateway" "grpc" "rpc"                                                
 
+            fiServeDomain -> kongApiGateway "route to fiserve service(s) via gateway" "grpc" "rpc"                                                
+            kongApiGateway -> fiServeDomain "route from fiserve service(s) via gateway" "grpc" "rpc"                                                
+
+
             aoDomain ->  postgresDb "persists data" "ORM" "pdb"
             abDomain ->  postgresDb "persists data" "Ruby ORM" "pdb"
 
@@ -157,7 +167,7 @@ workspace "digital-services" "All the systems under the responsibility of the di
     views {
         systemlandscape "DigitalServices" {
             include *
-            exclude relationship.tag==rpc
+            exclude relationship.tag==rpc fiServeDomain
             autoLayout
         }
         //gateway
@@ -240,28 +250,54 @@ workspace "digital-services" "All the systems under the responsibility of the di
              autoLayout
         }
 
+        //fiserve
+        systemContext fiServeDomain "FiserveDomain" {
+             include *
+             autoLayout
+        }
+        container fiServeDomain "FiserveApi" {
+             include *
+             autoLayout
+        }
+        component fiserveService "FiserveAPIOrServices" "The APIs or Services supported in this service" {
+             include *
+             autoLayout
+        }
+
 
         styles {
+            element "partnerService"{
+                shape RoundedBox                
+                fontSize 20
+                background #5f9ea0
+            }
+            element "partnerServiceApi"{
+                shape RoundedBox                
+                fontSize 20                
+                background  #5f9ea0             
+            }
+
             element "domainService"{
                 shape RoundedBox                
-                fontSize 16                
+                fontSize 20
             }
             element "serviceApi"{
                 shape RoundedBox                
-                fontSize 16                
+                fontSize 20                
             }
             element "gateway" {
                 shape RoundedBox                
-                fontSize 16
+                fontSize 20
+                background  #fafad2             
             }
             element "monolith" {
                 shape RoundedBox                
-                fontSize 16                
+                fontSize 20                
                 background #ff8c00
             }
             element "msg"{
                 shape RoundedBox                
-                fontSize 16                
+                fontSize 20                
             }
             element "Person" {
                 color #ffffff
@@ -272,11 +308,11 @@ workspace "digital-services" "All the systems under the responsibility of the di
             relationship "cdnCache"{
                 style dotted
                 color #6495ed
-                routing Orthogonal
+                routing Curved
             }
             relationship "rpc"{
                 style dotted
-                routing Orthogonal
+                routing Curved
                 fontSize 16                
             }
             relationship "orm"{
