@@ -1,0 +1,805 @@
+{
+  "id" : 1,
+  "name" : "digital-services",
+  "description" : "All the systems under the responsibility of the digital services group",
+  "revision" : 0,
+  "lastModifiedDate" : "2022-10-13T15:23:13Z",
+  "lastModifiedAgent" : "structurizr-web/2822/diagram",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlICJkaWdpdGFsLXNlcnZpY2VzIiAiQWxsIHRoZSBzeXN0ZW1zIHVuZGVyIHRoZSByZXNwb25zaWJpbGl0eSBvZiB0aGUgZGlnaXRhbCBzZXJ2aWNlcyBncm91cCJ7CgogICAgbW9kZWwgewogICAgICAgIGN1c3RvbWVyID0gcGVyc29uICJDdXN0b21lcnMiICJBbnlvbmUgd2hvIHVzZXMgQXZhbnQncyBsb2FuLCBjcmVkaXQgY2FyZCwgb3IgYmFua2luZyBzeXN0ZW1zLiIgIkVuZCBVc2VycyIKICAgICAgICBjZG4gPSBzb2Z0d2FyZVN5c3RlbSAiQ29udGVudCBEZWxpdmVyIE5ldHdvcmsiICJDYWNoZXMgY29udGVudCBjbG9zZXIgdG8gYSB1c2VyJ3MgbG9jYXRpb24uIiAiY2RuIiB7CiAgICAgICAgfQogICAgICAgIGdyb3VwICJVc2VyIEFwcGxpY2F0aW9ucyIgewogICAgICAgICAgICBtb2JpbGVBcHAgPSBzb2Z0d2FyZVN5c3RlbSAiTW9iaWxlIEFwcGxpY2F0aW9uIiAiSU9TIGFuZCBBbmRyb2lkIGRldmljZSBhcHBsaWNhdGlvbnMgZW5hYmxpbmcgY3VzdG9tZXJzIHVzZSB0byBhY2Nlc3MgYW5kIG1hbmFnZSBBdmFudCBwcm9kdWN0cyBhbmQgc2VydmljZXMiICJtb2JpbGV1aSIgewoKICAgICAgICAgICAgfQogICAgICAgICAgICB3ZWJTaXRlID0gc29mdHdhcmVTeXN0ZW0gIldlYnNpdGUgQXBwbGljYXRpb24iICJIVE1MIGFuZCBKYXZhc2NyaXB0IHdlYnNpdGUgZW5hYmxpbmcgY3VzdG9tZXJzIHVzZSB0byBhY2Nlc3MgYW5kIG1hbmFnZSBBdmFudCBwcm9kdWN0cyBhbmQgc2VydmljZXMiICJ3ZWJ1aSIgewoKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICAgICAgZ3JvdXAgIk1hbmFnZWQgRGF0YWJhc2Ugb24gR0NQIiB7CiAgICAgICAgICAgICAgICBwb3N0Z3Jlc0RiID0gc29mdHdhcmVTeXN0ZW0gIk4gTnVtYmVyIFBvc3RncmVTUUwiICJTZXBhcmF0ZSBQb3N0Z3JlU1FMIEluc3RhbmNlKHMpIGZvciBlYWNoIFNlcnZpY2UiICJEQiIgewogICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICBncm91cCAiTWVzc2FnaW5nIFNvbHV0aW9ucyBDb25mbHVlbnQiIHsKICAgICAgICAgICAgICAgIGthZmthQ2x1c3RlciA9IHNvZnR3YXJlU3lzdGVtICJLYWZrYSBNZXNzYWdpbmciICJEdXJhYmxlIG1lc3NzYWdlIHF1ZXVpbmcgc29sdXRpb24iICJtc2ciIHsKCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgcmFiYml0TXEgPSBzb2Z0d2FyZVN5c3RlbSAiUmFiYml0TVEgTWVzc2FnaW5nIiAiUHVibGlzaC9TdWJzY3JpYmUgcXVldWluZyBzb2x1dGlvbiIgIm1zZyIgewoKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKCiAgICAgICAgZW50ZXJwcmlzZSAiQXZhbnQiIHsKICAgICAgICAgICAgZ3JvdXAgIkFQSSBHYXRld2F5IiB7CiAgICAgICAgICAgICAgICBrb25nQXBpR2F0ZXdheSA9IHNvZnR3YXJlU3lzdGVtICJBUEkgR2F0ZXdheSBBcHBsaWNhdGlvbiIgIlZlbmRvciBhZ25vc3RpYyBzb2x1dGlvbiBpbXBsZW1lbnRlZCBpbiBOZ25peCBhbmQgTHVhIHRoYXQgZmlsdGVycyBhbmQgcm91dGVzIEFQSSBhbmQgd2ViIHRyYWZmaWMuIiAiZ2F0ZXdheSIgewogICAgICAgICAgICAgICAgICAgIGtvbmdNYW5hZ2VtZW50ID0gY29udGFpbmVyICJXZWIgTWFuYWdlbWVudCBDb25zb2xlIiAiVGhlIGNvbnNvbGUgdXNlZCBieSBpbnRlcm5hbCByZXNvdXJjZXMgdG8gY29uZmlndXJlIEFQSSBnYXRld2F5IGZ1bmN0aW9uYWxpdHkiICJ3ZWJDb25zb2xlIiB7CiAgICAgICAgICAgICAgICAgICAgICAga29uZ1BsdWdpbkNvbXBvbmVudCA9IGNvbXBvbmVudCAiUGx1Z2luIEFyY2hpdGVjdHVyZSBDb21wb25lbnRzIgogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGdyb3VwICJPcmNoZXN0cmF0aW9uIExheWVyIiB7CiAgICAgICAgICAgICAgICBjdXN0b21lckRvbWFpbiA9IHNvZnR3YXJlU3lzdGVtICJDdXN0b21lciBEb21haW4gQVBJIiAiQWJzdHJhY3Rpb24gbGF5ZXIgdGhhdCdzIGZhbWlsaWFyIHdpdGggYWxsIGN1c3RvbWVyIGRhdGEgc291cmNlcy4gIE9ubHkgZXhwb3NlcyBhbiBBdmFudCBjb250cmFjdC4iICJkb21haW5TZXJ2aWNlIiB7CiAgICAgICAgICAgICAgICAgICAgY3VzdG9tZXJTZXJ2aWNlID0gY29udGFpbmVyICJDb3JlIEN1c3RvbWVyIEFQSSIgIlNlcnZpY2UgZXhwb3NpbmcgY29yZSBtb2RlbCBhdHRyaWJ1dGVzLiIgInNlcnZpY2VBcGkiIHsKICAgICAgICAgICAgICAgICAgICAgICBncm91cCAiRGphbmdvIFdlYiBDb250YWluZXIiIHsKICAgICAgICAgICAgICAgICAgICAgICAgIGNvbXBvbmVudCBPbkJvYXJkaW5nU3RlcCAiQSBwYXJ0aWN1bGFyIHR5cGUgb2YgYW4gb25ib2FyZGluZyBzdGVwIGZvciBhIHByb2R1Y3QuIElmIGVuYWJsZWQgaXMgVHJ1ZSwgdGhlbiBhIEN1c3RvbWVyT25ib2FyZGluZ1N0ZXAgd2lsbCBiZSBjcmVhdGVkIGZvciB0aGUJQ3VzdG9tZXIgd2hlbiB0aGV5IGFyZSBhcHByb3ZlZCBmb3IgYSBwcm9kdWN0LiIKICAgICAgICAgICAgICAgICAgICAgICAgIGNvbXBvbmVudCBQcm9kdWN0T25Cb2FyZGluZ1N0ZXAgIkEgcGFydGljdWxhciB0eXBlIG9mIGFuIG9uYm9hcmRpbmcgc3RlcCBmb3IgYSBwcm9kdWN0LiBJZiBlbmFibGVkIGlzIFRydWUsIHRoZW4gYSBDdXN0b21lck9uYm9hcmRpbmdTdGVwIHdpbGwgYmUgY3JlYXRlZCBmb3IgdGhlIEN1c3RvbWVyIHdoZW4gdGhleSBhcmUgYXBwcm92ZWQgZm9yIGEgcHJvZHVjdC4iCiAgICAgICAgICAgICAgICAgICAgICAgICBjb21wb25lbnQgQ3VzdG9tZXJPbkJvYXJkaW5nU3RlcCAiT25ib2FyZHMgY3VzdG9tZXJzIGludG8gdGhlIGNvcmUgY3VzdG9tZXIgbW9kZWwuIgogICAgICAgICAgICAgICAgICAgICAgICAgY29tcG9uZW50IEN1c3RvbWVyUHJvZHVjdE9uYm9hcmRpbmdTdGVwICJMaW5rcyBjdXN0b21lcnMgdG8gcHJvZHVjdHMgZHVyaW5nIHRoZSBvbmJvYXJkaW5nIHN0ZXAuIgogICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBhb0RvbWFpbiA9IHNvZnR3YXJlU3lzdGVtICJBY2NvdW50IE9wZW5pbmcgRG9tYWluIEFQSSIgIkFic3RyYWN0aW9uIGxheWVyIHRoYXQncyBmYW1pbGlhciB3aXRoIGFsbCBhY2NvdW50IG9wZW5pbmcgZGF0YSBzb3VyY2VzLiAgT25seSBleHBvc2VzIGFuIEF2YW50IGNvbnRyYWN0LiIgImRvbWFpblNlcnZpY2UiIHsKICAgICAgICAgICAgICAgICAgICBhb1NlcnZpY2UgPSBjb250YWluZXIgIkFjY291bnQgT3BlaW5pbmcgQVBJIiAiU2VydmljZSBleHBvc2luZyBhY2NvdW50IG9wZW5pbmcgbW9kZWwgYXR0cmlidXRlcy4iICJzZXJ2aWNlQXBpIiB7CiAgICAgICAgICAgICAgICAgICAgICAgZ3JvdXAgIkZhc3RBUEkgV2ViIENvbnRhaW5lciIgewogICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBwcm9kdWN0RG9tYWluID0gc29mdHdhcmVTeXN0ZW0gIlByb2R1Y3QgRG9tYWluIEFQSSIgIkFic3RyYWN0aW9uIGxheWVyIHRoYXQncyBmYW1pbGlhciB3aXRoIGFsbCBwcm9kdWN0IGRhdGEgc291cmNlcy4gIE9ubHkgZXhwb3NlcyBhbiBBdmFudCBjb250cmFjdC4iICJkb21haW5TZXJ2aWNlIiB7CiAgICAgICAgICAgICAgICAgICAgcHJvZHVjdFNlcnZpY2UgPSBjb250YWluZXIgIlByb2R1Y3QgQVBJIiAiU2VydmljZSBleHBvc2luZyBwcm9kdWN0IG1vZGVsIGF0dHJpYnV0ZXMuIiAic2VydmljZUFwaSIgewogICAgICAgICAgICAgICAgICAgICAgIGdyb3VwICI/PyBXZWIgQ29udGFpbmVyIiB7CiAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBncm91cCAiRGlnaXRhbCBTZXJ2aWNlcyIgewoKICAgICAgICAgICAgfQogICAgICAgICAgICBjdXN0b21lciAtPiBtb2JpbGVBcHAgInVzZXMgbW9iaWxlIGFwcGxpY2F0aW9uIHdpdGggdGhlaXIgSU9TIG9yIEFuZHJvaWQgZGV2aWNlIiAiaHR0cHMiICJ1c2VyV2ViIgogICAgICAgICAgICBjdXN0b21lciAtPiB3ZWJTaXRlICJ1c2VzIHdlYiBhcHBsaWNhdGlvbiB3aXRoIENocm9tZSwgRmlyZWZveCwgb3IgU2FmYXJpIHdlYiBicm93c2VyIiAiaHR0cHMiICJ1c2VyV2ViIgoKICAgICAgICAgICAgbW9iaWxlQXBwIC0+IGtvbmdBcGlHYXRld2F5ICJyb3V0ZXMgdGhyb3VnaCIgImh0dHBzIiAiZXh0ZXJuYWxXZWIiCiAgICAgICAgICAgIHdlYlNpdGUgLT4ga29uZ0FwaUdhdGV3YXkgInJvdXRlcyB0aHJvdWdoIiAiaHR0cHMiICJleHRlcm5hbFdlYiIKICAgICAgICAgICAgY2RuIC0+IG1vYmlsZUFwcCAgInN0YXRpYyBjb250ZW50IGNhY2hlIiAiaHR0cHMiICJjZG5DYWNoZSIKICAgICAgICAgICAgY2RuIC0+IHdlYlNpdGUgInN0YXRpYyBjb250ZW50IGNhY2hlIiAiaHR0cHMiICJjZG5DYWNoZSIKCiAgICAgICAgICAgIGtvbmdBcGlHYXRld2F5IC0+IGN1c3RvbWVyRG9tYWluICJyb3V0ZSB0byBjdXN0b21lciBkb21haW4gc2VydmljZSIgImh0dHBzIiAiaW50ZXJuYWxXZWIiCiAgICAgICAgICAgIGtvbmdBcGlHYXRld2F5IC0+IGFvRG9tYWluICJyb3V0ZSB0byBhY2NvdW50IG9wZW5pbmcgZG9tYWluIHNlcnZpY2UiICJodHRwcyIgImludGVybmFsV2ViIgogICAgICAgICAgICBrb25nQXBpR2F0ZXdheSAtPiBwcm9kdWN0RG9tYWluICJyb3V0ZSB0byBwcm9kdWN0IGRvbWFpbiBzZXJ2aWNlIiAiaHR0cHMiICJpbnRlcm5hbFdlYiIKCiAgICAgICAgICAgIGN1c3RvbWVyRG9tYWluIC0+IHBvc3RncmVzRGIgInBlcnNpc3RzIGRhdGEiICJkamFuZ28gT1JNIiAicGRiIgoKICAgICAgICAgICAgYW9TZXJ2aWNlIC0+IGthZmthQ2x1c3RlciAicHJvZHVjZXMgbWVzc2FnZXMiICJhdnJvIiAicW1zZyIKICAgICAgICAgICAga2Fma2FDbHVzdGVyIC0+IGFvU2VydmljZSAiY29uc3VtZXMgbWVzc2FnZXMiICJhdnJvIiAicW1zZyIKICAgICAgICB9CiAgICB9CgogICAgdmlld3MgewogICAgICAgIHN5c3RlbWxhbmRzY2FwZSAiRGlnaXRhbFNlcnZpY2VzIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQogICAgICAgIC8vZ2F0ZXdheQogICAgICAgIHN5c3RlbUNvbnRleHQga29uZ0FwaUdhdGV3YXkgIkFQSUdhdGV3YXlBcHBsaWNhdGlvblZpZXciIHsKICAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgIH0KICAgICAgICBjb250YWluZXIga29uZ0FwaUdhdGV3YXkgIktvbmdNYW5hZ2VtZW50Q29uc29sZSIgewogICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQogICAgICAgIGNvbXBvbmVudCBrb25nTWFuYWdlbWVudCAiS29uZ1BsdWdpbnMiICJUaGUgY3VzdG9tIGJ1aWx0IGFuZCAzcmQgcGFydHkgcGx1Z2lucyBkZXBsb3llZCBpbiB0aGUgS29uZyBBUEkgZ2F0ZXdheS4iIHsKICAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgIH0KICAgICAgICAvL2N1c3RvbWVyCiAgICAgICAgc3lzdGVtQ29udGV4dCBjdXN0b21lckRvbWFpbiAiQ29yZUN1c3RvbWVyRG9tYWluIiB7CiAgICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICB9CiAgICAgICAgY29udGFpbmVyIGN1c3RvbWVyRG9tYWluICJDb3JlQ3VzdG9tZXJBcGkiIHsKICAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgIH0KICAgICAgICBjb21wb25lbnQgY3VzdG9tZXJTZXJ2aWNlICJDb3JlQ3VzdG9tZXJNb2RlbHMiICJUaGUgbW9kZWxzIHN1cHBvcnRlZCBpbiB0aGlzIHNlcnZpY2UiIHsKICAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgIH0KICAgICAgICAvL0FjY291bnQgT3BlbmluZyAoQU8pCiAgICAgICAgc3lzdGVtQ29udGV4dCBhb0RvbWFpbiAiQWNjb3VudE9wZW5pbmdEb21haW4iIHsKICAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgIH0KICAgICAgICBjb250YWluZXIgYW9Eb21haW4gIkFjY291bnRPcGVuaW5nQXBpIiB7CiAgICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICB9CiAgICAgICAgY29tcG9uZW50IGFvU2VydmljZSAiQWNjb3VudE9wZW5pbmdNb2RlbHMiICJUaGUgbW9kZWxzIHN1cHBvcnRlZCBpbiB0aGlzIHNlcnZpY2UiIHsKICAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgIH0KICAgICAgICAvL1Byb2R1Y3QKICAgICAgICBzeXN0ZW1Db250ZXh0IFByb2R1Y3REb21haW4gIlByb2R1Y3REb21haW4iIHsKICAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgIH0KICAgICAgICBjb250YWluZXIgcHJvZHVjdERvbWFpbiAiUHJvZHVjdEFwaSIgewogICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQogICAgICAgIGNvbXBvbmVudCBwcm9kdWN0U2VydmljZSAiUHJvZHVjdE1vZGVscyIgIlRoZSBtb2RlbHMgc3VwcG9ydGVkIGluIHRoaXMgc2VydmljZSIgewogICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoKCiAgICAgICAgc3R5bGVzIHsKICAgICAgICAgICAgZWxlbWVudCAiZG9tYWluU2VydmljZSJ7CiAgICAgICAgICAgICAgICBzaGFwZSBSb3VuZGVkQm94ICAgICAgICAgICAgICAgIAogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgInNlcnZpY2VBcGkiewogICAgICAgICAgICAgICAgc2hhcGUgUm91bmRlZEJveCAgICAgICAgICAgICAgICAKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJnYXRld2F5InsKICAgICAgICAgICAgICAgIHNoYXBlIFJvdW5kZWRCb3ggICAgICAgICAgICAgICAgCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAibXNnInsKICAgICAgICAgICAgICAgIHNoYXBlIFJvdW5kZWRCb3ggICAgICAgICAgICAgICAgCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiUGVyc29uIiB7CiAgICAgICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzRFQzVGMQogICAgICAgICAgICAgICAgICAgIGZvbnRTaXplIDIyCiAgICAgICAgICAgICAgICAgICAgc2hhcGUgUGVyc29uCiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmVsYXRpb25zaGlwICJjZG5DYWNoZSJ7CiAgICAgICAgICAgICAgICBzdHlsZSBkb3R0ZWQKICAgICAgICAgICAgICAgIHJvdXRpbmcgQ3VydmVkCiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmVsYXRpb25zaGlwICJvcm0iewogICAgICAgICAgICAgICAgc3R5bGUgZG90dGVkCiAgICAgICAgICAgICAgICByb3V0aW5nIEN1cnZlZAogICAgICAgICAgICAgICAgY29sb3IgIzY0OTVlZAogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgImNkbiIgewogICAgICAgICAgICAgICAgc2hhcGUgQ2lyY2xlCiAgICAgICAgICAgICAgICBoZWlnaHQgMzUwCiAgICAgICAgICAgICAgICB3aWR0aCAzNTAKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJtb2JpbGV1aSIgewogICAgICAgICAgICAgICAgc2hhcGUgUm91bmRlZEJveAogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjMzM4NkIzCiAgICAgICAgICAgICAgICBoZWlnaHQgMjUwCiAgICAgICAgICAgICAgICB3aWR0aCA0NTAKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJ3ZWJ1aSIgewogICAgICAgICAgICAgICAgc2hhcGUgUm91bmRlZEJveAogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjMzM4NkIzCiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIGhlaWdodCAyNTAKICAgICAgICAgICAgICAgIHdpZHRoIDQ1MAogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkRCIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBDeWxpbmRlcgogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjZGViODg3CiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAicmVkaXMiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzIyOGIyMgogICAgICAgICAgICAgICAgc2hhcGUgSGV4YWdvbgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkNvbnRhaW5lciIgewogICAgICAgICAgICAgICAgc2hhcGUgUm91bmRlZEJveAogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkNvbXBvbmVudCIgewogICAgICAgICAgICAgICAgc2hhcGUgUm91bmRlZEJveAogICAgICAgICAgICB9CiAgICAgICAgfQogICAgdGhlbWUgaHR0cHM6Ly9zdGF0aWMuc3RydWN0dXJpenIuY29tL3RoZW1lcy9rdWJlcm5ldGVzLXYwLjMvdGhlbWUuanNvbgogICAgfQp9Cg=="
+  },
+  "configuration" : { },
+  "model" : {
+    "enterprise" : {
+      "name" : "Avant"
+    },
+    "people" : [ {
+      "id" : "1",
+      "tags" : "Element,Person,End Users",
+      "name" : "Customers",
+      "description" : "Anyone who uses Avant's loan, credit card, or banking systems.",
+      "relationships" : [ {
+        "id" : "21",
+        "tags" : "Relationship,userWeb",
+        "sourceId" : "1",
+        "destinationId" : "3",
+        "description" : "uses mobile application with their IOS or Android device",
+        "technology" : "https"
+      }, {
+        "id" : "22",
+        "tags" : "Relationship,userWeb",
+        "sourceId" : "1",
+        "destinationId" : "4",
+        "description" : "uses web application with Chrome, Firefox, or Safari web browser",
+        "technology" : "https"
+      } ],
+      "location" : "External"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "8",
+      "tags" : "Element,Software System,gateway",
+      "name" : "API Gateway Application",
+      "description" : "Vendor agnostic solution implemented in Ngnix and Lua that filters and routes API and web traffic.",
+      "relationships" : [ {
+        "id" : "29",
+        "tags" : "Relationship,internalWeb",
+        "sourceId" : "8",
+        "destinationId" : "19",
+        "description" : "route to product domain service",
+        "technology" : "https"
+      }, {
+        "id" : "28",
+        "tags" : "Relationship,internalWeb",
+        "sourceId" : "8",
+        "destinationId" : "17",
+        "description" : "route to account opening domain service",
+        "technology" : "https"
+      }, {
+        "id" : "27",
+        "tags" : "Relationship,internalWeb",
+        "sourceId" : "8",
+        "destinationId" : "11",
+        "description" : "route to customer domain service",
+        "technology" : "https"
+      } ],
+      "group" : "API Gateway",
+      "location" : "Internal",
+      "containers" : [ {
+        "id" : "9",
+        "tags" : "Element,Container",
+        "name" : "Web Management Console",
+        "description" : "The console used by internal resources to configure API gateway functionality",
+        "technology" : "webConsole",
+        "components" : [ {
+          "id" : "10",
+          "tags" : "Element,Component",
+          "name" : "Plugin Architecture Components",
+          "size" : 0
+        } ]
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "2",
+      "tags" : "Element,Software System,cdn",
+      "name" : "Content Deliver Network",
+      "description" : "Caches content closer to a user's location.",
+      "relationships" : [ {
+        "id" : "26",
+        "tags" : "Relationship,cdnCache",
+        "sourceId" : "2",
+        "destinationId" : "4",
+        "description" : "static content cache",
+        "technology" : "https"
+      }, {
+        "id" : "25",
+        "tags" : "Relationship,cdnCache",
+        "sourceId" : "2",
+        "destinationId" : "3",
+        "description" : "static content cache",
+        "technology" : "https"
+      } ],
+      "location" : "External",
+      "documentation" : { }
+    }, {
+      "id" : "3",
+      "tags" : "Element,Software System,mobileui",
+      "name" : "Mobile Application",
+      "description" : "IOS and Android device applications enabling customers use to access and manage Avant products and services",
+      "relationships" : [ {
+        "id" : "23",
+        "tags" : "Relationship,externalWeb",
+        "sourceId" : "3",
+        "destinationId" : "8",
+        "description" : "routes through",
+        "technology" : "https"
+      } ],
+      "group" : "User Applications",
+      "location" : "External",
+      "documentation" : { }
+    }, {
+      "id" : "5",
+      "tags" : "Element,Software System,DB",
+      "name" : "N Number PostgreSQL",
+      "description" : "Separate PostgreSQL Instance(s) for each Service",
+      "group" : "Managed Database on GCP",
+      "location" : "External",
+      "documentation" : { }
+    }, {
+      "id" : "6",
+      "tags" : "Element,Software System,msg",
+      "name" : "Kafka Messaging",
+      "description" : "Durable messsage queuing solution",
+      "relationships" : [ {
+        "id" : "34",
+        "sourceId" : "6",
+        "destinationId" : "17",
+        "description" : "consumes messages",
+        "technology" : "avro",
+        "linkedRelationshipId" : "33"
+      }, {
+        "id" : "33",
+        "tags" : "Relationship,qmsg",
+        "sourceId" : "6",
+        "destinationId" : "18",
+        "description" : "consumes messages",
+        "technology" : "avro"
+      } ],
+      "group" : "Messaging Solutions Confluent",
+      "location" : "External",
+      "documentation" : { }
+    }, {
+      "id" : "7",
+      "tags" : "Element,Software System,msg",
+      "name" : "RabbitMQ Messaging",
+      "description" : "Publish/Subscribe queuing solution",
+      "group" : "Messaging Solutions Confluent",
+      "location" : "External",
+      "documentation" : { }
+    }, {
+      "id" : "19",
+      "tags" : "Element,Software System,domainService",
+      "name" : "Product Domain API",
+      "description" : "Abstraction layer that's familiar with all product data sources.  Only exposes an Avant contract.",
+      "group" : "Orchestration Layer",
+      "location" : "Internal",
+      "containers" : [ {
+        "id" : "20",
+        "tags" : "Element,Container",
+        "name" : "Product API",
+        "description" : "Service exposing product model attributes.",
+        "technology" : "serviceApi"
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "17",
+      "tags" : "Element,Software System,domainService",
+      "name" : "Account Opening Domain API",
+      "description" : "Abstraction layer that's familiar with all account opening data sources.  Only exposes an Avant contract.",
+      "relationships" : [ {
+        "id" : "32",
+        "sourceId" : "17",
+        "destinationId" : "6",
+        "description" : "produces messages",
+        "technology" : "avro",
+        "linkedRelationshipId" : "31"
+      } ],
+      "group" : "Orchestration Layer",
+      "location" : "Internal",
+      "containers" : [ {
+        "id" : "18",
+        "tags" : "Element,Container",
+        "name" : "Account Opeining API",
+        "description" : "Service exposing account opening model attributes.",
+        "relationships" : [ {
+          "id" : "31",
+          "tags" : "Relationship,qmsg",
+          "sourceId" : "18",
+          "destinationId" : "6",
+          "description" : "produces messages",
+          "technology" : "avro"
+        } ],
+        "technology" : "serviceApi"
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "4",
+      "tags" : "Element,Software System,webui",
+      "name" : "Website Application",
+      "description" : "HTML and Javascript website enabling customers use to access and manage Avant products and services",
+      "relationships" : [ {
+        "id" : "24",
+        "tags" : "Relationship,externalWeb",
+        "sourceId" : "4",
+        "destinationId" : "8",
+        "description" : "routes through",
+        "technology" : "https"
+      } ],
+      "group" : "User Applications",
+      "location" : "External",
+      "documentation" : { }
+    }, {
+      "id" : "11",
+      "tags" : "Element,Software System,domainService",
+      "name" : "Customer Domain API",
+      "description" : "Abstraction layer that's familiar with all customer data sources.  Only exposes an Avant contract.",
+      "relationships" : [ {
+        "id" : "30",
+        "tags" : "Relationship,pdb",
+        "sourceId" : "11",
+        "destinationId" : "5",
+        "description" : "persists data",
+        "technology" : "django ORM"
+      } ],
+      "group" : "Orchestration Layer",
+      "location" : "Internal",
+      "containers" : [ {
+        "id" : "12",
+        "tags" : "Element,Container",
+        "name" : "Core Customer API",
+        "description" : "Service exposing core model attributes.",
+        "technology" : "serviceApi",
+        "components" : [ {
+          "id" : "15",
+          "tags" : "Element,Component",
+          "name" : "CustomerOnBoardingStep",
+          "description" : "Onboards customers into the core customer model.",
+          "group" : "Django Web Container",
+          "size" : 0
+        }, {
+          "id" : "14",
+          "tags" : "Element,Component",
+          "name" : "ProductOnBoardingStep",
+          "description" : "A particular type of an onboarding step for a product. If enabled is True, then a CustomerOnboardingStep will be created for the Customer when they are approved for a product.",
+          "group" : "Django Web Container",
+          "size" : 0
+        }, {
+          "id" : "16",
+          "tags" : "Element,Component",
+          "name" : "CustomerProductOnboardingStep",
+          "description" : "Links customers to products during the onboarding step.",
+          "group" : "Django Web Container",
+          "size" : 0
+        }, {
+          "id" : "13",
+          "tags" : "Element,Component",
+          "name" : "OnBoardingStep",
+          "description" : "A particular type of an onboarding step for a product. If enabled is True, then a CustomerOnboardingStep will be created for the\tCustomer when they are approved for a product.",
+          "group" : "Django Web Container",
+          "size" : 0
+        } ]
+      } ],
+      "documentation" : { }
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemLandscapeViews" : [ {
+      "key" : "DigitalServices",
+      "order" : 1,
+      "paperSize" : "A3_Portrait",
+      "dimensions" : {
+        "width" : 2816,
+        "height" : 3362
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "11",
+        "x" : 1178,
+        "y" : 2156
+      }, {
+        "id" : "1",
+        "x" : 865,
+        "y" : 260
+      }, {
+        "id" : "2",
+        "x" : 1582,
+        "y" : 285
+      }, {
+        "id" : "3",
+        "x" : 1553,
+        "y" : 960
+      }, {
+        "id" : "4",
+        "x" : 803,
+        "y" : 960
+      }, {
+        "id" : "5",
+        "x" : 478,
+        "y" : 2802
+      }, {
+        "id" : "6",
+        "x" : 1978,
+        "y" : 2802
+      }, {
+        "id" : "17",
+        "x" : 1928,
+        "y" : 2156
+      }, {
+        "id" : "7",
+        "x" : 1228,
+        "y" : 2802
+      }, {
+        "id" : "8",
+        "x" : 1178,
+        "y" : 1556
+      }, {
+        "id" : "19",
+        "x" : 428,
+        "y" : 2156
+      } ],
+      "relationships" : [ {
+        "id" : "32",
+        "vertices" : [ {
+          "x" : 2028,
+          "y" : 2640
+        } ]
+      }, {
+        "id" : "21"
+      }, {
+        "id" : "30",
+        "vertices" : [ {
+          "x" : 1028,
+          "y" : 2664
+        } ]
+      }, {
+        "id" : "29"
+      }, {
+        "id" : "28"
+      }, {
+        "id" : "27"
+      }, {
+        "id" : "26"
+      }, {
+        "id" : "25"
+      }, {
+        "id" : "24"
+      }, {
+        "id" : "23"
+      }, {
+        "id" : "34",
+        "vertices" : [ {
+          "x" : 2327,
+          "y" : 2617
+        } ]
+      }, {
+        "id" : "22"
+      } ]
+    } ],
+    "systemContextViews" : [ {
+      "softwareSystemId" : "19",
+      "key" : "ProductDomain",
+      "order" : 11,
+      "paperSize" : "A5_Portrait",
+      "dimensions" : {
+        "width" : 1316,
+        "height" : 1766
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "19",
+        "x" : 433,
+        "y" : 1033
+      }, {
+        "id" : "8",
+        "x" : 433,
+        "y" : 433
+      } ],
+      "relationships" : [ {
+        "id" : "29"
+      } ]
+    }, {
+      "softwareSystemId" : "8",
+      "key" : "APIGatewayApplicationView",
+      "order" : 2,
+      "paperSize" : "A4_Landscape",
+      "dimensions" : {
+        "width" : 2816,
+        "height" : 2258
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "11",
+        "x" : 1933,
+        "y" : 1525
+      }, {
+        "id" : "3",
+        "x" : 1558,
+        "y" : 329
+      }, {
+        "id" : "4",
+        "x" : 808,
+        "y" : 329
+      }, {
+        "id" : "17",
+        "x" : 1183,
+        "y" : 1525
+      }, {
+        "id" : "8",
+        "x" : 1183,
+        "y" : 925
+      }, {
+        "id" : "19",
+        "x" : 433,
+        "y" : 1525
+      } ],
+      "relationships" : [ {
+        "id" : "29"
+      }, {
+        "id" : "28"
+      }, {
+        "id" : "27"
+      }, {
+        "id" : "24"
+      }, {
+        "id" : "23"
+      } ]
+    }, {
+      "softwareSystemId" : "17",
+      "key" : "AccountOpeningDomain",
+      "order" : 8,
+      "paperSize" : "A5_Portrait",
+      "dimensions" : {
+        "width" : 1316,
+        "height" : 2308
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "17",
+        "x" : 433,
+        "y" : 1033
+      }, {
+        "id" : "6",
+        "x" : 433,
+        "y" : 1679
+      }, {
+        "id" : "8",
+        "x" : 433,
+        "y" : 433
+      } ],
+      "relationships" : [ {
+        "id" : "28"
+      }, {
+        "id" : "34"
+      }, {
+        "id" : "32"
+      } ]
+    }, {
+      "softwareSystemId" : "11",
+      "key" : "CoreCustomerDomain",
+      "order" : 5,
+      "paperSize" : "A5_Portrait",
+      "dimensions" : {
+        "width" : 1316,
+        "height" : 2308
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "11",
+        "x" : 433,
+        "y" : 1033
+      }, {
+        "id" : "5",
+        "x" : 433,
+        "y" : 1679
+      }, {
+        "id" : "8",
+        "x" : 433,
+        "y" : 433
+      } ],
+      "relationships" : [ {
+        "id" : "27"
+      }, {
+        "id" : "30"
+      } ]
+    } ],
+    "containerViews" : [ {
+      "softwareSystemId" : "8",
+      "key" : "KongManagementConsole",
+      "order" : 3,
+      "paperSize" : "A6_Landscape",
+      "dimensions" : {
+        "width" : 1108,
+        "height" : 958
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "9",
+        "x" : 329,
+        "y" : 329
+      } ]
+    }, {
+      "softwareSystemId" : "17",
+      "key" : "AccountOpeningApi",
+      "order" : 9,
+      "paperSize" : "A6_Portrait",
+      "dimensions" : {
+        "width" : 1108,
+        "height" : 1454
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "6",
+        "x" : 329,
+        "y" : 929
+      }, {
+        "id" : "18",
+        "x" : 329,
+        "y" : 329
+      } ],
+      "relationships" : [ {
+        "id" : "33"
+      }, {
+        "id" : "31"
+      } ]
+    }, {
+      "softwareSystemId" : "11",
+      "key" : "CoreCustomerApi",
+      "order" : 6,
+      "paperSize" : "A6_Landscape",
+      "dimensions" : {
+        "width" : 1108,
+        "height" : 958
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "12",
+        "x" : 329,
+        "y" : 329
+      } ]
+    }, {
+      "softwareSystemId" : "19",
+      "key" : "ProductApi",
+      "order" : 12,
+      "paperSize" : "A6_Landscape",
+      "dimensions" : {
+        "width" : 1108,
+        "height" : 958
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "20",
+        "x" : 329,
+        "y" : 329
+      } ]
+    } ],
+    "componentViews" : [ {
+      "description" : "The models supported in this service",
+      "key" : "CoreCustomerModels",
+      "order" : 7,
+      "paperSize" : "A3_Landscape",
+      "dimensions" : {
+        "width" : 3566,
+        "height" : 1166
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "12",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "13",
+        "x" : 2683,
+        "y" : 433
+      }, {
+        "id" : "14",
+        "x" : 1933,
+        "y" : 433
+      }, {
+        "id" : "15",
+        "x" : 1183,
+        "y" : 433
+      }, {
+        "id" : "16",
+        "x" : 433,
+        "y" : 433
+      } ]
+    }, {
+      "description" : "The models supported in this service",
+      "key" : "ProductModels",
+      "order" : 13,
+      "paperSize" : "A6_Portrait",
+      "dimensions" : {
+        "width" : 400,
+        "height" : 400
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "20",
+      "externalContainerBoundariesVisible" : true
+    }, {
+      "description" : "The models supported in this service",
+      "key" : "AccountOpeningModels",
+      "order" : 10,
+      "paperSize" : "A6_Portrait",
+      "dimensions" : {
+        "width" : 400,
+        "height" : 400
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "18",
+      "externalContainerBoundariesVisible" : true
+    }, {
+      "description" : "The custom built and 3rd party plugins deployed in the Kong API gateway.",
+      "key" : "KongPlugins",
+      "order" : 4,
+      "paperSize" : "A6_Landscape",
+      "dimensions" : {
+        "width" : 1108,
+        "height" : 958
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "9",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "10",
+        "x" : 329,
+        "y" : 329
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "domainService",
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "serviceApi",
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "gateway",
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "msg",
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "Person",
+          "background" : "#4ec5f1",
+          "color" : "#ffffff",
+          "fontSize" : 22,
+          "shape" : "Person"
+        }, {
+          "tag" : "cdn",
+          "width" : 350,
+          "height" : 350,
+          "shape" : "Circle"
+        }, {
+          "tag" : "mobileui",
+          "width" : 450,
+          "height" : 250,
+          "background" : "#3386b3",
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "webui",
+          "width" : 450,
+          "height" : 250,
+          "background" : "#3386b3",
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "DB",
+          "background" : "#deb887",
+          "shape" : "Cylinder"
+        }, {
+          "tag" : "redis",
+          "background" : "#228b22",
+          "shape" : "Hexagon"
+        }, {
+          "tag" : "Container",
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "Component",
+          "shape" : "RoundedBox"
+        } ],
+        "relationships" : [ {
+          "tag" : "cdnCache",
+          "style" : "Dotted",
+          "routing" : "Curved"
+        }, {
+          "tag" : "orm",
+          "color" : "#6495ed",
+          "style" : "Dotted",
+          "routing" : "Curved"
+        } ]
+      },
+      "themes" : [ "https://static.structurizr.com/themes/kubernetes-v0.3/theme.json" ],
+      "terminology" : { },
+      "lastSavedView" : "DigitalServices"
+    }
+  }
+}

@@ -1,0 +1,519 @@
+{
+  "id" : 1,
+  "name" : "Name",
+  "description" : "Description",
+  "revision" : 0,
+  "lastModifiedDate" : "2022-10-13T13:12:01Z",
+  "lastModifiedAgent" : "structurizr-web/2822/diagram",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlIHsKCiAgICBtb2RlbCB7CiAgICAgICAgY3VzdG9tZXIgPSBwZXJzb24gIkN1c3RvbWVycyIgIkFueW9uZSB3aG8gdXNlcyBBdmFudCdzIGxvYW4sIGNyZWRpdCBjYXJkLCBvciBiYW5raW5nIHN5c3RlbXMuIiAiRW5kIFVzZXJzIgogICAgICAgIHBsYWlkID0gc29mdHdhcmVTeXN0ZW0gIlBsYWlkIEFQSSBBYnN0cmFjdGlvbiIgIkFQSSBhYnN0cmFjdGlvbiBwcm92aW5nIGludGVncmF0aW9uIHdpdGggdmFyaW91cyBmaW5hbmNpYWwgaW5zdGl0dXRpb25zIiAiYXBpInsKICAgICAgICB9CiAgICAgICAgaTJjID0gc29mdHdhcmVTeXN0ZW0gIkkyQyBTZXJ2aWNlcyIgIkV4dGVybmFsIFN5c3RlbSBJbnRlZ3JhdGlvbiIgIldlYnNvY2tldCBhbmQgQVBJInsKICAgICAgICAgICAgaTJjV2Vic29ja2V0Q29ubmVjdGlvbiA9IGNvbnRhaW5lciAiSTJDIFdlYiBTb2NrZXQiICJPcGVuIHdlYiBzb2NrZXQgbGluayIgIndlYnNvY2tldCJ7CgogICAgICAgICAgICB9CiAgICAgICAgICAgIGkyY0FwaSA9IGNvbnRhaW5lciAiSTJDIEFQSSBJbnRlZ3JhdGlvbiIgIlJlc3QgQVBJIiAicmVzdCJ7CiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgZGlnaXRhbFNlcnZpY2VzID0gc29mdHdhcmVTeXN0ZW0gImRpZ2l0YWxTZXJ2aWNlcyIgIlRoZSBzZXJ2aWNlIGN1cnJlbnRseSBzdXBwb3J0aW5nIGJhbmtpbmcgYW5kIGRlYml0IGNhcmQgY3VzdG9tZXJzLiIgInNlcnZpY2UiewogICAgICAgICAgICBncm91cCAiQWNjb3VudCBNaWNybyBTZXJ2aWNlIiB7CiAgICAgICAgICAgICAgICBhY2NvdW50U2VydmljZSA9IGNvbnRhaW5lciAiQWNjb3VudCBTZXJ2aWNlIiAiRGphbmdvIFJlc3QgQVBJIGFwcGxpY2F0aW9uIiAibmdpbnggV1NHSSJ7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBhY2NvdW50U2VydmljZURCID0gY29udGFpbmVyICJBY2NvdW50IERCIiAiUG9zdGdyZVNRTCBkYXRhYmFzZSIgIlBvc3RncmVTUUwgb24gTGludXgiICJEQiIgewogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICBncm91cCAiSWRlbnRpdHkgU2VydmljZSIgewogICAgICAgICAgICAgICAgaWRlbnRpdHlTZXJ2aWNlID0gY29udGFpbmVyICJJZGVudGl0eSBTZXJ2aWNlIiAiRGphbmdvIFJlc3QgQVBJIGFwcGxpY2F0aW9uIiAibmdpbnggV1NHSSJ7CgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgaWRlbnRpdHlTZXJ2aWNlREIgPSBjb250YWluZXIgIklkZW50aXR5REIiICJQb3N0Z3JlU1FMIGRhdGFiYXNlIiAiUG9zdGdyZVNRTCBvbiBMaW51eCIgIkRCIiB7CgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIGdyb3VwICJMZWRnZXIgU2VydmljZSIgewogICAgICAgICAgICAgICAgbGVkZ2VyU2VydmljZSA9IGNvbnRhaW5lciAiTGVkZ2VyIFNlcnZpY2UiICJEamFuZ28gUmVzdCBBUEkgYXBwbGljYXRpb24iICJuZ2lueCBXU0dJInsKCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBsZWRnZXJTZXJ2aWNlREIgPSBjb250YWluZXIgIkxlZGdlciBEQiIgIlBvc3RncmVTUUwgZGF0YWJhc2UiICJQb3N0Z3JlU1FMIG9uIExpbnV4IiAiREIiIHsKCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgZ3JvdXAgIkkyQyBTZXJ2aWNlIiB7CiAgICAgICAgICAgICAgICBpMmNTZXJ2aWNlID0gY29udGFpbmVyICJpMmMgU2VydmljZSIgIkRqYW5nbyBSZXN0IEFQSSBhcHBsaWNhdGlvbiIgIm5naW54IFdTR0kiewoKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGkyY1NlcnZpY2VEQiA9IGNvbnRhaW5lciAiaTJjIERCIiAiUG9zdGdyZVNRTCBkYXRhYmFzZSIgIlBvc3RncmVTUUwgb24gTGludXgiICJEQiIgewoKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBncm91cCAiQXV0aG9yaXplciBTZXJ2aWNlIiB7CiAgICAgICAgICAgICAgICBhdXRob3JpemVyU2VydmljZSA9IGNvbnRhaW5lciAiQXV0aG9yaXplciBTZXJ2aWNlIiAiSmF2YSBhcHBsaWNhdGlvbiB0aGF0IGNvbW11bmljYXRlcyB0byBJMkMiICJUb21jYXQ/SmV0dHk/SkJvc3M/InsKCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBhdXRob3JpemVyU2VydmljZURCID0gY29udGFpbmVyICJBdXRob3JpemVyIERCIiAiUG9zdGdyZVNRTCBkYXRhYmFzZSIgIlBvc3RncmVTUUwgb24gTGludXgiICJEQiIgewoKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBncm91cCAiRERBIFNlcnZpY2UiIHsKICAgICAgICAgICAgICAgIGRkYVNlcnZpY2UgPSBjb250YWluZXIgIkREQSBTZXJ2aWNlIiAiRGphbmdvIFJlc3QgQVBJIGFwcGxpY2F0aW9uIiAibmdpbnggV1NHSSJ7CgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgZGRhU2VydmljZURCID0gY29udGFpbmVyICJEREEgREIiICJQb3N0Z3JlU1FMIGRhdGFiYXNlIiAiUG9zdGdyZVNRTCBvbiBMaW51eCIgIkRCIiB7CgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIGdyb3VwICJNZXNzZW5nZXIgU2VydmljZSIgewogICAgICAgICAgICAgICAgbWVzc2VuZ2VyU2VydmljZSA9IGNvbnRhaW5lciAiTWVzc2VuZ2VyIFNlcnZpY2UiICJEamFuZ28gUmVzdCBBUEkgYXBwbGljYXRpb24iICJuZ2lueCBXU0dJInsKCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBtZXNzZW5nZXJTZXJ2aWNlREIgPSBjb250YWluZXIgIk1lc3NlbmdlciBEQiIgIlBvc3RncmVTUUwgZGF0YWJhc2UiICJQb3N0Z3JlU1FMIG9uIExpbnV4IiAiREIiIHsKCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgZ3JvdXAgIlByb2Nlc3NvciBTZXJ2aWNlIiB7CiAgICAgICAgICAgICAgICBwcm9jZXNzb3JTZXJ2aWNlID0gY29udGFpbmVyICJQcm9jZXNzb3IgU2VydmljZSIgIkRqYW5nbyBSZXN0IEFQSSBhcHBsaWNhdGlvbiIgIm5naW54IFdTR0kiewoKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHByb2Nlc3NvclNlcnZpY2VEQiA9IGNvbnRhaW5lciAiUHJvY2Vzc29yIERCIiAiUG9zdGdyZVNRTCBkYXRhYmFzZSIgIlBvc3RncmVTUUwgb24gTGludXgiICJEQiIgewoKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBncm91cCAiRmlTZXJ2ZSBCcmlkZ2UgU2VydmljZSIgewogICAgICAgICAgICAgICAgZmlzZXJ2ZVNlcnZpY2UgPSBjb250YWluZXIgIkZpU2VydmUgQnJpZGdlIFNlcnZpY2UiICJEamFuZ28gUmVzdCBBUEkgYXBwbGljYXRpb24iICJyZXN0InsKCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBmaXNlcnZlU2VydmljZURCID0gY29udGFpbmVyICJGaVNlcnZlIEJyaWRnZSBEQiIgIlBvc3RncmVTUUwgZGF0YWJhc2UiICJQb3N0Z3JlU1FMIG9uIExpbnV4IiAiREIiIHsKICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICByZWRpc0NhY2hlID0gY29udGFpbmVyICJDdXN0b21lciBDYWNoZSBMb29rdXAiICJSZWRpcyBDYWNoaW5nIiAiUmVkaXMgQ2FjaGUiICJyZWRpcyJ7CgogICAgICAgICAgICB9CiAgICAgICAgYWNjb3VudFNlcnZpY2UgLT4gcmVkaXNDYWNoZSAiUmVhZCBjdXN0b21lciBkYXRhIGZyb20gY2FjaGUiICJOYW1lL1ZhbHVlIiAiY2FjaGUiCiAgICAgICAgcmVkaXNDYWNoZSAtPiBhY2NvdW50U2VydmljZSAiV3JpdGUgY3VzdG9tZXIgZGF0YSB0byBjYWNoZSIgIk5hbWUvVmFsdWUiICJjYWNoZSIKICAgICAgICBhY2NvdW50U2VydmljZSAtPiBhY2NvdW50U2VydmljZURCICJMb2NhbCBDb250YWluZXIgTmV0d29yayBDb21tdW5pY2F0aW9uIiAiREphbmdvIE9STSIgIm9ybSIKICAgICAgICBpZGVudGl0eVNlcnZpY2UgLT4gaWRlbnRpdHlTZXJ2aWNlREIgIkxvY2FsIENvbnRhaW5lciBOZXR3b3JrIENvbW11bmljYXRpb24iICJESmFuZ28gT1JNIiAib3JtIgogICAgICAgIHByb2Nlc3NvclNlcnZpY2UgLT4gcHJvY2Vzc29yU2VydmljZURCICJMb2NhbCBDb250YWluZXIgTmV0d29yayBDb21tdW5pY2F0aW9uIiAiREphbmdvIE9STSIgIm9ybSIKICAgICAgICBtZXNzZW5nZXJTZXJ2aWNlIC0+IG1lc3NlbmdlclNlcnZpY2VEQiAiTG9jYWwgQ29udGFpbmVyIE5ldHdvcmsgQ29tbXVuaWNhdGlvbiIgIkRKYW5nbyBPUk0iICJvcm0iCiAgICAgICAgZGRhU2VydmljZSAtPiBkZGFTZXJ2aWNlREIgIkxvY2FsIENvbnRhaW5lciBOZXR3b3JrIENvbW11bmljYXRpb24iICJESmFuZ28gT1JNIiAib3JtIgogICAgICAgIGkyY1NlcnZpY2UgLT4gaTJjU2VydmljZURCICJMb2NhbCBDb250YWluZXIgTmV0d29yayBDb21tdW5pY2F0aW9uIiAiREphbmdvIE9STSIgIm9ybSIKICAgICAgICBsZWRnZXJTZXJ2aWNlIC0+IGxlZGdlclNlcnZpY2VEQiAiTG9jYWwgQ29udGFpbmVyIE5ldHdvcmsgQ29tbXVuaWNhdGlvbiIgIkRKYW5nbyBPUk0iICJvcm0iCiAgICAgICAgaWRlbnRpdHlTZXJ2aWNlIC0+IGlkZW50aXR5U2VydmljZURCICJMb2NhbCBDb250YWluZXIgTmV0d29yayBDb21tdW5pY2F0aW9uIiAiREphbmdvIE9STSIgIm9ybSIKICAgICAgICBmaXNlcnZlU2VydmljZSAtPiBmaXNlcnZlU2VydmljZURCICJMb2NhbCBDb250YWluZXIgTmV0d29yayBDb21tdW5pY2F0aW9uIiAiREphbmdvIE9STSIgIm9ybSIKICAgICAgICBhdXRob3JpemVyU2VydmljZSAtPiBhdXRob3JpemVyU2VydmljZURCICJMb2NhbCBDb250YWluZXIgTmV0d29yayBDb21tdW5pY2F0aW9uIiAiSkRCQyIgImphdmEiICAgCiAgICAgICAgfQogICAgICAgIGN1c3RvbWVyIC0+IGRpZ2l0YWxTZXJ2aWNlcyAidXNlcyB2aWEgQnJvd3Nlci9Nb2JpbGUgQXBwIgoKICAgIH0KCiAgICB2aWV3cyB7CiAgICAgICAgc3lzdGVtbGFuZHNjYXBlICJCYW5raW5nU2VydmljZXMiewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICB9CiAgICAgICAgc3lzdGVtQ29udGV4dCBpMmMgIlN5c3RlbUNvbnRleHRGaXNlcnZlIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgICAgIGFuaW1hdGlvbiB7CiAgICAgICAgICAgICAgICBpMmMKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgc3lzdGVtQ29udGV4dCBkaWdpdGFsU2VydmljZXMgIlN5c3RlbUNvbnRleHRDdXN0b21lciIgewogICAgICAgICAgICB0aXRsZSAiQ3VzdG9tZXIgSW50ZXJhY3Rpb24gd2l0aCBTZXJ2aWNlcyIKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICAgICAgYW5pbWF0aW9uIHsKICAgICAgICAgICAgICAgIGRpZ2l0YWxTZXJ2aWNlcwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIGNvbnRhaW5lciBkaWdpdGFsU2VydmljZXMgIkN1c3RvbWVyQ29udGFpbmVycyIgewogICAgICAgICAgICB0aXRsZSAiRGV2ZWxvcG1lbnQgQ2x1c3RlciIKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICB9CiAgICBzdHlsZXMgewogICAgICAgIGVsZW1lbnQgIlBlcnNvbiIgewogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjNEVDNUYxCiAgICAgICAgICAgICAgICBmb250U2l6ZSAyMgogICAgICAgICAgICAgICAgc2hhcGUgUGVyc29uCiAgICAgICAgfQogICAgICAgIHJlbGF0aW9uc2hpcCAiY2FjaGUiewogICAgICAgICAgICBzdHlsZSBkb3R0ZWQKICAgICAgICAgICAgcm91dGluZyBDdXJ2ZWQKCiAgICAgICAgfQogICAgICAgIHJlbGF0aW9uc2hpcCAib3JtInsKICAgICAgICAgICAgc3R5bGUgZG90dGVkCiAgICAgICAgICAgIHJvdXRpbmcgQ3VydmVkCiAgICAgICAgICAgIGNvbG9yICM2NDk1ZWQKICAgICAgICB9CiAgICAgICAgZWxlbWVudCAiREIiIHsKICAgICAgICAgICAgc2hhcGUgQ3lsaW5kZXIKICAgICAgICAgICAgYmFja2dyb3VuZCAjZGViODg3CiAgICAgICAgfQogICAgICAgIGVsZW1lbnQgInJlZGlzIiB7CiAgICAgICAgICAgIGJhY2tncm91bmQgIzIyOGIyMgogICAgICAgICAgICBzaGFwZSBIZXhhZ29uCiAgICAgICAgfQogICAgICAgIGVsZW1lbnQgIkNvbnRhaW5lciIgewogICAgICAgICAgICBzaGFwZSBSb3VuZGVkQm94CiAgICAgICAgfQogICAgfQoKICAgIH0KCn0K"
+  },
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "1",
+      "tags" : "Element,Person,End Users",
+      "name" : "Customers",
+      "description" : "Anyone who uses Avant's loan, credit card, or banking systems.",
+      "relationships" : [ {
+        "id" : "37",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "6",
+        "description" : "uses via Browser/Mobile App"
+      } ],
+      "location" : "Unspecified"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "2",
+      "tags" : "Element,Software System,api",
+      "name" : "Plaid API Abstraction",
+      "description" : "API abstraction proving integration with various financial institutions",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "6",
+      "tags" : "Element,Software System,service",
+      "name" : "digitalServices",
+      "description" : "The service currently supporting banking and debit card customers.",
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "16",
+        "tags" : "Element,Container,DB",
+        "name" : "Authorizer DB",
+        "description" : "PostgreSQL database",
+        "group" : "Authorizer Service",
+        "technology" : "PostgreSQL on Linux"
+      }, {
+        "id" : "10",
+        "tags" : "Element,Container,DB",
+        "name" : "IdentityDB",
+        "description" : "PostgreSQL database",
+        "group" : "Identity Service",
+        "technology" : "PostgreSQL on Linux"
+      }, {
+        "id" : "20",
+        "tags" : "Element,Container,DB",
+        "name" : "Messenger DB",
+        "description" : "PostgreSQL database",
+        "group" : "Messenger Service",
+        "technology" : "PostgreSQL on Linux"
+      }, {
+        "id" : "19",
+        "tags" : "Element,Container",
+        "name" : "Messenger Service",
+        "description" : "Django Rest API application",
+        "relationships" : [ {
+          "id" : "31",
+          "tags" : "Relationship,orm",
+          "sourceId" : "19",
+          "destinationId" : "20",
+          "description" : "Local Container Network Communication",
+          "technology" : "DJango ORM"
+        } ],
+        "group" : "Messenger Service",
+        "technology" : "nginx WSGI"
+      }, {
+        "id" : "25",
+        "tags" : "Element,Container,redis",
+        "name" : "Customer Cache Lookup",
+        "description" : "Redis Caching",
+        "relationships" : [ {
+          "id" : "27",
+          "tags" : "Relationship,cache",
+          "sourceId" : "25",
+          "destinationId" : "7",
+          "description" : "Write customer data to cache",
+          "technology" : "Name/Value"
+        } ],
+        "technology" : "Redis Cache"
+      }, {
+        "id" : "23",
+        "tags" : "Element,Container",
+        "name" : "FiServe Bridge Service",
+        "description" : "Django Rest API application",
+        "relationships" : [ {
+          "id" : "35",
+          "tags" : "Relationship,orm",
+          "sourceId" : "23",
+          "destinationId" : "24",
+          "description" : "Local Container Network Communication",
+          "technology" : "DJango ORM"
+        } ],
+        "group" : "FiServe Bridge Service",
+        "technology" : "rest"
+      }, {
+        "id" : "18",
+        "tags" : "Element,Container,DB",
+        "name" : "DDA DB",
+        "description" : "PostgreSQL database",
+        "group" : "DDA Service",
+        "technology" : "PostgreSQL on Linux"
+      }, {
+        "id" : "21",
+        "tags" : "Element,Container",
+        "name" : "Processor Service",
+        "description" : "Django Rest API application",
+        "relationships" : [ {
+          "id" : "30",
+          "tags" : "Relationship,orm",
+          "sourceId" : "21",
+          "destinationId" : "22",
+          "description" : "Local Container Network Communication",
+          "technology" : "DJango ORM"
+        } ],
+        "group" : "Processor Service",
+        "technology" : "nginx WSGI"
+      }, {
+        "id" : "7",
+        "tags" : "Element,Container",
+        "name" : "Account Service",
+        "description" : "Django Rest API application",
+        "relationships" : [ {
+          "id" : "28",
+          "tags" : "Relationship,orm",
+          "sourceId" : "7",
+          "destinationId" : "8",
+          "description" : "Local Container Network Communication",
+          "technology" : "DJango ORM"
+        }, {
+          "id" : "26",
+          "tags" : "Relationship,cache",
+          "sourceId" : "7",
+          "destinationId" : "25",
+          "description" : "Read customer data from cache",
+          "technology" : "Name/Value"
+        } ],
+        "group" : "Account Micro Service",
+        "technology" : "nginx WSGI"
+      }, {
+        "id" : "12",
+        "tags" : "Element,Container,DB",
+        "name" : "Ledger DB",
+        "description" : "PostgreSQL database",
+        "group" : "Ledger Service",
+        "technology" : "PostgreSQL on Linux"
+      }, {
+        "id" : "8",
+        "tags" : "Element,Container,DB",
+        "name" : "Account DB",
+        "description" : "PostgreSQL database",
+        "group" : "Account Micro Service",
+        "technology" : "PostgreSQL on Linux"
+      }, {
+        "id" : "15",
+        "tags" : "Element,Container",
+        "name" : "Authorizer Service",
+        "description" : "Java application that communicates to I2C",
+        "relationships" : [ {
+          "id" : "36",
+          "tags" : "Relationship,java",
+          "sourceId" : "15",
+          "destinationId" : "16",
+          "description" : "Local Container Network Communication",
+          "technology" : "JDBC"
+        } ],
+        "group" : "Authorizer Service",
+        "technology" : "Tomcat?Jetty?JBoss?"
+      }, {
+        "id" : "22",
+        "tags" : "Element,Container,DB",
+        "name" : "Processor DB",
+        "description" : "PostgreSQL database",
+        "group" : "Processor Service",
+        "technology" : "PostgreSQL on Linux"
+      }, {
+        "id" : "17",
+        "tags" : "Element,Container",
+        "name" : "DDA Service",
+        "description" : "Django Rest API application",
+        "relationships" : [ {
+          "id" : "32",
+          "tags" : "Relationship,orm",
+          "sourceId" : "17",
+          "destinationId" : "18",
+          "description" : "Local Container Network Communication",
+          "technology" : "DJango ORM"
+        } ],
+        "group" : "DDA Service",
+        "technology" : "nginx WSGI"
+      }, {
+        "id" : "11",
+        "tags" : "Element,Container",
+        "name" : "Ledger Service",
+        "description" : "Django Rest API application",
+        "relationships" : [ {
+          "id" : "34",
+          "tags" : "Relationship,orm",
+          "sourceId" : "11",
+          "destinationId" : "12",
+          "description" : "Local Container Network Communication",
+          "technology" : "DJango ORM"
+        } ],
+        "group" : "Ledger Service",
+        "technology" : "nginx WSGI"
+      }, {
+        "id" : "14",
+        "tags" : "Element,Container,DB",
+        "name" : "i2c DB",
+        "description" : "PostgreSQL database",
+        "group" : "I2C Service",
+        "technology" : "PostgreSQL on Linux"
+      }, {
+        "id" : "13",
+        "tags" : "Element,Container",
+        "name" : "i2c Service",
+        "description" : "Django Rest API application",
+        "relationships" : [ {
+          "id" : "33",
+          "tags" : "Relationship,orm",
+          "sourceId" : "13",
+          "destinationId" : "14",
+          "description" : "Local Container Network Communication",
+          "technology" : "DJango ORM"
+        } ],
+        "group" : "I2C Service",
+        "technology" : "nginx WSGI"
+      }, {
+        "id" : "24",
+        "tags" : "Element,Container,DB",
+        "name" : "FiServe Bridge DB",
+        "description" : "PostgreSQL database",
+        "group" : "FiServe Bridge Service",
+        "technology" : "PostgreSQL on Linux"
+      }, {
+        "id" : "9",
+        "tags" : "Element,Container",
+        "name" : "Identity Service",
+        "description" : "Django Rest API application",
+        "relationships" : [ {
+          "id" : "29",
+          "tags" : "Relationship,orm",
+          "sourceId" : "9",
+          "destinationId" : "10",
+          "description" : "Local Container Network Communication",
+          "technology" : "DJango ORM"
+        } ],
+        "group" : "Identity Service",
+        "technology" : "nginx WSGI"
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "3",
+      "tags" : "Element,Software System,Websocket and API",
+      "name" : "I2C Services",
+      "description" : "External System Integration",
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "5",
+        "tags" : "Element,Container",
+        "name" : "I2C API Integration",
+        "description" : "Rest API",
+        "technology" : "rest"
+      }, {
+        "id" : "4",
+        "tags" : "Element,Container",
+        "name" : "I2C Web Socket",
+        "description" : "Open web socket link",
+        "technology" : "websocket"
+      } ],
+      "documentation" : { }
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemLandscapeViews" : [ {
+      "key" : "BankingServices",
+      "order" : 1,
+      "paperSize" : "A5_Landscape",
+      "dimensions" : {
+        "width" : 2480,
+        "height" : 1748
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 740,
+        "y" : 70
+      }, {
+        "id" : "2",
+        "x" : 1220,
+        "y" : 780
+      }, {
+        "id" : "3",
+        "x" : 1920,
+        "y" : 775
+      }, {
+        "id" : "6",
+        "x" : 320,
+        "y" : 775
+      } ],
+      "relationships" : [ {
+        "id" : "37"
+      } ]
+    } ],
+    "systemContextViews" : [ {
+      "softwareSystemId" : "6",
+      "key" : "SystemContextCustomer",
+      "order" : 3,
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "title" : "Customer Interaction with Services",
+      "animations" : [ {
+        "order" : 1,
+        "elements" : [ "6" ]
+      } ],
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "6",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "relationships" : [ {
+        "id" : "37"
+      } ]
+    }, {
+      "softwareSystemId" : "3",
+      "key" : "SystemContextFiserve",
+      "order" : 2,
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "animations" : [ {
+        "order" : 1,
+        "elements" : [ "3" ]
+      } ],
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "3",
+        "x" : 0,
+        "y" : 0
+      } ]
+    } ],
+    "containerViews" : [ {
+      "softwareSystemId" : "6",
+      "key" : "CustomerContainers",
+      "order" : 4,
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "title" : "Development Cluster",
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "22",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "11",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "12",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "23",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "24",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "13",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "14",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "25",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "15",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "16",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "17",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "18",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "19",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "7",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "8",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "9",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "20",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "10",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "21",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "relationships" : [ {
+        "id" : "29"
+      }, {
+        "id" : "28"
+      }, {
+        "id" : "27"
+      }, {
+        "id" : "26"
+      }, {
+        "id" : "36"
+      }, {
+        "id" : "35"
+      }, {
+        "id" : "34"
+      }, {
+        "id" : "33"
+      }, {
+        "id" : "32"
+      }, {
+        "id" : "31"
+      }, {
+        "id" : "30"
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "Person",
+          "background" : "#4ec5f1",
+          "color" : "#ffffff",
+          "fontSize" : 22,
+          "shape" : "Person"
+        }, {
+          "tag" : "DB",
+          "background" : "#deb887",
+          "shape" : "Cylinder"
+        }, {
+          "tag" : "redis",
+          "background" : "#228b22",
+          "shape" : "Hexagon"
+        }, {
+          "tag" : "Container",
+          "shape" : "RoundedBox"
+        } ],
+        "relationships" : [ {
+          "tag" : "cache",
+          "style" : "Dotted",
+          "routing" : "Curved"
+        }, {
+          "tag" : "orm",
+          "color" : "#6495ed",
+          "style" : "Dotted",
+          "routing" : "Curved"
+        } ]
+      },
+      "terminology" : { },
+      "lastSavedView" : "BankingServices"
+    }
+  }
+}

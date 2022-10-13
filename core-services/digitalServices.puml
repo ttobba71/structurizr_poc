@@ -1,0 +1,72 @@
+@startuml
+title Development Cluster
+
+top to bottom direction
+
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+System_Boundary("digitalServices_boundary", "digitalServices") {
+  Boundary(group_0, "Account Micro Service") {
+    Container(digitalServices.AccountService, "Account Service", "nginx WSGI", "Django Rest API application", $tags="")
+    ContainerDb(digitalServices.AccountDB, "Account DB", "PostgreSQL on Linux", "PostgreSQL database", $tags="")
+  }
+
+  Boundary(group_1, "Authorizer Service") {
+    Container(digitalServices.AuthorizerService, "Authorizer Service", "Tomcat?Jetty?JBoss?", "Java application that communicates to I2C", $tags="")
+    ContainerDb(digitalServices.AuthorizerDB, "Authorizer DB", "PostgreSQL on Linux", "PostgreSQL database", $tags="")
+  }
+
+  Boundary(group_2, "DDA Service") {
+    Container(digitalServices.DDAService, "DDA Service", "nginx WSGI", "Django Rest API application", $tags="")
+    ContainerDb(digitalServices.DDADB, "DDA DB", "PostgreSQL on Linux", "PostgreSQL database", $tags="")
+  }
+
+  Boundary(group_3, "FiServe Bridge Service") {
+    Container(digitalServices.FiServeBridgeService, "FiServe Bridge Service", "rest", "Django Rest API application", $tags="")
+    ContainerDb(digitalServices.FiServeBridgeDB, "FiServe Bridge DB", "PostgreSQL on Linux", "PostgreSQL database", $tags="")
+  }
+
+  Boundary(group_4, "I2C Service") {
+    Container(digitalServices.i2cService, "i2c Service", "nginx WSGI", "Django Rest API application", $tags="")
+    ContainerDb(digitalServices.i2cDB, "i2c DB", "PostgreSQL on Linux", "PostgreSQL database", $tags="")
+  }
+
+  Boundary(group_5, "Identity Service") {
+    ContainerDb(digitalServices.IdentityDB, "IdentityDB", "PostgreSQL on Linux", "PostgreSQL database", $tags="")
+    Container(digitalServices.IdentityService, "Identity Service", "nginx WSGI", "Django Rest API application", $tags="")
+  }
+
+  Boundary(group_6, "Ledger Service") {
+    Container(digitalServices.LedgerService, "Ledger Service", "nginx WSGI", "Django Rest API application", $tags="")
+    ContainerDb(digitalServices.LedgerDB, "Ledger DB", "PostgreSQL on Linux", "PostgreSQL database", $tags="")
+  }
+
+  Boundary(group_7, "Messenger Service") {
+    Container(digitalServices.MessengerService, "Messenger Service", "nginx WSGI", "Django Rest API application", $tags="")
+    ContainerDb(digitalServices.MessengerDB, "Messenger DB", "PostgreSQL on Linux", "PostgreSQL database", $tags="")
+  }
+
+  Boundary(group_8, "Processor Service") {
+    Container(digitalServices.ProcessorService, "Processor Service", "nginx WSGI", "Django Rest API application", $tags="")
+    ContainerDb(digitalServices.ProcessorDB, "Processor DB", "PostgreSQL on Linux", "PostgreSQL database", $tags="")
+  }
+
+  Container(digitalServices.CustomerCacheLookup, "Customer Cache Lookup", "Redis Cache", "Redis Caching", $tags="")
+}
+
+Rel_D(digitalServices.AccountService, digitalServices.CustomerCacheLookup, "Read customer data from cache", $tags="")
+Rel_D(digitalServices.CustomerCacheLookup, digitalServices.AccountService, "Write customer data to cache", "redis", $tags="")
+Rel_D(digitalServices.AccountService, digitalServices.AccountDB, "Local Container Network Communication", $tags="")
+Rel_D(digitalServices.IdentityService, digitalServices.IdentityDB, "Local Container Network Communication", $tags="")
+Rel_D(digitalServices.ProcessorService, digitalServices.ProcessorDB, "Local Container Network Communication", $tags="")
+Rel_D(digitalServices.MessengerService, digitalServices.MessengerDB, "Local Container Network Communication", $tags="")
+Rel_D(digitalServices.DDAService, digitalServices.DDADB, "Local Container Network Communication", $tags="")
+Rel_D(digitalServices.i2cService, digitalServices.i2cDB, "Local Container Network Communication", $tags="")
+Rel_D(digitalServices.LedgerService, digitalServices.LedgerDB, "Local Container Network Communication", $tags="")
+Rel_D(digitalServices.FiServeBridgeService, digitalServices.FiServeBridgeDB, "Local Container Network Communication", $tags="")
+Rel_D(digitalServices.AuthorizerService, digitalServices.AuthorizerDB, "Local Container Network Communication", $tags="")
+
+SHOW_LEGEND()
+@enduml
