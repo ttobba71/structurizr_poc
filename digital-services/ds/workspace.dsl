@@ -1,24 +1,6 @@
-// workspace "Core Services" "All the systems under the responsibility of the digital services group" {
-workspace extends https://structurizr-eks-kong-gzo6ajtw.dev.global.avant.com/share/2/69609e54-5aaf-4ad0-a160-077110ec3b24 {
+// workspace "digital-services" "All the systems under the responsibility of the digital services group" {
+workspace extends ../gateway/workspace.dsl
     model {
-
-            group "Managed Database on GCP" {
-                postgresDb = softwareSystem "N Number PostgreSQL" "Separate PostgreSQL Instance(s) for each Service" "DB" {
-                    
-                }
-            }
-
-            group "Messaging Solutions Confluent" {
-                kafkaCluster = softwareSystem "Kafka Messaging" "Durable messsage queuing solution" "eventMessage" {
-
-                }
-
-                rabbitMq = softwareSystem "RabbitMQ Messaging" "Publish/Subscribe queuing solution" "eventMessage" {
-
-                }
-            }
-
-
         enterprise "Avant" {
             group "API Gateway" {
                 kongApiGateway = softwareSystem "API Gateway Application" "Vendor agnostic solution implemented in Ngnix and Lua that filters and routes API and web traffic." "gateway" {
@@ -26,7 +8,6 @@ workspace extends https://structurizr-eks-kong-gzo6ajtw.dev.global.avant.com/sha
                        kongPluginComponent = component "Plugin Architecture Components"
                     }
                 }
-
             }
 
             group "Avant Basic" {
@@ -36,14 +17,6 @@ workspace extends https://structurizr-eks-kong-gzo6ajtw.dev.global.avant.com/sha
                         component abcrm "Avant crm domain"                         
                         component abcreditCard "Avant credit card domain"                         
                         component abdda "Avant ACH trainsaction support"                         
-                    }
-                }
-            }
-            group "Account Opening" {
-                aoDomain = softwareSystem "Account Opening Domain API" "Abstraction layer that's familiar with all account opening data sources.  Only exposes an Avant contract." "domainService" {
-                    aoService = container "Account Opeining API" "Service exposing account opening model attributes." "serviceApi" {
-                       group "FastAPI Web Container" {
-                       }
                     }
                 }
             }
@@ -112,7 +85,6 @@ workspace extends https://structurizr-eks-kong-gzo6ajtw.dev.global.avant.com/sha
             }
 
             kongApiGateway -> abDomain "route to Avant Basic application via gateway" "https" "internalWeb"
-            kongApiGateway -> aoDomain "route to account opening domain service" "https" "internalWeb"
             kongApiGateway -> coreCustomerDomain "route to customer domain service" "https" "internalWeb"
             kongApiGateway -> coreProductDomain "route to product domain service" "https" "internalWeb"
             kongApiGateway -> coreCardDomain "route to Avant Basic application via gateway" "https" "internalWeb"
@@ -131,7 +103,7 @@ workspace extends https://structurizr-eks-kong-gzo6ajtw.dev.global.avant.com/sha
             kongApiGateway -> fiServeDomain "route from fiserve service(s) via gateway" "grpc" "rpc"                                                
 
 
-            aoDomain ->  postgresDb "persists data" "ORM" "pdb"
+
             abDomain ->  postgresDb "persists data" "Ruby ORM" "pdb"
 
             coreCustomerDomain -> postgresDb "persists data" "django ORM" "pdb"
@@ -142,30 +114,28 @@ workspace extends https://structurizr-eks-kong-gzo6ajtw.dev.global.avant.com/sha
             coreAccountsDomain -> postgresDb "persists data" "django ORM" "pdb"
             corePaymentsDomain -> postgresDb "persists data" "django ORM" "pdb"
 
-            aoService -> kafkaCluster "produces messages" "avro" "qmsg"
-            kafkaCluster -> aoService "consumes messages" "avro" "qmsg"
         }
     }
 
     views {
-        systemlandscape "DigitalServices" {
-            include *
-            exclude relationship.tag==rpc fiServeDomain
+        // systemlandscape "DigitalServices" {
+        //     include *
+        //     exclude relationship.tag==rpc fiServeDomain
 
-        }
+        // }
         //gateway
-        systemContext kongApiGateway "APIGatewayApplicationView" {
-             include *
-             autoLayout
-        }
-        container kongApiGateway "KongManagementConsole" {
-             include *
-             autoLayout
-        }
-        component kongManagement "KongPlugins" "The custom built and 3rd party plugins deployed in the Kong API gateway." {
-             include *
-             autoLayout
-        }
+        // systemContext kongApiGateway "APIGatewayApplicationView" {
+        //      include *
+        //      autoLayout
+        // }
+        // container kongApiGateway "KongManagementConsole" {
+        //      include *
+        //      autoLayout
+        // }
+        // component kongManagement "KongPlugins" "The custom built and 3rd party plugins deployed in the Kong API gateway." {
+        //      include *
+        //      autoLayout
+        // }
         //customer
         systemContext coreCustomerDomain "CoreCustomerDomain" {
              include *
@@ -179,19 +149,7 @@ workspace extends https://structurizr-eks-kong-gzo6ajtw.dev.global.avant.com/sha
              include *
              autoLayout
         }
-        //Account Opening (AO)
-        systemContext aoDomain "AccountOpeningDomain" {
-             include *
-             autoLayout
-        }
-        container aoDomain "AccountOpeningApi" {
-             include *
-             autoLayout
-        }
-        component aoService "AccountOpeningModels" "The models supported in this service" {
-             include *
-             autoLayout
-        }
+
         //Product
         systemContext coreProductDomain "ProductDomain" {
              include *
@@ -248,101 +206,101 @@ workspace extends https://structurizr-eks-kong-gzo6ajtw.dev.global.avant.com/sha
         }
 
 
-        styles {
-            element "partnerService"{
-                shape RoundedBox                
-                fontSize 24
-                background #5f9ea0
-            }
-            element "partnerServiceApi"{
-                shape RoundedBox                
-                fontSize 24                
-                background  #5f9ea0             
-            }
+        // styles {
+        //     element "partnerService"{
+        //         shape RoundedBox                
+        //         fontSize 24
+        //         background #5f9ea0
+        //     }
+        //     element "partnerServiceApi"{
+        //         shape RoundedBox                
+        //         fontSize 24                
+        //         background  #5f9ea0             
+        //     }
 
-            element "domainService"{
-                shape RoundedBox                
-                fontSize 24
-            }
-            element "serviceApi"{
-                shape RoundedBox                
-                fontSize 24                
-            }
-            element "gateway" {
-                shape RoundedBox                
-                fontSize 24
-                background  #fafad2             
-            }
-            element "monolith" {
-                shape RoundedBox                
-                fontSize 24                
-                background #ff8c00
-            }
-            element "eventMessage"{
-                shape RoundedBox                
-                fontSize 24                
-            }
-            element "Person" {
-                color #ffffff
-                background #4EC5F1
-                fontSize 16
-                shape Person
-            }
-            relationship "cdnCache"{
-                style dotted
-                color #6495ed
-                routing Curved
-            }
-            relationship "rpc"{
-                style dotted
-                routing Curved
-                fontSize 16                
-            }
-            relationship "orm"{
-                style dotted
-                routing Curved
-                color #6495ed
-                fontSize 16                
-            }
-            element "cdn" {
-                shape Circle
-                height 350
-                width 350
-                fontSize 16                
-            }
-            element "mobileui" {
-                shape RoundedBox
-                background #3386B3
-                height 250
-                width 450
-                fontSize 16                
-            }
-            element "webui" {
-                shape RoundedBox
-                background #3386B3
-                height 250
-                width 450
-                fontSize 16                
-            }
-            element "DB" {
-                shape Cylinder
-                background #deb887
-                fontSize 16                
-            }
-            element "redis" {
-                background #228b22
-                shape Hexagon
-                fontSize 16                
-            }
-            element "Container" {
-                shape RoundedBox
-                fontSize 16                
-            }
-            element "Component" {
-                shape RoundedBox
-                fontSize 16                
-            }
-        }
+        //     element "domainService"{
+        //         shape RoundedBox                
+        //         fontSize 24
+        //     }
+        //     element "serviceApi"{
+        //         shape RoundedBox                
+        //         fontSize 24                
+        //     }
+        //     element "gateway" {
+        //         shape RoundedBox                
+        //         fontSize 24
+        //         background  #fafad2             
+        //     }
+        //     element "monolith" {
+        //         shape RoundedBox                
+        //         fontSize 24                
+        //         background #ff8c00
+        //     }
+        //     element "eventMessage"{
+        //         shape RoundedBox                
+        //         fontSize 24                
+        //     }
+        //     element "Person" {
+        //         color #ffffff
+        //         background #4EC5F1
+        //         fontSize 16
+        //         shape Person
+        //     }
+        //     relationship "cdnCache"{
+        //         style dotted
+        //         color #6495ed
+        //         routing Curved
+        //     }
+        //     relationship "rpc"{
+        //         style dotted
+        //         routing Curved
+        //         fontSize 16                
+        //     }
+        //     relationship "orm"{
+        //         style dotted
+        //         routing Curved
+        //         color #6495ed
+        //         fontSize 16                
+        //     }
+        //     element "cdn" {
+        //         shape Circle
+        //         height 350
+        //         width 350
+        //         fontSize 16                
+        //     }
+        //     element "mobileui" {
+        //         shape RoundedBox
+        //         background #3386B3
+        //         height 250
+        //         width 450
+        //         fontSize 16                
+        //     }
+        //     element "webui" {
+        //         shape RoundedBox
+        //         background #3386B3
+        //         height 250
+        //         width 450
+        //         fontSize 16                
+        //     }
+        //     element "DB" {
+        //         shape Cylinder
+        //         background #deb887
+        //         fontSize 16                
+        //     }
+        //     element "redis" {
+        //         background #228b22
+        //         shape Hexagon
+        //         fontSize 16                
+        //     }
+        //     element "Container" {
+        //         shape RoundedBox
+        //         fontSize 16                
+        //     }
+        //     element "Component" {
+        //         shape RoundedBox
+        //         fontSize 16                
+        //     }
+        // }
     theme https://static.structurizr.com/themes/kubernetes-v0.3/theme.json
 
     terminology {

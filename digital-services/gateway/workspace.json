@@ -1,0 +1,389 @@
+{
+  "id" : 1,
+  "name" : "Name",
+  "description" : "Description",
+  "revision" : 0,
+  "lastModifiedDate" : "2022-10-24T13:46:33Z",
+  "lastModifiedAgent" : "structurizr-web/2844/diagram",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlIHsKCiAgICBtb2RlbCB7CiAgICAgICAgY3VzdG9tZXIgPSBwZXJzb24gIkN1c3RvbWVycyIgIkFueW9uZSB3aG8gdXNlcyBBdmFudCdzIGxvYW4sIGNyZWRpdCBjYXJkLCBvciBiYW5raW5nIHN5c3RlbXMuIiAiRW5kIFVzZXJzIgogICAgICAgIGNkbiA9IHNvZnR3YXJlU3lzdGVtICJDb250ZW50IERlbGl2ZXIgTmV0d29yayIgIkNhY2hlcyBjb250ZW50IGNsb3NlciB0byBhIHVzZXIncyBsb2NhdGlvbi4iICJjZG4iIHsKICAgICAgICB9CiAgICAgICAgZ3JvdXAgIlVzZXIgQXBwbGljYXRpb25zIiB7CiAgICAgICAgICAgIG1vYmlsZUFwcCA9IHNvZnR3YXJlU3lzdGVtICJNb2JpbGUgQXBwbGljYXRpb24iICJJT1MgYW5kIEFuZHJvaWQgZGV2aWNlIGFwcGxpY2F0aW9ucyBlbmFibGluZyBjdXN0b21lcnMgdXNlIHRvIGFjY2VzcyBhbmQgbWFuYWdlIEF2YW50IHByb2R1Y3RzIGFuZCBzZXJ2aWNlcyIgIm1vYmlsZXVpIiB7CgogICAgICAgICAgICB9CiAgICAgICAgICAgIHdlYlNpdGUgPSBzb2Z0d2FyZVN5c3RlbSAiV2Vic2l0ZSBBcHBsaWNhdGlvbiIgIkhUTUwgYW5kIEphdmFzY3JpcHQgd2Vic2l0ZSBlbmFibGluZyBjdXN0b21lcnMgdXNlIHRvIGFjY2VzcyBhbmQgbWFuYWdlIEF2YW50IHByb2R1Y3RzIGFuZCBzZXJ2aWNlcyIgIndlYnVpIiB7CgogICAgICAgICAgICB9CiAgICAgICAgfSAgICAgICAgCiAgICAgICAgZ3JvdXAgIk1lc3NhZ2luZyBTb2x1dGlvbnMgQ29uZmx1ZW50IiB7CiAgICAgICAgICAgIGthZmthQ2x1c3RlciA9IHNvZnR3YXJlU3lzdGVtICJLYWZrYSBNZXNzYWdpbmciICJEdXJhYmxlIG1lc3NzYWdlIHF1ZXVpbmcgc29sdXRpb24iICJldmVudE1lc3NhZ2Usa2Fma2EiIHsKCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHJhYmJpdE1xID0gc29mdHdhcmVTeXN0ZW0gIlJhYmJpdE1RIE1lc3NhZ2luZyIgIlB1Ymxpc2gvU3Vic2NyaWJlIHF1ZXVpbmcgc29sdXRpb24iICJldmVudE1lc3NhZ2UscmFiYml0bXEiIHsKCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgZ3JvdXAgIk1hbmFnZWQgRGF0YWJhc2Ugb24gR0NQIiB7CiAgICAgICAgICAgIHBvc3RncmVzRGIgPSBzb2Z0d2FyZVN5c3RlbSAiTWFuYWdlZCBQb3N0Z3JlU1FMIERhdGFiYXNlIiAiU2VwYXJhdGUgUG9zdGdyZVNRTCBpbnN0YW5jZXMgZm9yIGVhY2ggc2VydmljZSIgIkRCIiB7CiAgICAgICAgICAgIH0KICAgICAgICB9CgoKICAgICAgICBlbnRlcnByaXNlICJBdmFudCIgewogICAgICAgICAgICBncm91cCAiQVBJIEdhdGV3YXkiIHsKICAgICAgICAgICAgICAgIGtvbmdBcGlHYXRld2F5ID0gc29mdHdhcmVTeXN0ZW0gIkFQSSBHYXRld2F5IEFwcGxpY2F0aW9uIiAiVmVuZG9yIGFnbm9zdGljIHNvbHV0aW9uIGltcGxlbWVudGVkIGluIE5nbml4IGFuZCBMdWEgdGhhdCBmaWx0ZXJzIGFuZCByb3V0ZXMgQVBJIGFuZCB3ZWIgdHJhZmZpYy4iICJnYXRld2F5IiB7CiAgICAgICAgICAgICAgICAgICAga29uZ01hbmFnZW1lbnQgPSBjb250YWluZXIgIldlYiBNYW5hZ2VtZW50IENvbnNvbGUiICJUaGUgY29uc29sZSB1c2VkIGJ5IGludGVybmFsIHJlc291cmNlcyB0byBjb25maWd1cmUgQVBJIGdhdGV3YXkgZnVuY3Rpb25hbGl0eSIgIndlYkNvbnNvbGUiIHsKICAgICAgICAgICAgICAgICAgICAgICBrb25nUGx1Z2luQ29tcG9uZW50ID0gY29tcG9uZW50ICJQbHVnaW4gQXJjaGl0ZWN0dXJlIENvbXBvbmVudHMiCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICAgICAgY3VzdG9tZXIgLT4gY2RuICJ1c2VzIG1vYmlsZSBhcHBsaWNhdGlvbiB3aXRoIHRoZWlyIElPUyBvciBBbmRyb2lkIGRldmljZSIgImh0dHBzIHZpcyBjZG4iICJjZG5DYWNoZSIKICAgICAgICAgICAgY3VzdG9tZXIgLT4gY2RuICJ1c2VzIHdlYiBhcHBsaWNhdGlvbiB3aXRoIENocm9tZSwgRmlyZWZveCwgb3IgU2FmYXJpIHdlYiBicm93c2VyIiAiaHR0cHMgdmlhIGNkbiIgImNkbkNhY2hlIgoKICAgICAgICAgICAgbW9iaWxlQXBwIC0+IGtvbmdBcGlHYXRld2F5ICJyb3V0ZXMgdGhyb3VnaCIgImh0dHBzIiAiZXh0ZXJuYWxXZWIiCiAgICAgICAgICAgIHdlYlNpdGUgLT4ga29uZ0FwaUdhdGV3YXkgInJvdXRlcyB0aHJvdWdoIiAiaHR0cHMiICJleHRlcm5hbFdlYiIKICAgICAgICAgICAgY2RuIC0+IG1vYmlsZUFwcCAgImR5bmFtaWMgcmVxdWVzdCBwYXNzIHRocm91Z2ggY2RuIiAiaHR0cHMiICJleHRlcm5hbFdlYiIKICAgICAgICAgICAgY2RuIC0+IHdlYlNpdGUgImR5bmFtaWMgcmVxdWVzdHMgcGFzcyB0aHJvdWdoIGNkbiIgImh0dHBzIiAiZXh0ZXJuYWxXZWIiCgogICAgfQoKICAgIHZpZXdzIHsKICAgICAgICBzeXN0ZW1sYW5kc2NhcGUgIkdhdGV3YXlMYW5kc2NhcGUiIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIC8vT25lIG11c3QgaGF2ZSBhIHNlcGFyYXRlIGV4Y2x1ZGUgb3IgaW5jbHVkZSBzdGF0ZW1lbnQgZm9yIGVhY2ggZ3JvdXBpbmcuCiAgICAgICAgICAgIGV4Y2x1ZGUgZWxlbWVudC50YWc9PWthZmthIHJhYmJpdG1xCiAgICAgICAgICAgIGV4Y2x1ZGUgZWxlbWVudC50YWc9PURCCiAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICB9CiAgICAgICAgLy9nYXRld2F5CiAgICAgICAgc3lzdGVtQ29udGV4dCBrb25nQXBpR2F0ZXdheSAiQVBJR2F0ZXdheUFwcGxpY2F0aW9uVmlldyIgewogICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQogICAgICAgIGNvbnRhaW5lciBrb25nQXBpR2F0ZXdheSAiS29uZ01hbmFnZW1lbnRDb25zb2xlIiB7CiAgICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICB9CiAgICAgICAgY29tcG9uZW50IGtvbmdNYW5hZ2VtZW50ICJLb25nUGx1Z2lucyIgIlRoZSBjdXN0b20gYnVpbHQgYW5kIDNyZCBwYXJ0eSBwbHVnaW5zIGRlcGxveWVkIGluIHRoZSBLb25nIEFQSSBnYXRld2F5LiIgewogICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICAgICAgICAgIHN0eWxlcyB7CiAgICAgICAgICAgIGVsZW1lbnQgInBhcnRuZXJTZXJ2aWNlInsKICAgICAgICAgICAgICAgIHNoYXBlIFJvdW5kZWRCb3ggICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBmb250U2l6ZSAyNAogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjNWY5ZWEwCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAicGFydG5lclNlcnZpY2VBcGkiewogICAgICAgICAgICAgICAgc2hhcGUgUm91bmRlZEJveCAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIGZvbnRTaXplIDI0ICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAgIzVmOWVhMCAgICAgICAgICAgICAKICAgICAgICAgICAgfQoKICAgICAgICAgICAgZWxlbWVudCAiZG9tYWluU2VydmljZSJ7CiAgICAgICAgICAgICAgICBzaGFwZSBSb3VuZGVkQm94ICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgZm9udFNpemUgMjQKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJzZXJ2aWNlQXBpInsKICAgICAgICAgICAgICAgIHNoYXBlIFJvdW5kZWRCb3ggICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBmb250U2l6ZSAyNCAgICAgICAgICAgICAgICAKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJnYXRld2F5IiB7CiAgICAgICAgICAgICAgICBzaGFwZSBSb3VuZGVkQm94ICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgZm9udFNpemUgMjQKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgICNmYWZhZDIgICAgICAgICAgICAgCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAibW9ub2xpdGgiIHsKICAgICAgICAgICAgICAgIHNoYXBlIFJvdW5kZWRCb3ggICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBmb250U2l6ZSAyNCAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgI2ZmOGMwMAogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgImV2ZW50TWVzc2FnZSJ7CiAgICAgICAgICAgICAgICBzaGFwZSBSb3VuZGVkQm94ICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgZm9udFNpemUgMjQgICAgICAgICAgICAgICAgCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiUGVyc29uIiB7CiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICM0RUM1RjEKICAgICAgICAgICAgICAgIGZvbnRTaXplIDE2CiAgICAgICAgICAgICAgICBzaGFwZSBQZXJzb24KICAgICAgICAgICAgfQogICAgICAgICAgICByZWxhdGlvbnNoaXAgImNkbkNhY2hlInsKICAgICAgICAgICAgICAgIHN0eWxlIGRvdHRlZAogICAgICAgICAgICAgICAgY29sb3IgIzY0OTVlZAogICAgICAgICAgICAgICAgcm91dGluZyBDdXJ2ZWQKICAgICAgICAgICAgfQogICAgICAgICAgICByZWxhdGlvbnNoaXAgInJwYyJ7CiAgICAgICAgICAgICAgICBzdHlsZSBkb3R0ZWQKICAgICAgICAgICAgICAgIHJvdXRpbmcgQ3VydmVkCiAgICAgICAgICAgICAgICBmb250U2l6ZSAxNiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgfQogICAgICAgICAgICByZWxhdGlvbnNoaXAgIm9ybSJ7CiAgICAgICAgICAgICAgICBzdHlsZSBkb3R0ZWQKICAgICAgICAgICAgICAgIHJvdXRpbmcgQ3VydmVkCiAgICAgICAgICAgICAgICBjb2xvciAjNjQ5NWVkCiAgICAgICAgICAgICAgICBmb250U2l6ZSAxNiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJjZG4iIHsKICAgICAgICAgICAgICAgIHNoYXBlIENpcmNsZQogICAgICAgICAgICAgICAgaGVpZ2h0IDM1MAogICAgICAgICAgICAgICAgd2lkdGggMzUwCiAgICAgICAgICAgICAgICBmb250U2l6ZSAxNiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJtb2JpbGV1aSIgewogICAgICAgICAgICAgICAgc2hhcGUgUm91bmRlZEJveAogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjMzM4NkIzCiAgICAgICAgICAgICAgICBoZWlnaHQgMjUwCiAgICAgICAgICAgICAgICB3aWR0aCA0NTAKICAgICAgICAgICAgICAgIGZvbnRTaXplIDE2ICAgICAgICAgICAgICAgIAogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIndlYnVpIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBSb3VuZGVkQm94CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICMzMzg2QjMKICAgICAgICAgICAgICAgIGhlaWdodCAyNTAKICAgICAgICAgICAgICAgIHdpZHRoIDQ1MAogICAgICAgICAgICAgICAgZm9udFNpemUgMTYgICAgICAgICAgICAgICAgCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiREIiIHsKICAgICAgICAgICAgICAgIHNoYXBlIEN5bGluZGVyCiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICNkZWI4ODcKICAgICAgICAgICAgICAgIGZvbnRTaXplIDE2ICAgICAgICAgICAgICAgIAogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgInJlZGlzIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICMyMjhiMjIKICAgICAgICAgICAgICAgIHNoYXBlIEhleGFnb24KICAgICAgICAgICAgICAgIGZvbnRTaXplIDE2ICAgICAgICAgICAgICAgIAogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkNvbnRhaW5lciIgewogICAgICAgICAgICAgICAgc2hhcGUgUm91bmRlZEJveAogICAgICAgICAgICAgICAgZm9udFNpemUgMTYgICAgICAgICAgICAgICAgCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiQ29tcG9uZW50IiB7CiAgICAgICAgICAgICAgICBzaGFwZSBSb3VuZGVkQm94CiAgICAgICAgICAgICAgICBmb250U2l6ZSAxNiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCn0K"
+  },
+  "configuration" : { },
+  "model" : {
+    "enterprise" : {
+      "name" : "Avant"
+    },
+    "people" : [ {
+      "id" : "1",
+      "tags" : "Element,Person,End Users",
+      "name" : "Customers",
+      "description" : "Anyone who uses Avant's loan, credit card, or banking systems.",
+      "relationships" : [ {
+        "id" : "11",
+        "tags" : "Relationship,cdnCache",
+        "sourceId" : "1",
+        "destinationId" : "2",
+        "description" : "uses mobile application with their IOS or Android device",
+        "technology" : "https vis cdn"
+      }, {
+        "id" : "12",
+        "tags" : "Relationship,cdnCache",
+        "sourceId" : "1",
+        "destinationId" : "2",
+        "description" : "uses web application with Chrome, Firefox, or Safari web browser",
+        "technology" : "https via cdn"
+      } ],
+      "location" : "External"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "4",
+      "tags" : "Element,Software System,webui",
+      "name" : "Website Application",
+      "description" : "HTML and Javascript website enabling customers use to access and manage Avant products and services",
+      "relationships" : [ {
+        "id" : "14",
+        "tags" : "Relationship,externalWeb",
+        "sourceId" : "4",
+        "destinationId" : "8",
+        "description" : "routes through",
+        "technology" : "https"
+      } ],
+      "group" : "User Applications",
+      "location" : "External",
+      "documentation" : { }
+    }, {
+      "id" : "5",
+      "tags" : "Element,Software System,eventMessage,kafka",
+      "name" : "Kafka Messaging",
+      "description" : "Durable messsage queuing solution",
+      "group" : "Messaging Solutions Confluent",
+      "location" : "External",
+      "documentation" : { }
+    }, {
+      "id" : "7",
+      "tags" : "Element,Software System,DB",
+      "name" : "Managed PostgreSQL Database",
+      "description" : "Separate PostgreSQL instances for each service",
+      "group" : "Managed Database on GCP",
+      "location" : "External",
+      "documentation" : { }
+    }, {
+      "id" : "3",
+      "tags" : "Element,Software System,mobileui",
+      "name" : "Mobile Application",
+      "description" : "IOS and Android device applications enabling customers use to access and manage Avant products and services",
+      "relationships" : [ {
+        "id" : "13",
+        "tags" : "Relationship,externalWeb",
+        "sourceId" : "3",
+        "destinationId" : "8",
+        "description" : "routes through",
+        "technology" : "https"
+      } ],
+      "group" : "User Applications",
+      "location" : "External",
+      "documentation" : { }
+    }, {
+      "id" : "6",
+      "tags" : "Element,Software System,eventMessage,rabbitmq",
+      "name" : "RabbitMQ Messaging",
+      "description" : "Publish/Subscribe queuing solution",
+      "group" : "Messaging Solutions Confluent",
+      "location" : "External",
+      "documentation" : { }
+    }, {
+      "id" : "8",
+      "tags" : "Element,Software System,gateway",
+      "name" : "API Gateway Application",
+      "description" : "Vendor agnostic solution implemented in Ngnix and Lua that filters and routes API and web traffic.",
+      "group" : "API Gateway",
+      "location" : "Internal",
+      "containers" : [ {
+        "id" : "9",
+        "tags" : "Element,Container",
+        "name" : "Web Management Console",
+        "description" : "The console used by internal resources to configure API gateway functionality",
+        "technology" : "webConsole",
+        "components" : [ {
+          "id" : "10",
+          "tags" : "Element,Component",
+          "name" : "Plugin Architecture Components",
+          "size" : 0
+        } ]
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "2",
+      "tags" : "Element,Software System,cdn",
+      "name" : "Content Deliver Network",
+      "description" : "Caches content closer to a user's location.",
+      "relationships" : [ {
+        "id" : "15",
+        "tags" : "Relationship,externalWeb",
+        "sourceId" : "2",
+        "destinationId" : "3",
+        "description" : "dynamic request pass through cdn",
+        "technology" : "https"
+      }, {
+        "id" : "16",
+        "tags" : "Relationship,externalWeb",
+        "sourceId" : "2",
+        "destinationId" : "4",
+        "description" : "dynamic requests pass through cdn",
+        "technology" : "https"
+      } ],
+      "location" : "External",
+      "documentation" : { }
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemLandscapeViews" : [ {
+      "key" : "GatewayLandscape",
+      "order" : 1,
+      "paperSize" : "A4_Portrait",
+      "dimensions" : {
+        "width" : 1858,
+        "height" : 2870
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 729,
+        "y" : 228
+      }, {
+        "id" : "2",
+        "x" : 754,
+        "y" : 928
+      }, {
+        "id" : "3",
+        "x" : 1079,
+        "y" : 1578
+      }, {
+        "id" : "4",
+        "x" : 329,
+        "y" : 1578
+      }, {
+        "id" : "8",
+        "x" : 679,
+        "y" : 2174
+      } ],
+      "relationships" : [ {
+        "id" : "16"
+      }, {
+        "id" : "15"
+      }, {
+        "id" : "14"
+      }, {
+        "id" : "13"
+      }, {
+        "id" : "11",
+        "vertices" : [ {
+          "x" : 779,
+          "y" : 765
+        } ]
+      }, {
+        "id" : "12",
+        "vertices" : [ {
+          "x" : 1079,
+          "y" : 765
+        } ]
+      } ]
+    } ],
+    "systemContextViews" : [ {
+      "softwareSystemId" : "8",
+      "key" : "APIGatewayApplicationView",
+      "order" : 2,
+      "paperSize" : "A5_Landscape",
+      "dimensions" : {
+        "width" : 1858,
+        "height" : 1658
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "3",
+        "x" : 1079,
+        "y" : 329
+      }, {
+        "id" : "4",
+        "x" : 329,
+        "y" : 329
+      }, {
+        "id" : "8",
+        "x" : 679,
+        "y" : 925
+      } ],
+      "relationships" : [ {
+        "id" : "14"
+      }, {
+        "id" : "13"
+      } ]
+    } ],
+    "containerViews" : [ {
+      "softwareSystemId" : "8",
+      "key" : "KongManagementConsole",
+      "order" : 3,
+      "paperSize" : "A6_Landscape",
+      "dimensions" : {
+        "width" : 1108,
+        "height" : 958
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "9",
+        "x" : 329,
+        "y" : 329
+      } ]
+    } ],
+    "componentViews" : [ {
+      "description" : "The custom built and 3rd party plugins deployed in the Kong API gateway.",
+      "key" : "KongPlugins",
+      "order" : 4,
+      "paperSize" : "A6_Landscape",
+      "dimensions" : {
+        "width" : 1108,
+        "height" : 958
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "9",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "10",
+        "x" : 329,
+        "y" : 329
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "partnerService",
+          "background" : "#5f9ea0",
+          "fontSize" : 24,
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "partnerServiceApi",
+          "background" : "#5f9ea0",
+          "fontSize" : 24,
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "domainService",
+          "fontSize" : 24,
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "serviceApi",
+          "fontSize" : 24,
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "gateway",
+          "background" : "#fafad2",
+          "fontSize" : 24,
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "monolith",
+          "background" : "#ff8c00",
+          "fontSize" : 24,
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "eventMessage",
+          "fontSize" : 24,
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "Person",
+          "background" : "#4ec5f1",
+          "color" : "#ffffff",
+          "fontSize" : 16,
+          "shape" : "Person"
+        }, {
+          "tag" : "cdn",
+          "width" : 350,
+          "height" : 350,
+          "fontSize" : 16,
+          "shape" : "Circle"
+        }, {
+          "tag" : "mobileui",
+          "width" : 450,
+          "height" : 250,
+          "background" : "#3386b3",
+          "fontSize" : 16,
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "webui",
+          "width" : 450,
+          "height" : 250,
+          "background" : "#3386b3",
+          "fontSize" : 16,
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "DB",
+          "background" : "#deb887",
+          "fontSize" : 16,
+          "shape" : "Cylinder"
+        }, {
+          "tag" : "redis",
+          "background" : "#228b22",
+          "fontSize" : 16,
+          "shape" : "Hexagon"
+        }, {
+          "tag" : "Container",
+          "fontSize" : 16,
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "Component",
+          "fontSize" : 16,
+          "shape" : "RoundedBox"
+        } ],
+        "relationships" : [ {
+          "tag" : "cdnCache",
+          "color" : "#6495ed",
+          "style" : "Dotted",
+          "routing" : "Curved"
+        }, {
+          "tag" : "rpc",
+          "fontSize" : 16,
+          "style" : "Dotted",
+          "routing" : "Curved"
+        }, {
+          "tag" : "orm",
+          "color" : "#6495ed",
+          "fontSize" : 16,
+          "style" : "Dotted",
+          "routing" : "Curved"
+        } ]
+      },
+      "terminology" : { },
+      "lastSavedView" : "GatewayLandscape"
+    }
+  }
+}

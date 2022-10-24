@@ -1,0 +1,1330 @@
+{
+  "id" : 1,
+  "name" : "Name",
+  "description" : "Description",
+  "revision" : 0,
+  "lastModifiedDate" : "2022-10-24T13:08:14Z",
+  "lastModifiedAgent" : "structurizr-web/2844/diagram",
+  "properties" : {
+    "structurizr.dsl" : "Ly8gd29ya3NwYWNlICJkaWdpdGFsLXNlcnZpY2VzIiAiQWxsIHRoZSBzeXN0ZW1zIHVuZGVyIHRoZSByZXNwb25zaWJpbGl0eSBvZiB0aGUgZGlnaXRhbCBzZXJ2aWNlcyBncm91cCIgewp3b3Jrc3BhY2UgZXh0ZW5kcyAuLi9nYXRld2F5L3dvcmtzcGFjZS5kc2wKICAgIG1vZGVsIHsKICAgICAgICBlbnRlcnByaXNlICJBdmFudCIgewogICAgICAgICAgICBncm91cCAiQVBJIEdhdGV3YXkiIHsKICAgICAgICAgICAgICAgIGtvbmdBcGlHYXRld2F5ID0gc29mdHdhcmVTeXN0ZW0gIkFQSSBHYXRld2F5IEFwcGxpY2F0aW9uIiAiVmVuZG9yIGFnbm9zdGljIHNvbHV0aW9uIGltcGxlbWVudGVkIGluIE5nbml4IGFuZCBMdWEgdGhhdCBmaWx0ZXJzIGFuZCByb3V0ZXMgQVBJIGFuZCB3ZWIgdHJhZmZpYy4iICJnYXRld2F5IiB7CiAgICAgICAgICAgICAgICAgICAga29uZ01hbmFnZW1lbnQgPSBjb250YWluZXIgIldlYiBNYW5hZ2VtZW50IENvbnNvbGUiICJUaGUgY29uc29sZSB1c2VkIGJ5IGludGVybmFsIHJlc291cmNlcyB0byBjb25maWd1cmUgQVBJIGdhdGV3YXkgZnVuY3Rpb25hbGl0eSIgIndlYkNvbnNvbGUiIHsKICAgICAgICAgICAgICAgICAgICAgICBrb25nUGx1Z2luQ29tcG9uZW50ID0gY29tcG9uZW50ICJQbHVnaW4gQXJjaGl0ZWN0dXJlIENvbXBvbmVudHMiCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICBncm91cCAiQXZhbnQgQmFzaWMiIHsKICAgICAgICAgICAgICAgIGFiRG9tYWluID0gc29mdHdhcmVTeXN0ZW0gIkF2YW50IEJhc2ljIiAiQXZhbnQgQmFzaWMgcnVieSBtb25vbGl0aCIgIm1vbm9saXRoIiB7CiAgICAgICAgICAgICAgICAgICAgYWJBcHBsaWNhdGlvbiA9IGNvbnRhaW5lciAiQXZhbnQgQmFzaWMgV2ViIEFwcGxpY2F0aW9uIiAiUnVieSBtb25vbGl0aCB3aXRoIG11bHRpcGxlIGJ1c2luZXNzIGRvbWFpbnMiICJtb25vbGl0aCIgewogICAgICAgICAgICAgICAgICAgICAgICBjb21wb25lbnQgYWJsb2FuICJBdmFudCBsb2FuIGRvbWFpbiIKICAgICAgICAgICAgICAgICAgICAgICAgY29tcG9uZW50IGFiY3JtICJBdmFudCBjcm0gZG9tYWluIiAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgY29tcG9uZW50IGFiY3JlZGl0Q2FyZCAiQXZhbnQgY3JlZGl0IGNhcmQgZG9tYWluIiAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgY29tcG9uZW50IGFiZGRhICJBdmFudCBBQ0ggdHJhaW5zYWN0aW9uIHN1cHBvcnQiICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBncm91cCAiRGlnaXRhbCBzZXJ2aWNlcyBjb21tdW5pY2F0ZSB3aXRoIGVhY2ggb3RoZXIgdmlhIHRoZSBnYXRld2F5IiB7CiAgICAgICAgICAgICAgICBjb3JlQ3VzdG9tZXJEb21haW4gPSBzb2Z0d2FyZVN5c3RlbSAiQ3VzdG9tZXIgRG9tYWluIEFQSSIgIkFic3RyYWN0aW9uIGxheWVyIHRoYXQncyBmYW1pbGlhciB3aXRoIGFsbCBjdXN0b21lciBkYXRhIHNvdXJjZXMuICBPbmx5IGV4cG9zZXMgYW4gQXZhbnQgY29udHJhY3QuIiAiZG9tYWluU2VydmljZSIgewogICAgICAgICAgICAgICAgICAgIGNvcmVDdXN0b21lclNlcnZpY2UgPSBjb250YWluZXIgIkNvcmUgQ3VzdG9tZXIgQVBJIiAiU2VydmljZSBleHBvc2luZyBjb3JlIG1vZGVsIGF0dHJpYnV0ZXMuIiAic2VydmljZUFwaSIgewogICAgICAgICAgICAgICAgICAgICAgIGdyb3VwICJEamFuZ28gV2ViIENvbnRhaW5lciIgewogICAgICAgICAgICAgICAgICAgICAgICAgY29tcG9uZW50IE9uQm9hcmRpbmdTdGVwICJBIHBhcnRpY3VsYXIgdHlwZSBvZiBhbiBvbmJvYXJkaW5nIHN0ZXAgZm9yIGEgcHJvZHVjdC4gSWYgZW5hYmxlZCBpcyBUcnVlLCB0aGVuIGEgQ3VzdG9tZXJPbmJvYXJkaW5nU3RlcCB3aWxsIGJlIGNyZWF0ZWQgZm9yIHRoZQlDdXN0b21lciB3aGVuIHRoZXkgYXJlIGFwcHJvdmVkIGZvciBhIHByb2R1Y3QuIgogICAgICAgICAgICAgICAgICAgICAgICAgY29tcG9uZW50IFByb2R1Y3RPbkJvYXJkaW5nU3RlcCAiQSBwYXJ0aWN1bGFyIHR5cGUgb2YgYW4gb25ib2FyZGluZyBzdGVwIGZvciBhIHByb2R1Y3QuIElmIGVuYWJsZWQgaXMgVHJ1ZSwgdGhlbiBhIEN1c3RvbWVyT25ib2FyZGluZ1N0ZXAgd2lsbCBiZSBjcmVhdGVkIGZvciB0aGUgQ3VzdG9tZXIgd2hlbiB0aGV5IGFyZSBhcHByb3ZlZCBmb3IgYSBwcm9kdWN0LiIKICAgICAgICAgICAgICAgICAgICAgICAgIGNvbXBvbmVudCBDdXN0b21lck9uQm9hcmRpbmdTdGVwICJPbmJvYXJkcyBjdXN0b21lcnMgaW50byB0aGUgY29yZSBjdXN0b21lciBtb2RlbC4iCiAgICAgICAgICAgICAgICAgICAgICAgICBjb21wb25lbnQgQ3VzdG9tZXJQcm9kdWN0T25ib2FyZGluZ1N0ZXAgIkxpbmtzIGN1c3RvbWVycyB0byBwcm9kdWN0cyBkdXJpbmcgdGhlIG9uYm9hcmRpbmcgc3RlcC4iCiAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGNvcmVQcm9kdWN0RG9tYWluID0gc29mdHdhcmVTeXN0ZW0gIlByb2R1Y3QgRG9tYWluIEFQSSIgIkFic3RyYWN0aW9uIGxheWVyIHRoYXQncyBmYW1pbGlhciB3aXRoIGFsbCBwcm9kdWN0IGRhdGEgc291cmNlcy4gIE9ubHkgZXhwb3NlcyBhbiBBdmFudCBjb250cmFjdC4iICJkb21haW5TZXJ2aWNlIiB7CiAgICAgICAgICAgICAgICAgICAgY29yZVByb2R1Y3RTZXJ2aWNlID0gY29udGFpbmVyICJQcm9kdWN0IEFQSSIgIlNlcnZpY2UgZXhwb3NpbmcgcHJvZHVjdCBtb2RlbCBhdHRyaWJ1dGVzLiIgInNlcnZpY2VBcGkiIHsKICAgICAgICAgICAgICAgICAgICAgICAgY29tcG9uZW50IFByb2R1Y3QgIlByb2R1Y3QgU2VydmljZSBvciBBUEkiCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbXBvbmVudCBQcm9kdWN0RmVhdHVyZSAiUHJvZHVjdCBGZWF0dXJlIFNlcnZpY2Ugb3IgQVBJIgogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBjb3JlUGF5bWVudHNEb21haW4gPSBzb2Z0d2FyZVN5c3RlbSAiQ29yZSBQYXltZW50cyIgIkNvcmUgUGF5bWVudCBTeXN0ZW0iICJkb21haW5TZXJ2aWNlIiB7CiAgICAgICAgICAgICAgICAgICAgY29yZVBheW1lbnRTZXJ2aWNlID0gY29udGFpbmVyICJDb3JlIFBheW1lbnRzIEFQSSIgIlRoZSBDb3JlIFBheW1lbnRzIFNlcnZpY2VzIiAic2VydmljZUFwaSIgewogICAgICAgICAgICAgICAgICAgICAgICBjb21wb25lbnQgRXh0ZXJuYWxBY2NvdW50ICJFeHRlcm5hbCBBY2NvdW50IFNlcnZpY2Ugb3IgQVBJIgogICAgICAgICAgICAgICAgICAgICAgICBjb21wb25lbnQgRXh0ZXJuYWxCYW5rQWNjb3VudCAiRXh0ZXJuYWwgQmFuayBBY2NvdW50IFNlcnZpY2Ugb3IgQVBJIgogICAgICAgICAgICAgICAgICAgICAgICBjb21wb25lbnQgRXh0ZXJuYWxDYXJkQWNjb3VudCAiRXh0ZXJuYWwgQ2FyZCBBY2NvdW50IFNlcnZpY2Ugb3IgQVBJIgogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0gCiAgICAgICAgICAgICAgICBjb3JlQ2FyZERvbWFpbiA9IHNvZnR3YXJlU3lzdGVtICJDb3JlIENhcmQiICJDb3JlIENhcmQgU3lzdGVtIiAiZG9tYWluU2VydmljZSIgewogICAgICAgICAgICAgICAgICAgIGNvcmVDYXJkU2VydmljZSA9IGNvbnRhaW5lciAiQ29yZSBDYXJkIEFQSSIgIlRoZSBDb3JlIENhcmQgU2VydmljZXMiICJzZXJ2aWNlQXBpIiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbXBvbmVudCBDYXJkICJDYXJkIFNlcnZpY2Ugb3IgQVBJIgogICAgICAgICAgICAgICAgICAgICAgICBjb21wb25lbnQgRGViaXRDYXJkICJEZWJpdCBDYXJkIFNlcnZpY2Ugb3IgQVBJIgogICAgICAgICAgICAgICAgICAgICAgICBjb21wb25lbnQgQ3JlZGl0Q2FyZCAiQ3JlZGl0IENhcmQgU2VydmljZSBvciBBUEkiCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfSAKCiAgICAgICAgICAgICAgICBjb3JlTGVkZ2VyRG9tYWluID0gc29mdHdhcmVTeXN0ZW0gIkNvcmUgTGVkZ2VyIiAiQ29yZSBMZWRnZXIgU3lzdGVtIiAiZG9tYWluU2VydmljZSIgewogICAgICAgICAgICAgICAgICAgIGNvcmVMZWRnZXJTZXJ2aWNlID0gY29udGFpbmVyICJDb3JlIExlZGdlciBBUElzIiAiVGhlIENvcmUgTGVkZ2VyIFNlcnZpY2VzIiAic2VydmljZUFwaSIgewogICAgICAgICAgICAgICAgICAgICAgICBjb21wb25lbnQgVHJhbnNhY3Rpb24gIlRyYW5zYWN0aW9uIFNlcnZpY2Ugb3IgQVBJIgogICAgICAgICAgICAgICAgICAgICAgICBjb21wb25lbnQgTGVkZ2VyRW50cnkgIkxlZGdlciBFbnRyeSBTZXJ2aWNlIG9yIEFQSSIKICAgICAgICAgICAgICAgICAgICAgICAgY29tcG9uZW50IENhcmRUcmFuc2FjdGlvbiAiQ2FyZCBUcmFuc2FjdG9uIFNlcnZpY2Ugb3IgQVBJIgogICAgICAgICAgICAgICAgICAgICAgICBjb21wb25lbnQgQmFua1RyYW5zZmVyICJCYW5rIFRyYW5zZmVyIFNlcnZpY2Ugb3IgQVBJIgogICAgICAgICAgICAgICAgICAgICAgICBjb21wb25lbnQgR2VuZXJhbEFkanVzdG1lbnQgIkdlbmVyYWwgQWRqdXN0bWVudCBTZXJ2aWNlIG9yIEFQSSIKICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgfSAKICAgICAgICAgICAgICAgIGNvcmVBY2NvdW50c0RvbWFpbiA9IHNvZnR3YXJlU3lzdGVtICJDb3JlIEFjY291bnRzIiAiQ29yZSBBY2NvdW50cyBTeXN0ZW0iICJkb21haW5TZXJ2aWNlIiB7CiAgICAgICAgICAgICAgICAgICAgY29yZUFjY291bnRzU2VydmljZSA9IGNvbnRhaW5lciAiQ29yZSBBY2NvdW50cyBBUElzIiAiVGhlIENvcmUgQWNjb3VudHMgU2VydmljZXMiICJzZXJ2aWNlQXBpIiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbXBvbmVudCBDdXN0b21lckFjY291bnRVc2VyICJDdXN0b21lciBBY2NvdW50IFNlcnZpY2Ugb3IgQVBJIgogICAgICAgICAgICAgICAgICAgICAgICBjb21wb25lbnQgRmluYW5jaWFsQWNjb3VudCAiRmluYW5jaWFsIEFjY291bnQgU2VydmljZSBvciBBUEkiCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbXBvbmVudCBCYWxhbmNlICJCYWxhbmNlIFNlcnZpY2Ugb3IgQVBJIgogICAgICAgICAgICAgICAgICAgICAgICBjb21wb25lbnQgRERBQWNjb3VudCAiRERBKEFDSCkgU2VydmljZSBvciBBUEkiCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbXBvbmVudCBDcmVkaXRBY2NvdW50ICJDcmVkaXQgU2VydmljZSBvciBBUEkiCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbXBvbmVudCBMb2FuQWNjb3VudCAiTG9hbiBTZXJ2aWNlIG9yIEFQSSIKICAgICAgICAgICAgICAgICAgICAgICAgY29tcG9uZW50IENhc2hBZHZhbmNlUHJvZ3JhbSAiQ2FzaCBBZHZhbmNlIFByb2dyYW0gU2VydmljZSBvciBBUEkiCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIH0gCiAgICAgICAgICAgICAgICBmaVNlcnZlRG9tYWluID0gc29mdHdhcmVTeXN0ZW0gIkZpc2VydmUgQWJzdHJhY3Rpb24gQXBwbGljYXRpb25zIiAiRmlTZXJ2ZSBBUEkgYW5kIFNlcnZpY2VzIiAicGFydG5lclNlcnZpY2UiIHsKICAgICAgICAgICAgICAgICAgICBmaXNlcnZlU2VydmljZSA9IGNvbnRhaW5lciAiRmlzZXJ2ZSBBcHBsaWNhdGlvbiBBUElzIiAiVGhlIEZpU2VydmUgU2VydmljZSBBYnN0cmFjdGlvbiBMYXllciIgInBhcnRuZXJTZXJ2aWNlQXBpIiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbXBvbmVudCBGaXNlcnZlQnJpZGdlICJGaXNlcnZlIEJyaWRnZSBTZXJ2aWNlIG9yIEFQSSIKICAgICAgICAgICAgICAgICAgICAgICAgY29tcG9uZW50IEZpc2VydmVBY2NvdW50ICJGaXNlcnZlIEFjY291bnQgU2VydmljZSBvciBBUEkiCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfSAKCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGtvbmdBcGlHYXRld2F5IC0+IGFiRG9tYWluICJyb3V0ZSB0byBBdmFudCBCYXNpYyBhcHBsaWNhdGlvbiB2aWEgZ2F0ZXdheSIgImh0dHBzIiAiaW50ZXJuYWxXZWIiCiAgICAgICAgICAgIGtvbmdBcGlHYXRld2F5IC0+IGNvcmVDdXN0b21lckRvbWFpbiAicm91dGUgdG8gY3VzdG9tZXIgZG9tYWluIHNlcnZpY2UiICJodHRwcyIgImludGVybmFsV2ViIgogICAgICAgICAgICBrb25nQXBpR2F0ZXdheSAtPiBjb3JlUHJvZHVjdERvbWFpbiAicm91dGUgdG8gcHJvZHVjdCBkb21haW4gc2VydmljZSIgImh0dHBzIiAiaW50ZXJuYWxXZWIiCiAgICAgICAgICAgIGtvbmdBcGlHYXRld2F5IC0+IGNvcmVDYXJkRG9tYWluICJyb3V0ZSB0byBBdmFudCBCYXNpYyBhcHBsaWNhdGlvbiB2aWEgZ2F0ZXdheSIgImh0dHBzIiAiaW50ZXJuYWxXZWIiCiAgICAgICAgICAgIGtvbmdBcGlHYXRld2F5IC0+IGNvcmVMZWRnZXJEb21haW4gInJvdXRlIHRvIEF2YW50IEJhc2ljIGFwcGxpY2F0aW9uIHZpYSBnYXRld2F5IiAiaHR0cHMiICJpbnRlcm5hbFdlYiIKICAgICAgICAgICAga29uZ0FwaUdhdGV3YXkgLT4gY29yZVBheW1lbnRzRG9tYWluICJyb3V0ZSB0byBBdmFudCBCYXNpYyBhcHBsaWNhdGlvbiB2aWEgZ2F0ZXdheSIgImh0dHBzIiAiaW50ZXJuYWxXZWIiCiAgICAgICAgICAgIGtvbmdBcGlHYXRld2F5IC0+IGNvcmVBY2NvdW50c0RvbWFpbiAicm91dGUgdG8gQXZhbnQgQmFzaWMgYXBwbGljYXRpb24gdmlhIGdhdGV3YXkiICJodHRwcyIgImludGVybmFsV2ViIgoKICAgICAgICAgICAgY29yZUN1c3RvbWVyRG9tYWluIC0+IGtvbmdBcGlHYXRld2F5ICJyb3V0ZSB0byBwYXltZW50IGRvbWFpbiBzZXJ2aWNlIHZpYSBnYXRld2F5IiAiZ3JwYyIgInJwYyIKICAgICAgICAgICAgY29yZVByb2R1Y3REb21haW4gLT4ga29uZ0FwaUdhdGV3YXkgInJvdXRlIHRvIHBheW1lbnQgZG9tYWluIHNlcnZpY2UgdmlhIGdhdGV3YXkiICJncnBjIiAicnBjIiAgICAgICAgICAgIAogICAgICAgICAgICBjb3JlQ2FyZERvbWFpbiAtPiBrb25nQXBpR2F0ZXdheSAicm91dGUgdG8gcGF5bWVudCBkb21haW4gc2VydmljZSB2aWEgZ2F0ZXdheSIgImdycGMiICJycGMiCiAgICAgICAgICAgIGNvcmVMZWRnZXJEb21haW4gLT4ga29uZ0FwaUdhdGV3YXkgInJvdXRlIHRvIHBheW1lbnQgZG9tYWluIHNlcnZpY2UgdmlhIGdhdGV3YXkiICJncnBjIiAicnBjIgogICAgICAgICAgICBjb3JlUGF5bWVudHNEb21haW4gLT4ga29uZ0FwaUdhdGV3YXkgInJvdXRlIHRvIHBheW1lbnQgZG9tYWluIHNlcnZpY2UgdmlhIGdhdGV3YXkiICJncnBjIiAicnBjIgogICAgICAgICAgICBjb3JlQWNjb3VudHNEb21haW4gLT4ga29uZ0FwaUdhdGV3YXkgInJvdXRlIHRvIHBheW1lbnQgZG9tYWluIHNlcnZpY2UgdmlhIGdhdGV3YXkiICJncnBjIiAicnBjIiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAoKICAgICAgICAgICAgZmlTZXJ2ZURvbWFpbiAtPiBrb25nQXBpR2F0ZXdheSAicm91dGUgdG8gZmlzZXJ2ZSBzZXJ2aWNlKHMpIHZpYSBnYXRld2F5IiAiZ3JwYyIgInJwYyIgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAga29uZ0FwaUdhdGV3YXkgLT4gZmlTZXJ2ZURvbWFpbiAicm91dGUgZnJvbSBmaXNlcnZlIHNlcnZpY2UocykgdmlhIGdhdGV3YXkiICJncnBjIiAicnBjIiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAoKCgogICAgICAgICAgICBhYkRvbWFpbiAtPiAgcG9zdGdyZXNEYiAicGVyc2lzdHMgZGF0YSIgIlJ1YnkgT1JNIiAicGRiIgoKICAgICAgICAgICAgY29yZUN1c3RvbWVyRG9tYWluIC0+IHBvc3RncmVzRGIgInBlcnNpc3RzIGRhdGEiICJkamFuZ28gT1JNIiAicGRiIgogICAgICAgICAgICBjb3JlUHJvZHVjdERvbWFpbiAtPiAgcG9zdGdyZXNEYiAicGVyc2lzdHMgZGF0YSIgImRqYW5nbyBPUk0iICJwZGIiCiAgICAgICAgICAgIGNvcmVQYXltZW50c0RvbWFpbiAtPiBwb3N0Z3Jlc0RiICJwZXJzaXN0cyBkYXRhIiAiZGphbmdvIE9STSIgInBkYiIKICAgICAgICAgICAgY29yZUNhcmREb21haW4gLT4gcG9zdGdyZXNEYiAicGVyc2lzdHMgZGF0YSIgImRqYW5nbyBPUk0iICJwZGIiCiAgICAgICAgICAgIGNvcmVMZWRnZXJEb21haW4gLT4gcG9zdGdyZXNEYiAicGVyc2lzdHMgZGF0YSIgImRqYW5nbyBPUk0iICJwZGIiCiAgICAgICAgICAgIGNvcmVBY2NvdW50c0RvbWFpbiAtPiBwb3N0Z3Jlc0RiICJwZXJzaXN0cyBkYXRhIiAiZGphbmdvIE9STSIgInBkYiIKICAgICAgICAgICAgY29yZVBheW1lbnRzRG9tYWluIC0+IHBvc3RncmVzRGIgInBlcnNpc3RzIGRhdGEiICJkamFuZ28gT1JNIiAicGRiIgoKICAgICAgICB9CiAgICB9CgogICAgdmlld3MgewogICAgICAgIC8vIHN5c3RlbWxhbmRzY2FwZSAiRGlnaXRhbFNlcnZpY2VzIiB7CiAgICAgICAgLy8gICAgIGluY2x1ZGUgKgogICAgICAgIC8vICAgICBleGNsdWRlIHJlbGF0aW9uc2hpcC50YWc9PXJwYyBmaVNlcnZlRG9tYWluCgogICAgICAgIC8vIH0KICAgICAgICAvL2dhdGV3YXkKICAgICAgICAvLyBzeXN0ZW1Db250ZXh0IGtvbmdBcGlHYXRld2F5ICJBUElHYXRld2F5QXBwbGljYXRpb25WaWV3IiB7CiAgICAgICAgLy8gICAgICBpbmNsdWRlICoKICAgICAgICAvLyAgICAgIGF1dG9MYXlvdXQKICAgICAgICAvLyB9CiAgICAgICAgLy8gY29udGFpbmVyIGtvbmdBcGlHYXRld2F5ICJLb25nTWFuYWdlbWVudENvbnNvbGUiIHsKICAgICAgICAvLyAgICAgIGluY2x1ZGUgKgogICAgICAgIC8vICAgICAgYXV0b0xheW91dAogICAgICAgIC8vIH0KICAgICAgICAvLyBjb21wb25lbnQga29uZ01hbmFnZW1lbnQgIktvbmdQbHVnaW5zIiAiVGhlIGN1c3RvbSBidWlsdCBhbmQgM3JkIHBhcnR5IHBsdWdpbnMgZGVwbG95ZWQgaW4gdGhlIEtvbmcgQVBJIGdhdGV3YXkuIiB7CiAgICAgICAgLy8gICAgICBpbmNsdWRlICoKICAgICAgICAvLyAgICAgIGF1dG9MYXlvdXQKICAgICAgICAvLyB9CiAgICAgICAgLy9jdXN0b21lcgogICAgICAgIHN5c3RlbUNvbnRleHQgY29yZUN1c3RvbWVyRG9tYWluICJDb3JlQ3VzdG9tZXJEb21haW4iIHsKICAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgIH0KICAgICAgICBjb250YWluZXIgY29yZUN1c3RvbWVyRG9tYWluICJDb3JlQ3VzdG9tZXJBcGkiIHsKICAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgIH0KICAgICAgICBjb21wb25lbnQgY29yZUN1c3RvbWVyU2VydmljZSAiQ29yZUN1c3RvbWVyTW9kZWxzIiAiVGhlIG1vZGVscyBzdXBwb3J0ZWQgaW4gdGhpcyBzZXJ2aWNlIiB7CiAgICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICB9CgogICAgICAgIC8vUHJvZHVjdAogICAgICAgIHN5c3RlbUNvbnRleHQgY29yZVByb2R1Y3REb21haW4gIlByb2R1Y3REb21haW4iIHsKICAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgIH0KICAgICAgICBjb250YWluZXIgY29yZVByb2R1Y3REb21haW4gIlByb2R1Y3RBcGkiIHsKICAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgIH0KICAgICAgICBjb21wb25lbnQgY29yZVByb2R1Y3RTZXJ2aWNlICJQcm9kdWN0TW9kZWxzIiAiVGhlIG1vZGVscyBzdXBwb3J0ZWQgaW4gdGhpcyBzZXJ2aWNlIiB7CiAgICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICB9CgogICAgICAgIC8vUGF5bWVudHMKICAgICAgICBzeXN0ZW1Db250ZXh0IGNvcmVQYXltZW50c0RvbWFpbiAiUGF5bWVudERvbWFpbiIgewogICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQogICAgICAgIGNvbnRhaW5lciBjb3JlUGF5bWVudHNEb21haW4gIlBheW1lbnRBcGkiIHsKICAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgIH0KICAgICAgICBjb21wb25lbnQgY29yZVBheW1lbnRTZXJ2aWNlICJQYXltZW50QVBJT3JTZXJ2aWNlcyIgIlRoZSBBUElzIG9yIFNlcnZpY2VzIHN1cHBvcnRlZCBpbiB0aGlzIHNlcnZpY2UiIHsKICAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgIH0KICAgICAgICAvL0NhcmQKICAgICAgICBzeXN0ZW1Db250ZXh0IGNvcmVDYXJkRG9tYWluICJDYXJkRG9tYWluIiB7CiAgICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICB9CiAgICAgICAgY29udGFpbmVyIGNvcmVDYXJkRG9tYWluICJDYXJkQXBpIiB7CiAgICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICB9CiAgICAgICAgY29tcG9uZW50IGNvcmVDYXJkU2VydmljZSAiQ2FyZEFQSU9yU2VydmljZXMiICJUaGUgQVBJcyBvciBTZXJ2aWNlcyBzdXBwb3J0ZWQgaW4gdGhpcyBzZXJ2aWNlIiB7CiAgICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICB9CgogICAgICAgIC8vZmlzZXJ2ZQogICAgICAgIHN5c3RlbUNvbnRleHQgZmlTZXJ2ZURvbWFpbiAiRmlzZXJ2ZURvbWFpbiIgewogICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQogICAgICAgIGNvbnRhaW5lciBmaVNlcnZlRG9tYWluICJGaXNlcnZlQXBpIiB7CiAgICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICB9CiAgICAgICAgY29tcG9uZW50IGZpc2VydmVTZXJ2aWNlICJGaXNlcnZlQVBJT3JTZXJ2aWNlcyIgIlRoZSBBUElzIG9yIFNlcnZpY2VzIHN1cHBvcnRlZCBpbiB0aGlzIHNlcnZpY2UiIHsKICAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgIH0KCgogICAgICAgIC8vIHN0eWxlcyB7CiAgICAgICAgLy8gICAgIGVsZW1lbnQgInBhcnRuZXJTZXJ2aWNlInsKICAgICAgICAvLyAgICAgICAgIHNoYXBlIFJvdW5kZWRCb3ggICAgICAgICAgICAgICAgCiAgICAgICAgLy8gICAgICAgICBmb250U2l6ZSAyNAogICAgICAgIC8vICAgICAgICAgYmFja2dyb3VuZCAjNWY5ZWEwCiAgICAgICAgLy8gICAgIH0KICAgICAgICAvLyAgICAgZWxlbWVudCAicGFydG5lclNlcnZpY2VBcGkiewogICAgICAgIC8vICAgICAgICAgc2hhcGUgUm91bmRlZEJveCAgICAgICAgICAgICAgICAKICAgICAgICAvLyAgICAgICAgIGZvbnRTaXplIDI0ICAgICAgICAgICAgICAgIAogICAgICAgIC8vICAgICAgICAgYmFja2dyb3VuZCAgIzVmOWVhMCAgICAgICAgICAgICAKICAgICAgICAvLyAgICAgfQoKICAgICAgICAvLyAgICAgZWxlbWVudCAiZG9tYWluU2VydmljZSJ7CiAgICAgICAgLy8gICAgICAgICBzaGFwZSBSb3VuZGVkQm94ICAgICAgICAgICAgICAgIAogICAgICAgIC8vICAgICAgICAgZm9udFNpemUgMjQKICAgICAgICAvLyAgICAgfQogICAgICAgIC8vICAgICBlbGVtZW50ICJzZXJ2aWNlQXBpInsKICAgICAgICAvLyAgICAgICAgIHNoYXBlIFJvdW5kZWRCb3ggICAgICAgICAgICAgICAgCiAgICAgICAgLy8gICAgICAgICBmb250U2l6ZSAyNCAgICAgICAgICAgICAgICAKICAgICAgICAvLyAgICAgfQogICAgICAgIC8vICAgICBlbGVtZW50ICJnYXRld2F5IiB7CiAgICAgICAgLy8gICAgICAgICBzaGFwZSBSb3VuZGVkQm94ICAgICAgICAgICAgICAgIAogICAgICAgIC8vICAgICAgICAgZm9udFNpemUgMjQKICAgICAgICAvLyAgICAgICAgIGJhY2tncm91bmQgICNmYWZhZDIgICAgICAgICAgICAgCiAgICAgICAgLy8gICAgIH0KICAgICAgICAvLyAgICAgZWxlbWVudCAibW9ub2xpdGgiIHsKICAgICAgICAvLyAgICAgICAgIHNoYXBlIFJvdW5kZWRCb3ggICAgICAgICAgICAgICAgCiAgICAgICAgLy8gICAgICAgICBmb250U2l6ZSAyNCAgICAgICAgICAgICAgICAKICAgICAgICAvLyAgICAgICAgIGJhY2tncm91bmQgI2ZmOGMwMAogICAgICAgIC8vICAgICB9CiAgICAgICAgLy8gICAgIGVsZW1lbnQgImV2ZW50TWVzc2FnZSJ7CiAgICAgICAgLy8gICAgICAgICBzaGFwZSBSb3VuZGVkQm94ICAgICAgICAgICAgICAgIAogICAgICAgIC8vICAgICAgICAgZm9udFNpemUgMjQgICAgICAgICAgICAgICAgCiAgICAgICAgLy8gICAgIH0KICAgICAgICAvLyAgICAgZWxlbWVudCAiUGVyc29uIiB7CiAgICAgICAgLy8gICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgLy8gICAgICAgICBiYWNrZ3JvdW5kICM0RUM1RjEKICAgICAgICAvLyAgICAgICAgIGZvbnRTaXplIDE2CiAgICAgICAgLy8gICAgICAgICBzaGFwZSBQZXJzb24KICAgICAgICAvLyAgICAgfQogICAgICAgIC8vICAgICByZWxhdGlvbnNoaXAgImNkbkNhY2hlInsKICAgICAgICAvLyAgICAgICAgIHN0eWxlIGRvdHRlZAogICAgICAgIC8vICAgICAgICAgY29sb3IgIzY0OTVlZAogICAgICAgIC8vICAgICAgICAgcm91dGluZyBDdXJ2ZWQKICAgICAgICAvLyAgICAgfQogICAgICAgIC8vICAgICByZWxhdGlvbnNoaXAgInJwYyJ7CiAgICAgICAgLy8gICAgICAgICBzdHlsZSBkb3R0ZWQKICAgICAgICAvLyAgICAgICAgIHJvdXRpbmcgQ3VydmVkCiAgICAgICAgLy8gICAgICAgICBmb250U2l6ZSAxNiAgICAgICAgICAgICAgICAKICAgICAgICAvLyAgICAgfQogICAgICAgIC8vICAgICByZWxhdGlvbnNoaXAgIm9ybSJ7CiAgICAgICAgLy8gICAgICAgICBzdHlsZSBkb3R0ZWQKICAgICAgICAvLyAgICAgICAgIHJvdXRpbmcgQ3VydmVkCiAgICAgICAgLy8gICAgICAgICBjb2xvciAjNjQ5NWVkCiAgICAgICAgLy8gICAgICAgICBmb250U2l6ZSAxNiAgICAgICAgICAgICAgICAKICAgICAgICAvLyAgICAgfQogICAgICAgIC8vICAgICBlbGVtZW50ICJjZG4iIHsKICAgICAgICAvLyAgICAgICAgIHNoYXBlIENpcmNsZQogICAgICAgIC8vICAgICAgICAgaGVpZ2h0IDM1MAogICAgICAgIC8vICAgICAgICAgd2lkdGggMzUwCiAgICAgICAgLy8gICAgICAgICBmb250U2l6ZSAxNiAgICAgICAgICAgICAgICAKICAgICAgICAvLyAgICAgfQogICAgICAgIC8vICAgICBlbGVtZW50ICJtb2JpbGV1aSIgewogICAgICAgIC8vICAgICAgICAgc2hhcGUgUm91bmRlZEJveAogICAgICAgIC8vICAgICAgICAgYmFja2dyb3VuZCAjMzM4NkIzCiAgICAgICAgLy8gICAgICAgICBoZWlnaHQgMjUwCiAgICAgICAgLy8gICAgICAgICB3aWR0aCA0NTAKICAgICAgICAvLyAgICAgICAgIGZvbnRTaXplIDE2ICAgICAgICAgICAgICAgIAogICAgICAgIC8vICAgICB9CiAgICAgICAgLy8gICAgIGVsZW1lbnQgIndlYnVpIiB7CiAgICAgICAgLy8gICAgICAgICBzaGFwZSBSb3VuZGVkQm94CiAgICAgICAgLy8gICAgICAgICBiYWNrZ3JvdW5kICMzMzg2QjMKICAgICAgICAvLyAgICAgICAgIGhlaWdodCAyNTAKICAgICAgICAvLyAgICAgICAgIHdpZHRoIDQ1MAogICAgICAgIC8vICAgICAgICAgZm9udFNpemUgMTYgICAgICAgICAgICAgICAgCiAgICAgICAgLy8gICAgIH0KICAgICAgICAvLyAgICAgZWxlbWVudCAiREIiIHsKICAgICAgICAvLyAgICAgICAgIHNoYXBlIEN5bGluZGVyCiAgICAgICAgLy8gICAgICAgICBiYWNrZ3JvdW5kICNkZWI4ODcKICAgICAgICAvLyAgICAgICAgIGZvbnRTaXplIDE2ICAgICAgICAgICAgICAgIAogICAgICAgIC8vICAgICB9CiAgICAgICAgLy8gICAgIGVsZW1lbnQgInJlZGlzIiB7CiAgICAgICAgLy8gICAgICAgICBiYWNrZ3JvdW5kICMyMjhiMjIKICAgICAgICAvLyAgICAgICAgIHNoYXBlIEhleGFnb24KICAgICAgICAvLyAgICAgICAgIGZvbnRTaXplIDE2ICAgICAgICAgICAgICAgIAogICAgICAgIC8vICAgICB9CiAgICAgICAgLy8gICAgIGVsZW1lbnQgIkNvbnRhaW5lciIgewogICAgICAgIC8vICAgICAgICAgc2hhcGUgUm91bmRlZEJveAogICAgICAgIC8vICAgICAgICAgZm9udFNpemUgMTYgICAgICAgICAgICAgICAgCiAgICAgICAgLy8gICAgIH0KICAgICAgICAvLyAgICAgZWxlbWVudCAiQ29tcG9uZW50IiB7CiAgICAgICAgLy8gICAgICAgICBzaGFwZSBSb3VuZGVkQm94CiAgICAgICAgLy8gICAgICAgICBmb250U2l6ZSAxNiAgICAgICAgICAgICAgICAKICAgICAgICAvLyAgICAgfQogICAgICAgIC8vIH0KICAgIHRoZW1lIGh0dHBzOi8vc3RhdGljLnN0cnVjdHVyaXpyLmNvbS90aGVtZXMva3ViZXJuZXRlcy12MC4zL3RoZW1lLmpzb24KCiAgICB0ZXJtaW5vbG9neSB7CiAgICAgICAgZW50ZXJwcmlzZSBDbG91ZAogICAgLy8gcGVyc29uIEN1c3RvbWVyCiAgICAvLyBzb2Z0d2FyZVN5c3RlbSA8dGVybT4KICAgIC8vIGNvbnRhaW5lciA8dGVybT4KICAgIC8vIGNvbXBvbmVudCA8dGVybT4KICAgIC8vIGRlcGxveW1lbnROb2RlIDx0ZXJtPgogICAgLy8gaW5mcmFzdHJ1Y3R1cmVOb2RlIDx0ZXJtPgogICAgLy8gcmVsYXRpb25zaGlwIDx0ZXJtPgogICAgfQogICAgfQp9Cg=="
+  },
+  "configuration" : { },
+  "model" : {
+    "enterprise" : {
+      "name" : "Avant"
+    },
+    "people" : [ {
+      "id" : "1",
+      "tags" : "Element,Person,End Users",
+      "name" : "Customers",
+      "description" : "Anyone who uses Avant's loan, credit card, or banking systems.",
+      "relationships" : [ {
+        "id" : "12",
+        "tags" : "Relationship,cdnCache",
+        "sourceId" : "1",
+        "destinationId" : "2",
+        "description" : "uses web application with Chrome, Firefox, or Safari web browser",
+        "technology" : "https via cdn"
+      }, {
+        "id" : "11",
+        "tags" : "Relationship,cdnCache",
+        "sourceId" : "1",
+        "destinationId" : "2",
+        "description" : "uses mobile application with their IOS or Android device",
+        "technology" : "https vis cdn"
+      } ],
+      "location" : "External"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "50",
+      "tags" : "Element,Software System,domainService",
+      "name" : "Core Accounts",
+      "description" : "Core Accounts System",
+      "relationships" : [ {
+        "id" : "84",
+        "tags" : "Relationship,pdb",
+        "sourceId" : "50",
+        "destinationId" : "7",
+        "description" : "persists data",
+        "technology" : "django ORM"
+      }, {
+        "id" : "75",
+        "tags" : "Relationship,rpc",
+        "sourceId" : "50",
+        "destinationId" : "8",
+        "description" : "route to payment domain service via gateway",
+        "technology" : "grpc"
+      } ],
+      "group" : "Digital services communicate with each other via the gateway",
+      "location" : "Internal",
+      "containers" : [ {
+        "id" : "51",
+        "tags" : "Element,Container",
+        "name" : "Core Accounts APIs",
+        "description" : "The Core Accounts Services",
+        "technology" : "serviceApi",
+        "components" : [ {
+          "id" : "53",
+          "tags" : "Element,Component",
+          "name" : "FinancialAccount",
+          "description" : "Financial Account Service or API",
+          "size" : 0
+        }, {
+          "id" : "56",
+          "tags" : "Element,Component",
+          "name" : "CreditAccount",
+          "description" : "Credit Service or API",
+          "size" : 0
+        }, {
+          "id" : "55",
+          "tags" : "Element,Component",
+          "name" : "DDAAccount",
+          "description" : "DDA(ACH) Service or API",
+          "size" : 0
+        }, {
+          "id" : "57",
+          "tags" : "Element,Component",
+          "name" : "LoanAccount",
+          "description" : "Loan Service or API",
+          "size" : 0
+        }, {
+          "id" : "54",
+          "tags" : "Element,Component",
+          "name" : "Balance",
+          "description" : "Balance Service or API",
+          "size" : 0
+        }, {
+          "id" : "52",
+          "tags" : "Element,Component",
+          "name" : "CustomerAccountUser",
+          "description" : "Customer Account Service or API",
+          "size" : 0
+        }, {
+          "id" : "58",
+          "tags" : "Element,Component",
+          "name" : "CashAdvanceProgram",
+          "description" : "Cash Advance Program Service or API",
+          "size" : 0
+        } ]
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "3",
+      "tags" : "Element,Software System,mobileui",
+      "name" : "Mobile Application",
+      "description" : "IOS and Android device applications enabling customers use to access and manage Avant products and services",
+      "relationships" : [ {
+        "id" : "13",
+        "tags" : "Relationship,externalWeb",
+        "sourceId" : "3",
+        "destinationId" : "8",
+        "description" : "routes through",
+        "technology" : "https"
+      } ],
+      "group" : "User Applications",
+      "location" : "External",
+      "documentation" : { }
+    }, {
+      "id" : "4",
+      "tags" : "Element,Software System,webui",
+      "name" : "Website Application",
+      "description" : "HTML and Javascript website enabling customers use to access and manage Avant products and services",
+      "relationships" : [ {
+        "id" : "14",
+        "tags" : "Relationship,externalWeb",
+        "sourceId" : "4",
+        "destinationId" : "8",
+        "description" : "routes through",
+        "technology" : "https"
+      } ],
+      "group" : "User Applications",
+      "location" : "External",
+      "documentation" : { }
+    }, {
+      "id" : "59",
+      "tags" : "Element,Software System,partnerService",
+      "name" : "Fiserve Abstraction Applications",
+      "description" : "FiServe API and Services",
+      "relationships" : [ {
+        "id" : "76",
+        "tags" : "Relationship,rpc",
+        "sourceId" : "59",
+        "destinationId" : "8",
+        "description" : "route to fiserve service(s) via gateway",
+        "technology" : "grpc"
+      } ],
+      "group" : "Digital services communicate with each other via the gateway",
+      "location" : "Internal",
+      "containers" : [ {
+        "id" : "60",
+        "tags" : "Element,Container",
+        "name" : "Fiserve Application APIs",
+        "description" : "The FiServe Service Abstraction Layer",
+        "technology" : "partnerServiceApi",
+        "components" : [ {
+          "id" : "62",
+          "tags" : "Element,Component",
+          "name" : "FiserveAccount",
+          "description" : "Fiserve Account Service or API",
+          "size" : 0
+        }, {
+          "id" : "61",
+          "tags" : "Element,Component",
+          "name" : "FiserveBridge",
+          "description" : "Fiserve Bridge Service or API",
+          "size" : 0
+        } ]
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "33",
+      "tags" : "Element,Software System,domainService",
+      "name" : "Core Payments",
+      "description" : "Core Payment System",
+      "relationships" : [ {
+        "id" : "74",
+        "tags" : "Relationship,rpc",
+        "sourceId" : "33",
+        "destinationId" : "8",
+        "description" : "route to payment domain service via gateway",
+        "technology" : "grpc"
+      }, {
+        "id" : "81",
+        "tags" : "Relationship,pdb",
+        "sourceId" : "33",
+        "destinationId" : "7",
+        "description" : "persists data",
+        "technology" : "django ORM"
+      } ],
+      "group" : "Digital services communicate with each other via the gateway",
+      "location" : "Internal",
+      "containers" : [ {
+        "id" : "34",
+        "tags" : "Element,Container",
+        "name" : "Core Payments API",
+        "description" : "The Core Payments Services",
+        "technology" : "serviceApi",
+        "components" : [ {
+          "id" : "35",
+          "tags" : "Element,Component",
+          "name" : "ExternalAccount",
+          "description" : "External Account Service or API",
+          "size" : 0
+        }, {
+          "id" : "36",
+          "tags" : "Element,Component",
+          "name" : "ExternalBankAccount",
+          "description" : "External Bank Account Service or API",
+          "size" : 0
+        }, {
+          "id" : "37",
+          "tags" : "Element,Component",
+          "name" : "ExternalCardAccount",
+          "description" : "External Card Account Service or API",
+          "size" : 0
+        } ]
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "23",
+      "tags" : "Element,Software System,domainService",
+      "name" : "Customer Domain API",
+      "description" : "Abstraction layer that's familiar with all customer data sources.  Only exposes an Avant contract.",
+      "relationships" : [ {
+        "id" : "79",
+        "tags" : "Relationship,pdb",
+        "sourceId" : "23",
+        "destinationId" : "7",
+        "description" : "persists data",
+        "technology" : "django ORM"
+      }, {
+        "id" : "70",
+        "tags" : "Relationship,rpc",
+        "sourceId" : "23",
+        "destinationId" : "8",
+        "description" : "route to payment domain service via gateway",
+        "technology" : "grpc"
+      } ],
+      "group" : "Digital services communicate with each other via the gateway",
+      "location" : "Internal",
+      "containers" : [ {
+        "id" : "24",
+        "tags" : "Element,Container",
+        "name" : "Core Customer API",
+        "description" : "Service exposing core model attributes.",
+        "technology" : "serviceApi",
+        "components" : [ {
+          "id" : "28",
+          "tags" : "Element,Component",
+          "name" : "CustomerProductOnboardingStep",
+          "description" : "Links customers to products during the onboarding step.",
+          "group" : "Django Web Container",
+          "size" : 0
+        }, {
+          "id" : "25",
+          "tags" : "Element,Component",
+          "name" : "OnBoardingStep",
+          "description" : "A particular type of an onboarding step for a product. If enabled is True, then a CustomerOnboardingStep will be created for the\tCustomer when they are approved for a product.",
+          "group" : "Django Web Container",
+          "size" : 0
+        }, {
+          "id" : "27",
+          "tags" : "Element,Component",
+          "name" : "CustomerOnBoardingStep",
+          "description" : "Onboards customers into the core customer model.",
+          "group" : "Django Web Container",
+          "size" : 0
+        }, {
+          "id" : "26",
+          "tags" : "Element,Component",
+          "name" : "ProductOnBoardingStep",
+          "description" : "A particular type of an onboarding step for a product. If enabled is True, then a CustomerOnboardingStep will be created for the Customer when they are approved for a product.",
+          "group" : "Django Web Container",
+          "size" : 0
+        } ]
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "38",
+      "tags" : "Element,Software System,domainService",
+      "name" : "Core Card",
+      "description" : "Core Card System",
+      "relationships" : [ {
+        "id" : "82",
+        "tags" : "Relationship,pdb",
+        "sourceId" : "38",
+        "destinationId" : "7",
+        "description" : "persists data",
+        "technology" : "django ORM"
+      }, {
+        "id" : "72",
+        "tags" : "Relationship,rpc",
+        "sourceId" : "38",
+        "destinationId" : "8",
+        "description" : "route to payment domain service via gateway",
+        "technology" : "grpc"
+      } ],
+      "group" : "Digital services communicate with each other via the gateway",
+      "location" : "Internal",
+      "containers" : [ {
+        "id" : "39",
+        "tags" : "Element,Container",
+        "name" : "Core Card API",
+        "description" : "The Core Card Services",
+        "technology" : "serviceApi",
+        "components" : [ {
+          "id" : "41",
+          "tags" : "Element,Component",
+          "name" : "DebitCard",
+          "description" : "Debit Card Service or API",
+          "size" : 0
+        }, {
+          "id" : "40",
+          "tags" : "Element,Component",
+          "name" : "Card",
+          "description" : "Card Service or API",
+          "size" : 0
+        }, {
+          "id" : "42",
+          "tags" : "Element,Component",
+          "name" : "CreditCard",
+          "description" : "Credit Card Service or API",
+          "size" : 0
+        } ]
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "29",
+      "tags" : "Element,Software System,domainService",
+      "name" : "Product Domain API",
+      "description" : "Abstraction layer that's familiar with all product data sources.  Only exposes an Avant contract.",
+      "relationships" : [ {
+        "id" : "80",
+        "tags" : "Relationship,pdb",
+        "sourceId" : "29",
+        "destinationId" : "7",
+        "description" : "persists data",
+        "technology" : "django ORM"
+      }, {
+        "id" : "71",
+        "tags" : "Relationship,rpc",
+        "sourceId" : "29",
+        "destinationId" : "8",
+        "description" : "route to payment domain service via gateway",
+        "technology" : "grpc"
+      } ],
+      "group" : "Digital services communicate with each other via the gateway",
+      "location" : "Internal",
+      "containers" : [ {
+        "id" : "30",
+        "tags" : "Element,Container",
+        "name" : "Product API",
+        "description" : "Service exposing product model attributes.",
+        "technology" : "serviceApi",
+        "components" : [ {
+          "id" : "31",
+          "tags" : "Element,Component",
+          "name" : "Product",
+          "description" : "Product Service or API",
+          "size" : 0
+        }, {
+          "id" : "32",
+          "tags" : "Element,Component",
+          "name" : "ProductFeature",
+          "description" : "Product Feature Service or API",
+          "size" : 0
+        } ]
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "6",
+      "tags" : "Element,Software System,eventMessage,rabbitmq",
+      "name" : "RabbitMQ Messaging",
+      "description" : "Publish/Subscribe queuing solution",
+      "group" : "Messaging Solutions Confluent",
+      "location" : "External",
+      "documentation" : { }
+    }, {
+      "id" : "5",
+      "tags" : "Element,Software System,eventMessage,kafka",
+      "name" : "Kafka Messaging",
+      "description" : "Durable messsage queuing solution",
+      "group" : "Messaging Solutions Confluent",
+      "location" : "External",
+      "documentation" : { }
+    }, {
+      "id" : "7",
+      "tags" : "Element,Software System,DB",
+      "name" : "Managed PostgreSQL Database",
+      "description" : "Separate PostgreSQL instances for each service",
+      "group" : "Managed Database on GCP",
+      "location" : "External",
+      "documentation" : { }
+    }, {
+      "id" : "17",
+      "tags" : "Element,Software System,monolith",
+      "name" : "Avant Basic",
+      "description" : "Avant Basic ruby monolith",
+      "relationships" : [ {
+        "id" : "78",
+        "tags" : "Relationship,pdb",
+        "sourceId" : "17",
+        "destinationId" : "7",
+        "description" : "persists data",
+        "technology" : "Ruby ORM"
+      } ],
+      "group" : "Avant Basic",
+      "location" : "Internal",
+      "containers" : [ {
+        "id" : "18",
+        "tags" : "Element,Container",
+        "name" : "Avant Basic Web Application",
+        "description" : "Ruby monolith with multiple business domains",
+        "technology" : "monolith",
+        "components" : [ {
+          "id" : "19",
+          "tags" : "Element,Component",
+          "name" : "abloan",
+          "description" : "Avant loan domain",
+          "size" : 0
+        }, {
+          "id" : "21",
+          "tags" : "Element,Component",
+          "name" : "abcreditCard",
+          "description" : "Avant credit card domain",
+          "size" : 0
+        }, {
+          "id" : "22",
+          "tags" : "Element,Component",
+          "name" : "abdda",
+          "description" : "Avant ACH trainsaction support",
+          "size" : 0
+        }, {
+          "id" : "20",
+          "tags" : "Element,Component",
+          "name" : "abcrm",
+          "description" : "Avant crm domain",
+          "size" : 0
+        } ]
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "2",
+      "tags" : "Element,Software System,cdn",
+      "name" : "Content Deliver Network",
+      "description" : "Caches content closer to a user's location.",
+      "relationships" : [ {
+        "id" : "15",
+        "tags" : "Relationship,externalWeb",
+        "sourceId" : "2",
+        "destinationId" : "3",
+        "description" : "dynamic request pass through cdn",
+        "technology" : "https"
+      }, {
+        "id" : "16",
+        "tags" : "Relationship,externalWeb",
+        "sourceId" : "2",
+        "destinationId" : "4",
+        "description" : "dynamic requests pass through cdn",
+        "technology" : "https"
+      } ],
+      "location" : "External",
+      "documentation" : { }
+    }, {
+      "id" : "8",
+      "tags" : "Element,Software System,gateway",
+      "name" : "API Gateway Application",
+      "description" : "Vendor agnostic solution implemented in Ngnix and Lua that filters and routes API and web traffic.",
+      "relationships" : [ {
+        "id" : "63",
+        "tags" : "Relationship,internalWeb",
+        "sourceId" : "8",
+        "destinationId" : "17",
+        "description" : "route to Avant Basic application via gateway",
+        "technology" : "https"
+      }, {
+        "id" : "77",
+        "tags" : "Relationship,rpc",
+        "sourceId" : "8",
+        "destinationId" : "59",
+        "description" : "route from fiserve service(s) via gateway",
+        "technology" : "grpc"
+      }, {
+        "id" : "66",
+        "tags" : "Relationship,internalWeb",
+        "sourceId" : "8",
+        "destinationId" : "38",
+        "description" : "route to Avant Basic application via gateway",
+        "technology" : "https"
+      }, {
+        "id" : "64",
+        "tags" : "Relationship,internalWeb",
+        "sourceId" : "8",
+        "destinationId" : "23",
+        "description" : "route to customer domain service",
+        "technology" : "https"
+      }, {
+        "id" : "67",
+        "tags" : "Relationship,internalWeb",
+        "sourceId" : "8",
+        "destinationId" : "43",
+        "description" : "route to Avant Basic application via gateway",
+        "technology" : "https"
+      }, {
+        "id" : "65",
+        "tags" : "Relationship,internalWeb",
+        "sourceId" : "8",
+        "destinationId" : "29",
+        "description" : "route to product domain service",
+        "technology" : "https"
+      }, {
+        "id" : "68",
+        "tags" : "Relationship,internalWeb",
+        "sourceId" : "8",
+        "destinationId" : "33",
+        "description" : "route to Avant Basic application via gateway",
+        "technology" : "https"
+      }, {
+        "id" : "69",
+        "tags" : "Relationship,internalWeb",
+        "sourceId" : "8",
+        "destinationId" : "50",
+        "description" : "route to Avant Basic application via gateway",
+        "technology" : "https"
+      } ],
+      "group" : "API Gateway",
+      "location" : "Internal",
+      "containers" : [ {
+        "id" : "9",
+        "tags" : "Element,Container",
+        "name" : "Web Management Console",
+        "description" : "The console used by internal resources to configure API gateway functionality",
+        "technology" : "webConsole",
+        "components" : [ {
+          "id" : "10",
+          "tags" : "Element,Component",
+          "name" : "Plugin Architecture Components",
+          "size" : 0
+        } ]
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "43",
+      "tags" : "Element,Software System,domainService",
+      "name" : "Core Ledger",
+      "description" : "Core Ledger System",
+      "relationships" : [ {
+        "id" : "73",
+        "tags" : "Relationship,rpc",
+        "sourceId" : "43",
+        "destinationId" : "8",
+        "description" : "route to payment domain service via gateway",
+        "technology" : "grpc"
+      }, {
+        "id" : "83",
+        "tags" : "Relationship,pdb",
+        "sourceId" : "43",
+        "destinationId" : "7",
+        "description" : "persists data",
+        "technology" : "django ORM"
+      } ],
+      "group" : "Digital services communicate with each other via the gateway",
+      "location" : "Internal",
+      "containers" : [ {
+        "id" : "44",
+        "tags" : "Element,Container",
+        "name" : "Core Ledger APIs",
+        "description" : "The Core Ledger Services",
+        "technology" : "serviceApi",
+        "components" : [ {
+          "id" : "47",
+          "tags" : "Element,Component",
+          "name" : "CardTransaction",
+          "description" : "Card Transacton Service or API",
+          "size" : 0
+        }, {
+          "id" : "45",
+          "tags" : "Element,Component",
+          "name" : "Transaction",
+          "description" : "Transaction Service or API",
+          "size" : 0
+        }, {
+          "id" : "49",
+          "tags" : "Element,Component",
+          "name" : "GeneralAdjustment",
+          "description" : "General Adjustment Service or API",
+          "size" : 0
+        }, {
+          "id" : "48",
+          "tags" : "Element,Component",
+          "name" : "BankTransfer",
+          "description" : "Bank Transfer Service or API",
+          "size" : 0
+        }, {
+          "id" : "46",
+          "tags" : "Element,Component",
+          "name" : "LedgerEntry",
+          "description" : "Ledger Entry Service or API",
+          "size" : 0
+        } ]
+      } ],
+      "documentation" : { }
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemLandscapeViews" : [ {
+      "key" : "GatewayLandscape",
+      "order" : 1,
+      "paperSize" : "A4_Portrait",
+      "dimensions" : {
+        "width" : 1858,
+        "height" : 2870
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 729,
+        "y" : 208
+      }, {
+        "id" : "2",
+        "x" : 754,
+        "y" : 908
+      }, {
+        "id" : "3",
+        "x" : 1079,
+        "y" : 1558
+      }, {
+        "id" : "4",
+        "x" : 329,
+        "y" : 1558
+      }, {
+        "id" : "8",
+        "x" : 679,
+        "y" : 2154
+      } ],
+      "relationships" : [ {
+        "id" : "16"
+      }, {
+        "id" : "15"
+      }, {
+        "id" : "14"
+      }, {
+        "id" : "13"
+      }, {
+        "id" : "11",
+        "vertices" : [ {
+          "x" : 779,
+          "y" : 745
+        } ]
+      }, {
+        "id" : "12",
+        "vertices" : [ {
+          "x" : 1079,
+          "y" : 745
+        } ]
+      } ]
+    } ],
+    "systemContextViews" : [ {
+      "softwareSystemId" : "23",
+      "key" : "CoreCustomerDomain",
+      "order" : 5,
+      "paperSize" : "A4_Landscape",
+      "dimensions" : {
+        "width" : 2008,
+        "height" : 1766
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "23",
+        "x" : 433,
+        "y" : 433
+      }, {
+        "id" : "7",
+        "x" : 1229,
+        "y" : 1033
+      }, {
+        "id" : "8",
+        "x" : 433,
+        "y" : 1033
+      } ],
+      "relationships" : [ {
+        "id" : "70"
+      }, {
+        "id" : "64"
+      }, {
+        "id" : "79"
+      } ]
+    }, {
+      "softwareSystemId" : "59",
+      "key" : "FiserveDomain",
+      "order" : 17,
+      "paperSize" : "A5_Portrait",
+      "dimensions" : {
+        "width" : 1316,
+        "height" : 1766
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "59",
+        "x" : 433,
+        "y" : 433
+      }, {
+        "id" : "8",
+        "x" : 433,
+        "y" : 1033
+      } ],
+      "relationships" : [ {
+        "id" : "76"
+      }, {
+        "id" : "77"
+      } ]
+    }, {
+      "softwareSystemId" : "8",
+      "key" : "APIGatewayApplicationView",
+      "order" : 2,
+      "paperSize" : "A5_Landscape",
+      "dimensions" : {
+        "width" : 1858,
+        "height" : 1658
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "3",
+        "x" : 1079,
+        "y" : 329
+      }, {
+        "id" : "4",
+        "x" : 329,
+        "y" : 329
+      }, {
+        "id" : "8",
+        "x" : 679,
+        "y" : 925
+      } ],
+      "relationships" : [ {
+        "id" : "14"
+      }, {
+        "id" : "13"
+      } ]
+    }, {
+      "softwareSystemId" : "38",
+      "key" : "CardDomain",
+      "order" : 14,
+      "paperSize" : "A4_Landscape",
+      "dimensions" : {
+        "width" : 2008,
+        "height" : 1766
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "38",
+        "x" : 433,
+        "y" : 433
+      }, {
+        "id" : "7",
+        "x" : 1229,
+        "y" : 1033
+      }, {
+        "id" : "8",
+        "x" : 433,
+        "y" : 1033
+      } ],
+      "relationships" : [ {
+        "id" : "82"
+      }, {
+        "id" : "72"
+      }, {
+        "id" : "66"
+      } ]
+    }, {
+      "softwareSystemId" : "33",
+      "key" : "PaymentDomain",
+      "order" : 11,
+      "paperSize" : "A4_Landscape",
+      "dimensions" : {
+        "width" : 2008,
+        "height" : 1766
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "33",
+        "x" : 433,
+        "y" : 433
+      }, {
+        "id" : "7",
+        "x" : 1229,
+        "y" : 1033
+      }, {
+        "id" : "8",
+        "x" : 433,
+        "y" : 1033
+      } ],
+      "relationships" : [ {
+        "id" : "81"
+      }, {
+        "id" : "74"
+      }, {
+        "id" : "68"
+      } ]
+    }, {
+      "softwareSystemId" : "29",
+      "key" : "ProductDomain",
+      "order" : 8,
+      "paperSize" : "A4_Landscape",
+      "dimensions" : {
+        "width" : 2008,
+        "height" : 1766
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "29",
+        "x" : 400,
+        "y" : 369
+      }, {
+        "id" : "7",
+        "x" : 1196,
+        "y" : 969
+      }, {
+        "id" : "8",
+        "x" : 400,
+        "y" : 969
+      } ],
+      "relationships" : [ {
+        "id" : "80"
+      }, {
+        "id" : "71",
+        "vertices" : [ {
+          "x" : 475,
+          "y" : 819
+        } ]
+      }, {
+        "id" : "65",
+        "vertices" : [ {
+          "x" : 775,
+          "y" : 819
+        } ]
+      } ]
+    } ],
+    "containerViews" : [ {
+      "softwareSystemId" : "33",
+      "key" : "PaymentApi",
+      "order" : 12,
+      "paperSize" : "A6_Landscape",
+      "dimensions" : {
+        "width" : 1108,
+        "height" : 958
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "34",
+        "x" : 329,
+        "y" : 329
+      } ]
+    }, {
+      "softwareSystemId" : "59",
+      "key" : "FiserveApi",
+      "order" : 18,
+      "paperSize" : "A6_Landscape",
+      "dimensions" : {
+        "width" : 1108,
+        "height" : 958
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "60",
+        "x" : 329,
+        "y" : 329
+      } ]
+    }, {
+      "softwareSystemId" : "29",
+      "key" : "ProductApi",
+      "order" : 9,
+      "paperSize" : "A6_Landscape",
+      "dimensions" : {
+        "width" : 1108,
+        "height" : 958
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "30",
+        "x" : 329,
+        "y" : 329
+      } ]
+    }, {
+      "softwareSystemId" : "38",
+      "key" : "CardApi",
+      "order" : 15,
+      "paperSize" : "A6_Landscape",
+      "dimensions" : {
+        "width" : 1108,
+        "height" : 958
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "39",
+        "x" : 329,
+        "y" : 329
+      } ]
+    }, {
+      "softwareSystemId" : "23",
+      "key" : "CoreCustomerApi",
+      "order" : 6,
+      "paperSize" : "A6_Landscape",
+      "dimensions" : {
+        "width" : 1108,
+        "height" : 958
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "24",
+        "x" : 329,
+        "y" : 329
+      } ]
+    }, {
+      "softwareSystemId" : "8",
+      "key" : "KongManagementConsole",
+      "order" : 3,
+      "paperSize" : "A6_Landscape",
+      "dimensions" : {
+        "width" : 1108,
+        "height" : 958
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "9",
+        "x" : 329,
+        "y" : 329
+      } ]
+    } ],
+    "componentViews" : [ {
+      "description" : "The custom built and 3rd party plugins deployed in the Kong API gateway.",
+      "key" : "KongPlugins",
+      "order" : 4,
+      "paperSize" : "A6_Landscape",
+      "dimensions" : {
+        "width" : 1108,
+        "height" : 958
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "9",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "10",
+        "x" : 329,
+        "y" : 329
+      } ]
+    }, {
+      "description" : "The models supported in this service",
+      "key" : "CoreCustomerModels",
+      "order" : 7,
+      "paperSize" : "A3_Landscape",
+      "dimensions" : {
+        "width" : 3566,
+        "height" : 1166
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "24",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "25",
+        "x" : 2683,
+        "y" : 433
+      }, {
+        "id" : "26",
+        "x" : 1933,
+        "y" : 433
+      }, {
+        "id" : "27",
+        "x" : 1183,
+        "y" : 433
+      }, {
+        "id" : "28",
+        "x" : 433,
+        "y" : 433
+      } ]
+    }, {
+      "description" : "The models supported in this service",
+      "key" : "ProductModels",
+      "order" : 10,
+      "paperSize" : "A5_Landscape",
+      "dimensions" : {
+        "width" : 1858,
+        "height" : 958
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "30",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "31",
+        "x" : 1079,
+        "y" : 329
+      }, {
+        "id" : "32",
+        "x" : 329,
+        "y" : 329
+      } ]
+    }, {
+      "description" : "The APIs or Services supported in this service",
+      "key" : "CardAPIOrServices",
+      "order" : 16,
+      "paperSize" : "A4_Landscape",
+      "dimensions" : {
+        "width" : 2608,
+        "height" : 958
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "39",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "40",
+        "x" : 1829,
+        "y" : 329
+      }, {
+        "id" : "41",
+        "x" : 1079,
+        "y" : 329
+      }, {
+        "id" : "42",
+        "x" : 329,
+        "y" : 329
+      } ]
+    }, {
+      "description" : "The APIs or Services supported in this service",
+      "key" : "FiserveAPIOrServices",
+      "order" : 19,
+      "paperSize" : "A5_Landscape",
+      "dimensions" : {
+        "width" : 1858,
+        "height" : 958
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "60",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "61",
+        "x" : 1079,
+        "y" : 329
+      }, {
+        "id" : "62",
+        "x" : 329,
+        "y" : 329
+      } ]
+    }, {
+      "description" : "The APIs or Services supported in this service",
+      "key" : "PaymentAPIOrServices",
+      "order" : 13,
+      "paperSize" : "A4_Landscape",
+      "dimensions" : {
+        "width" : 2608,
+        "height" : 958
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "34",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "35",
+        "x" : 1829,
+        "y" : 329
+      }, {
+        "id" : "36",
+        "x" : 1079,
+        "y" : 329
+      }, {
+        "id" : "37",
+        "x" : 329,
+        "y" : 329
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "partnerService",
+          "background" : "#5f9ea0",
+          "fontSize" : 24,
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "partnerServiceApi",
+          "background" : "#5f9ea0",
+          "fontSize" : 24,
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "domainService",
+          "fontSize" : 24,
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "serviceApi",
+          "fontSize" : 24,
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "gateway",
+          "background" : "#fafad2",
+          "fontSize" : 24,
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "monolith",
+          "background" : "#ff8c00",
+          "fontSize" : 24,
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "eventMessage",
+          "fontSize" : 24,
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "Person",
+          "background" : "#4ec5f1",
+          "color" : "#ffffff",
+          "fontSize" : 16,
+          "shape" : "Person"
+        }, {
+          "tag" : "cdn",
+          "width" : 350,
+          "height" : 350,
+          "fontSize" : 16,
+          "shape" : "Circle"
+        }, {
+          "tag" : "mobileui",
+          "width" : 450,
+          "height" : 250,
+          "background" : "#3386b3",
+          "fontSize" : 16,
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "webui",
+          "width" : 450,
+          "height" : 250,
+          "background" : "#3386b3",
+          "fontSize" : 16,
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "DB",
+          "background" : "#deb887",
+          "fontSize" : 16,
+          "shape" : "Cylinder"
+        }, {
+          "tag" : "redis",
+          "background" : "#228b22",
+          "fontSize" : 16,
+          "shape" : "Hexagon"
+        }, {
+          "tag" : "Container",
+          "fontSize" : 16,
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "Component",
+          "fontSize" : 16,
+          "shape" : "RoundedBox"
+        } ],
+        "relationships" : [ {
+          "tag" : "cdnCache",
+          "color" : "#6495ed",
+          "style" : "Dotted",
+          "routing" : "Curved"
+        }, {
+          "tag" : "rpc",
+          "fontSize" : 16,
+          "style" : "Dotted",
+          "routing" : "Curved"
+        }, {
+          "tag" : "orm",
+          "color" : "#6495ed",
+          "fontSize" : 16,
+          "style" : "Dotted",
+          "routing" : "Curved"
+        } ]
+      },
+      "themes" : [ "https://static.structurizr.com/themes/kubernetes-v0.3/theme.json" ],
+      "terminology" : {
+        "enterprise" : "Cloud"
+      },
+      "lastSavedView" : "GatewayLandscape"
+    }
+  }
+}

@@ -1,9 +1,8 @@
 #!/bin/bash
 
-
-
 args=$@
 
+# The below variables are defaulted to generic structurizr values.  The workspace defaults to directory the script resides in when it's executed.
 workspace="."
 port="8080"
 name="strcturizr-development"
@@ -11,14 +10,18 @@ stop="structurizr"
 label="local"
 
 
-
+# This function will run the structurizr/lite container.  It will name, label, and define a workspace path the the container to mount 
+# in the container.  If more than one model is running at once, it will support specifying a separate port for the container. 
+# The label can be used to stop the container as well. See stopDevelopmentContainer() below.
 function startDevelopmentContainer() {
     echo "Starting Development Structurizr Container"
     echo "docker run -d --rm -l structurizr -l $workspace -l $label --name $name -p $port:8080 -v $(PWD):/usr/local/structurizr -e STRUCTURIZR_WORKSPACE_PATH=$workspace structurizr/lite"
+    docker pull structurizr/lite 
     docker run -d --rm -l structurizr -l $workspace -l $label --name $name -p $port:8080 -v $(PWD):/usr/local/structurizr -e STRUCTURIZR_WORKSPACE_PATH=$workspace structurizr/lite 
 }
 
-
+# This function will simplify cleaning up running containers.  Assuming you recall the label used when starting the container, 
+# one can specify --start [label] to stop the running container.
 function stopDevelopmentContainer(){
     echo "docker stop $(docker ps -q --filter "label=structurizr")"
     docker stop $(docker ps -q --filter "label=$stop")
@@ -71,7 +74,7 @@ function parseWorkspaceArg(){
 
 
 function echoHelp(){
-    echo "    Usage:\n  ./structurizr.sh --name [name of the container] --workspace [directory name of workspace] --port [optional port] \n  --help or --h will echo usage information."
+    echo "    Usage:\n  ./structurizr.sh --name [name of the container] --workspace [directory name of workspace] --port [optional port] --label [optional label/the label is used to find the correct container with the stop argument] \n  --help or --h will echo usage information."
     echo "      --name   must be unique if running multiple containers"
     echo "      --workspace   will create a sub-directory to house your dsl files"
     echo "      --port   must be unique if running mutiple containers"
