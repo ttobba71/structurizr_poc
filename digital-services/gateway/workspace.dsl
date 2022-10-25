@@ -16,6 +16,8 @@ workspace "API Gateway" {
         }        
         group "Messaging Solutions Confluent" {
             kafkaCluster = softwareSystem "Kafka Messaging" "Durable messsage queuing solution" "eventMessage,kafka" {
+                zookeeper = container "Apache Zookeeper" "A centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services" "zk"
+                kafka = container "Kafka Node" "A event streaming platform" "kafkaNode"
 
             }
 
@@ -47,10 +49,25 @@ workspace "API Gateway" {
             cdn -> mobileApp  "dynamic request pass through cdn" "https" "externalWeb"
             cdn -> webSite "dynamic requests pass through cdn" "https" "externalWeb"
 
-    }
+            development = deploymentEnvironment "Local Development" {
+                deploymentNode "Developer Laptop" {
+                    containerInstance kongApiGateway.kongManagement
+                    deploymentNode "Kafka Cluster" {
+                        containerInstance kafkaCluster.zookeeper
+                        containerInstance kafkaCluster.kafka
+                    }
+                }
+            }            
 
+    }
     views {
+        deployment * development {
+            include *
+            exclude cdn
+            autoLayout lr
+        }
         systemlandscape "GatewayLandscape" {
+            title "Shared Services and the API Gateway"
             include *
             //One must have a separate exclude or include statement for each grouping.
             exclude element.tag==kafka rabbitmq
@@ -59,8 +76,9 @@ workspace "API Gateway" {
         }
         //gateway
         systemContext kongApiGateway "APIGatewayApplicationView" {
-             include *
-             autoLayout
+            title "API Gateway and User Facing Applications"
+            include *
+            autoLayout
         }
         container kongApiGateway "KongManagementConsole" {
              include *
