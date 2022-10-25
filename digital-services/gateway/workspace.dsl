@@ -1,5 +1,7 @@
 workspace "API Gateway" {
 
+!identifiers hierarchical
+
     model {
         customer = person "Customers" "Anyone who uses Avant's loan, credit card, or banking systems." "End Users"
         cdn = softwareSystem "Content Deliver Network" "Caches content closer to a user's location." "cdn" {
@@ -64,7 +66,7 @@ workspace "API Gateway" {
              include *
              autoLayout
         }
-        component kongManagement "KongPlugins" "The custom built and 3rd party plugins deployed in the Kong API gateway." {
+        component kongApiGateway.kongManagement "KongPlugins" "The custom built and 3rd party plugins deployed in the Kong API gateway." {
              include *
              autoLayout
         }
