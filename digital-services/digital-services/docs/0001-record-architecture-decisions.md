@@ -1,14 +1,14 @@
 # 1. Record architecture decisions
 
-Date: 2022-10-12
+Date: 2022-10-24
 
 ## Status
 
-Accepted
+Demonstration
 
 ## Context
 
-We need to record the architectural decisions made on this project.
+As a demonstration, this file was created from initializing ADR decision records in the docs folder.  `adr init docs`
 
 ## Decision
 
