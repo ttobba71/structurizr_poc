@@ -1,4 +1,4 @@
-workspace "Account Opening" extends gateway.dsl {
+workspace "Account Opening" extends https://raw.githubusercontent.com/ttobba71/structurizr_poc/main/digital-services/gateway/workspace.dsl{
 
     model {
         group "Account Opening" {

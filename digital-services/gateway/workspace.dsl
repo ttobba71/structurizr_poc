@@ -1,4 +1,7 @@
-workspace "API Gateway" {
+!constant ORGANISATION_NAME "Avant"
+!constant GROUP_NAME "Engineering"
+
+workspace "Avant Gateway" "The high level architecture of customer entry and shared managed services." {
 
 !identifiers hierarchical
 
@@ -30,17 +33,15 @@ workspace "API Gateway" {
             }
         }
 
-
-        enterprise "Avant" {
-            group "API Gateway" {
-                kongApiGateway = softwareSystem "API Gateway Application" "Vendor agnostic solution implemented in Ngnix and Lua that filters and routes API and web traffic." "gateway" {
-                    kongManagement = container "Web Management Console" "The console used by internal resources to configure API gateway functionality" "webConsole" {
-                       kongPluginComponent = component "Plugin Architecture Components"
-                    }
+        group "API Gateway" {
+            kongApiGateway = softwareSystem "API Gateway Application" "Vendor agnostic solution implemented in Ngnix and Lua that filters and routes API and web traffic." "gateway" {
+                kongManagement = container "Web Management Console" "The console used by internal resources to configure API gateway functionality" "webConsole" {
+                    kongPluginComponent = component "Plugin Architecture Components"
                 }
-
             }
+
         }
+
             customer -> cdn "uses mobile application with their IOS or Android device" "https vis cdn" "cdnCache"
             customer -> cdn "uses web application with Chrome, Firefox, or Safari web browser" "https via cdn" "cdnCache"
 
@@ -89,7 +90,7 @@ workspace "API Gateway" {
              autoLayout
         }
 
-                styles {
+        styles {
             element "partnerService"{
                 shape RoundedBox                
                 fontSize 24
@@ -182,6 +183,9 @@ workspace "API Gateway" {
             element "Component" {
                 shape RoundedBox
                 fontSize 16                
+            }
+            element "future" {
+                background #228b22
             }
         }
     }

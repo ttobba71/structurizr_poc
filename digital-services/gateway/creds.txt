@@ -1,0 +1,4 @@
+api-key: d7d80566-be56-4627-b382-f97015fa7622
+api-secret: ed85273b-c540-4786-94a6-08d9cbda7120
+workspace-id: 2
+cli-args: -url https://structurizr-eks-kong-gzo6ajtw.dev.global.avant.com/api -id 2 -key d7d80566-be56-4627-b382-f97015fa7622 -secret ed85273b-c540-4786-94a6-08d9cbda7120

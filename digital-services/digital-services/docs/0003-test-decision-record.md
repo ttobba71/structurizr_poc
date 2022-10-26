@@ -1,6 +1,6 @@
-# 7. Account Opening API
+# 3. test decision record
 
-Date: 2022-10-12
+Date: 2022-10-25
 
 ## Status
 
@@ -8,7 +8,7 @@ Accepted
 
 ## Context
 
-The issue motivating this decision, and any context that influences or constrains the decision.
+Demo for Brian
 
 ## Decision
 

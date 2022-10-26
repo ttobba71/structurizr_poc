@@ -1,33 +1,16 @@
-// workspace "Core Services" "All the systems under the responsibility of the digital services group" {
-workspace extends https://structurizr-eks-kong-gzo6ajtw.dev.global.avant.com/share/2/69609e54-5aaf-4ad0-a160-077110ec3b24 {
+//
+//demo: on-premise publish command:  structurizr-cli push -merge false -url https://structurizr-eks-kong-gzo6ajtw.dev.global.avant.com/api -id 3 -key fb69921f-2a1c-42b0-bfaf-c76dc4150849 -secret 9c3680a7-719e-4e20-b7ed-82677f4cf679 -w workspace.dsl
+//
+
+workspace extends https://raw.githubusercontent.com/ttobba71/structurizr_poc/main/digital-services/gateway/workspace.dsl {
+    !adrs docs
+    !docs cli-docs
+    
+    // true will give the user less control over the relationships displayed
+    !impliedRelationships false  
+    
     model {
-
-            group "Managed Database on GCP" {
-                postgresDb = softwareSystem "N Number PostgreSQL" "Separate PostgreSQL Instance(s) for each Service" "DB" {
-                    
-                }
-            }
-
-            group "Messaging Solutions Confluent" {
-                kafkaCluster = softwareSystem "Kafka Messaging" "Durable messsage queuing solution" "eventMessage" {
-
-                }
-
-                rabbitMq = softwareSystem "RabbitMQ Messaging" "Publish/Subscribe queuing solution" "eventMessage" {
-
-                }
-            }
-
-
         enterprise "Avant" {
-            group "API Gateway" {
-                kongApiGateway = softwareSystem "API Gateway Application" "Vendor agnostic solution implemented in Ngnix and Lua that filters and routes API and web traffic." "gateway" {
-                    kongManagement = container "Web Management Console" "The console used by internal resources to configure API gateway functionality" "webConsole" {
-                       kongPluginComponent = component "Plugin Architecture Components"
-                    }
-                }
-
-            }
 
             group "Avant Basic" {
                 abDomain = softwareSystem "Avant Basic" "Avant Basic ruby monolith" "monolith" {
@@ -59,21 +42,21 @@ workspace extends https://structurizr-eks-kong-gzo6ajtw.dev.global.avant.com/sha
                     }
                 }
                 coreProductDomain = softwareSystem "Product Domain API" "Abstraction layer that's familiar with all product data sources.  Only exposes an Avant contract." "domainService" {
-                    coreProductService = container "Product API" "Service exposing product model attributes." "serviceApi" {
+                    coreProductService = container "Product API" "Service exposing product model attributes." "serviceApi,future" {
                         component Product "Product Service or API"
                         component ProductFeature "Product Feature Service or API"
                     }
                 }
 
                 corePaymentsDomain = softwareSystem "Core Payments" "Core Payment System" "domainService" {
-                    corePaymentService = container "Core Payments API" "The Core Payments Services" "serviceApi" {
+                    corePaymentService = container "Core Payments API" "The Core Payments Services" "serviceApi,future" {
                         component ExternalAccount "External Account Service or API"
                         component ExternalBankAccount "External Bank Account Service or API"
                         component ExternalCardAccount "External Card Account Service or API"
                     }
                 } 
                 coreCardDomain = softwareSystem "Core Card" "Core Card System" "domainService" {
-                    coreCardService = container "Core Card API" "The Core Card Services" "serviceApi" {
+                    coreCardService = container "Core Card API" "The Core Card Services" "serviceApi,future" {
                         component Card "Card Service or API"
                         component DebitCard "Debit Card Service or API"
                         component CreditCard "Credit Card Service or API"
@@ -81,7 +64,7 @@ workspace extends https://structurizr-eks-kong-gzo6ajtw.dev.global.avant.com/sha
                 } 
 
                 coreLedgerDomain = softwareSystem "Core Ledger" "Core Ledger System" "domainService" {
-                    coreLedgerService = container "Core Ledger APIs" "The Core Ledger Services" "serviceApi" {
+                    coreLedgerService = container "Core Ledger APIs" "The Core Ledger Services" "serviceApi,future" {
                         component Transaction "Transaction Service or API"
                         component LedgerEntry "Ledger Entry Service or API"
                         component CardTransaction "Card Transacton Service or API"
@@ -91,7 +74,7 @@ workspace extends https://structurizr-eks-kong-gzo6ajtw.dev.global.avant.com/sha
 
                 } 
                 coreAccountsDomain = softwareSystem "Core Accounts" "Core Accounts System" "domainService" {
-                    coreAccountsService = container "Core Accounts APIs" "The Core Accounts Services" "serviceApi" {
+                    coreAccountsService = container "Core Accounts APIs" "The Core Accounts Services" "serviceApi,future" {
                         component CustomerAccountUser "Customer Account Service or API"
                         component FinancialAccount "Financial Account Service or API"
                         component Balance "Balance Service or API"
@@ -144,6 +127,12 @@ workspace extends https://structurizr-eks-kong-gzo6ajtw.dev.global.avant.com/sha
 
             aoService -> kafkaCluster "produces messages" "avro" "qmsg"
             kafkaCluster -> aoService "consumes messages" "avro" "qmsg"
+
+            coreCardService -> kafkaCluster "produces messages" "avro" "qmsg"
+            kafkaCluster -> coreCardService "consumes messages" "avro" "qmsg"
+
+            //demo add kafka to core payments service and publish
+
         }
     }
 
@@ -151,20 +140,10 @@ workspace extends https://structurizr-eks-kong-gzo6ajtw.dev.global.avant.com/sha
         systemlandscape "DigitalServices" {
             include *
             exclude relationship.tag==rpc fiServeDomain
+            exclude element.tag==eventMessage,rabbitmq
+            exclude element.tag==eventMessage,kafka
+            autoLayout lr
 
-        }
-        //gateway
-        systemContext kongApiGateway "APIGatewayApplicationView" {
-             include *
-             autoLayout
-        }
-        container kongApiGateway "KongManagementConsole" {
-             include *
-             autoLayout
-        }
-        component kongManagement "KongPlugins" "The custom built and 3rd party plugins deployed in the Kong API gateway." {
-             include *
-             autoLayout
         }
         //customer
         systemContext coreCustomerDomain "CoreCustomerDomain" {
@@ -248,101 +227,6 @@ workspace extends https://structurizr-eks-kong-gzo6ajtw.dev.global.avant.com/sha
         }
 
 
-        styles {
-            element "partnerService"{
-                shape RoundedBox                
-                fontSize 24
-                background #5f9ea0
-            }
-            element "partnerServiceApi"{
-                shape RoundedBox                
-                fontSize 24                
-                background  #5f9ea0             
-            }
-
-            element "domainService"{
-                shape RoundedBox                
-                fontSize 24
-            }
-            element "serviceApi"{
-                shape RoundedBox                
-                fontSize 24                
-            }
-            element "gateway" {
-                shape RoundedBox                
-                fontSize 24
-                background  #fafad2             
-            }
-            element "monolith" {
-                shape RoundedBox                
-                fontSize 24                
-                background #ff8c00
-            }
-            element "eventMessage"{
-                shape RoundedBox                
-                fontSize 24                
-            }
-            element "Person" {
-                color #ffffff
-                background #4EC5F1
-                fontSize 16
-                shape Person
-            }
-            relationship "cdnCache"{
-                style dotted
-                color #6495ed
-                routing Curved
-            }
-            relationship "rpc"{
-                style dotted
-                routing Curved
-                fontSize 16                
-            }
-            relationship "orm"{
-                style dotted
-                routing Curved
-                color #6495ed
-                fontSize 16                
-            }
-            element "cdn" {
-                shape Circle
-                height 350
-                width 350
-                fontSize 16                
-            }
-            element "mobileui" {
-                shape RoundedBox
-                background #3386B3
-                height 250
-                width 450
-                fontSize 16                
-            }
-            element "webui" {
-                shape RoundedBox
-                background #3386B3
-                height 250
-                width 450
-                fontSize 16                
-            }
-            element "DB" {
-                shape Cylinder
-                background #deb887
-                fontSize 16                
-            }
-            element "redis" {
-                background #228b22
-                shape Hexagon
-                fontSize 16                
-            }
-            element "Container" {
-                shape RoundedBox
-                fontSize 16                
-            }
-            element "Component" {
-                shape RoundedBox
-                fontSize 16                
-            }
-        }
     theme https://static.structurizr.com/themes/kubernetes-v0.3/theme.json
 
     terminology {
