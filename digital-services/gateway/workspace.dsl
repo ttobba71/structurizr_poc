@@ -1,46 +1,55 @@
 !constant ORGANISATION_NAME "Avant"
 !constant GROUP_NAME "Engineering"
 
-workspace "Avant Gateway" "The high level architecture of customer entry and shared managed services." {
+workspace "Avant System Architecture" "The high level architecture of customer entry and shared managed services." {
 
 !identifiers hierarchical
 
     model {
         customer = person "Customers" "Anyone who uses Avant's loan, credit card, or banking systems." "End Users"
-        cdn = softwareSystem "Content Deliver Network" "Caches content closer to a user's location." "cdn" {
-        }
-        group "User Applications" {
-            mobileApp = softwareSystem "Mobile Application" "IOS and Android device applications enabling customers use to access and manage Avant products and services" "mobileui" {
 
-            }
-            webSite = softwareSystem "Website Application" "HTML and Javascript website enabling customers use to access and manage Avant products and services" "webui" {
+        !include cdn
+        !include kafka
+        !include kong
+        !include rabbit
+        !include userApplications
+        !include database
 
-            }
-        }        
-        group "Messaging Solutions Confluent" {
-            kafkaCluster = softwareSystem "Kafka Messaging" "Durable messsage queuing solution" "eventMessage,kafka" {
-                zookeeper = container "Apache Zookeeper" "A centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services" "zk"
-                kafka = container "Kafka Node" "A event streaming platform" "kafkaNode"
 
-            }
+        // cdn = softwareSystem "Content Deliver Network" "Caches content closer to a user's location." "cdn" {
+        // }
+        // group "User Applications" {
+        //     mobileApp = softwareSystem "Mobile Application" "IOS and Android device applications enabling customers use to access and manage Avant products and services" "mobileui" {
 
-            rabbitMq = softwareSystem "RabbitMQ Messaging" "Publish/Subscribe queuing solution" "eventMessage,rabbitmq" {
+        //     }
+        //     webSite = softwareSystem "Website Application" "HTML and Javascript website enabling customers use to access and manage Avant products and services" "webui" {
 
-            }
-        }
-        group "Managed Database on GCP" {
-            postgresDb = softwareSystem "Managed PostgreSQL Database" "Separate PostgreSQL instances for each service" "DB" {
-            }
-        }
+        //     }
+        // }        
+        // group "Messaging Solutions Confluent" {
+        //     kafkaCluster = softwareSystem "Kafka Messaging" "Durable messsage queuing solution" "eventMessage,kafka" {
+        //         zookeeper = container "Apache Zookeeper" "A centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services" "zk"
+        //         kafka = container "Kafka Node" "A event streaming platform" "kafkaNode"
 
-        group "API Gateway" {
-            kongApiGateway = softwareSystem "API Gateway Application" "Vendor agnostic solution implemented in Ngnix and Lua that filters and routes API and web traffic." "gateway" {
-                kongManagement = container "Web Management Console" "The console used by internal resources to configure API gateway functionality" "webConsole" {
-                    kongPluginComponent = component "Plugin Architecture Components"
-                }
-            }
+        //     }
 
-        }
+        //     rabbitMq = softwareSystem "RabbitMQ Messaging" "Publish/Subscribe queuing solution" "eventMessage,rabbitmq" {
+
+        //     }
+        // }
+        // group "Managed Database on GCP" {
+        //     postgresDb = softwareSystem "Managed PostgreSQL Database" "Separate PostgreSQL instances for each service" "DB" {
+        //     }
+        // }
+
+        // group "API Gateway" {
+        //     kongApiGateway = softwareSystem "API Gateway Application" "Vendor agnostic solution implemented in Ngnix and Lua that filters and routes API and web traffic." "gateway" {
+        //         kongManagement = container "Web Management Console" "The console used by internal resources to configure API gateway functionality" "webConsole" {
+        //             kongPluginComponent = component "Plugin Architecture Components"
+        //         }
+        //     }
+
+        // }
 
             customer -> cdn "uses mobile application with their IOS or Android device" "https vis cdn" "cdnCache"
             customer -> cdn "uses web application with Chrome, Firefox, or Safari web browser" "https via cdn" "cdnCache"
@@ -91,6 +100,9 @@ workspace "Avant Gateway" "The high level architecture of customer entry and sha
         }
 
         styles {
+            // element "serviceApi,future" {
+            //     background #ff8c00
+            // }
             element "partnerService"{
                 shape RoundedBox                
                 fontSize 24
@@ -106,10 +118,11 @@ workspace "Avant Gateway" "The high level architecture of customer entry and sha
                 shape RoundedBox                
                 fontSize 24
             }
-            element "serviceApi"{
-                shape RoundedBox                
-                fontSize 24                
-            }
+            // element "serviceApi"{
+            //     shape RoundedBox                
+            //     fontSize 24       
+            //     background #ff8c00                         
+            // }
             element "gateway" {
                 shape RoundedBox                
                 fontSize 24
@@ -178,15 +191,18 @@ workspace "Avant Gateway" "The high level architecture of customer entry and sha
             }
             element "Container" {
                 shape RoundedBox
-                fontSize 16                
+                fontSize 16     
             }
             element "Component" {
                 shape RoundedBox
                 fontSize 16                
             }
             element "future" {
-                background #228b22
+                background #add8e6                              
+                shape RoundedBox
+                fontSize 16                
             }
+
         }
     }
 
