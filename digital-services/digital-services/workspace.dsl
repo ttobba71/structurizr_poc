@@ -1,8 +1,10 @@
 //
 //demo: on-premise publish command:  structurizr-cli push -merge false -url https://structurizr-eks-kong-gzo6ajtw.dev.global.avant.com/api -id 3 -key fb69921f-2a1c-42b0-bfaf-c76dc4150849 -secret 9c3680a7-719e-4e20-b7ed-82677f4cf679 -w workspace.dsl
 //
+//!include shared/shared.dsl
 
-workspace extends https://raw.githubusercontent.com/ttobba71/structurizr_poc/main/digital-services/gateway/workspace.dsl {
+//workspace extends https://raw.githubusercontent.com/ttobba71/structurizr_poc/main/digital-services/gateway/workspace.dsl {
+workspace "Digital Services" {
     !adrs docs
     !docs cli-docs
     
@@ -11,6 +13,15 @@ workspace extends https://raw.githubusercontent.com/ttobba71/structurizr_poc/mai
     
     model {
         enterprise "Avant" {
+//https://raw.githubusercontent.com/ttobba71/structurizr_poc/main/digital-services/gateway/
+
+        !include https://raw.githubusercontent.com/ttobba71/structurizr_poc/main/digital-services/gateway/cdn/app.dsl
+        !include https://raw.githubusercontent.com/ttobba71/structurizr_poc/main/digital-services/gateway/kafka/app.dsl
+        !include https://raw.githubusercontent.com/ttobba71/structurizr_poc/main/digital-services/gateway/kong/app.dsl
+        !include https://raw.githubusercontent.com/ttobba71/structurizr_poc/main/digital-services/gateway/rabbit/app.dsl
+        !include https://raw.githubusercontent.com/ttobba71/structurizr_poc/main/digital-services/gateway/userApplications/app.dsl
+        !include https://raw.githubusercontent.com/ttobba71/structurizr_poc/main/digital-services/gateway/database/app.dsl
+
 
             group "Avant Basic" {
                 abDomain = softwareSystem "Avant Basic" "Avant Basic ruby monolith" "monolith" {
@@ -41,30 +52,30 @@ workspace extends https://raw.githubusercontent.com/ttobba71/structurizr_poc/mai
                        }
                     }
                 }
-                coreProductDomain = softwareSystem "Product Domain API" "Abstraction layer that's familiar with all product data sources.  Only exposes an Avant contract." "domainService" {
-                    coreProductService = container "Product API" "Service exposing product model attributes." "serviceApi,future" {
+                coreProductDomain = softwareSystem "Product Domain API" "Abstraction layer that's familiar with all product data sources.  Only exposes an Avant contract." "future" {
+                    coreProductService = container "Product API" "Service exposing product model attributes." "future" {
                         component Product "Product Service or API"
                         component ProductFeature "Product Feature Service or API"
                     }
                 }
 
-                corePaymentsDomain = softwareSystem "Core Payments" "Core Payment System" "domainService" {
-                    corePaymentService = container "Core Payments API" "The Core Payments Services" "serviceApi,future" {
+                corePaymentsDomain = softwareSystem "Core Payments" "Core Payment System" "future" {
+                    corePaymentService = container "Core Payments API" "The Core Payments Services" "future" {
                         component ExternalAccount "External Account Service or API"
                         component ExternalBankAccount "External Bank Account Service or API"
                         component ExternalCardAccount "External Card Account Service or API"
                     }
                 } 
-                coreCardDomain = softwareSystem "Core Card" "Core Card System" "domainService" {
-                    coreCardService = container "Core Card API" "The Core Card Services" "serviceApi,future" {
+                coreCardDomain = softwareSystem "Core Card" "Core Card System" "future" {
+                    coreCardService = container "Core Card API" "The Core Card Services" "future" {
                         component Card "Card Service or API"
                         component DebitCard "Debit Card Service or API"
                         component CreditCard "Credit Card Service or API"
                     }
                 } 
 
-                coreLedgerDomain = softwareSystem "Core Ledger" "Core Ledger System" "domainService" {
-                    coreLedgerService = container "Core Ledger APIs" "The Core Ledger Services" "serviceApi,future" {
+                coreLedgerDomain = softwareSystem "Core Ledger" "Core Ledger System" "future" {
+                    coreLedgerService = container "Core Ledger APIs" "The Core Ledger Services" "future" {
                         component Transaction "Transaction Service or API"
                         component LedgerEntry "Ledger Entry Service or API"
                         component CardTransaction "Card Transacton Service or API"
@@ -98,21 +109,20 @@ workspace extends https://raw.githubusercontent.com/ttobba71/structurizr_poc/mai
             kongApiGateway -> aoDomain "route to account opening domain service" "https" "internalWeb"
             kongApiGateway -> coreCustomerDomain "route to customer domain service" "https" "internalWeb"
             kongApiGateway -> coreProductDomain "route to product domain service" "https" "internalWeb"
-            kongApiGateway -> coreCardDomain "route to Avant Basic application via gateway" "https" "internalWeb"
-            kongApiGateway -> coreLedgerDomain "route to Avant Basic application via gateway" "https" "internalWeb"
-            kongApiGateway -> corePaymentsDomain "route to Avant Basic application via gateway" "https" "internalWeb"
-            kongApiGateway -> coreAccountsDomain "route to Avant Basic application via gateway" "https" "internalWeb"
+            kongApiGateway -> coreCardDomain "route to card domain service via gateway" "https" "internalWeb"
+            kongApiGateway -> coreLedgerDomain "route to ledger domain service via gateway" "https" "internalWeb"
+            kongApiGateway -> corePaymentsDomain "route to payment domain service via gateway" "https" "internalWeb"
+            kongApiGateway -> coreAccountsDomain "route to accounts domain service via gateway" "https" "internalWeb"
 
-            coreCustomerDomain -> kongApiGateway "route to payment domain service via gateway" "grpc" "rpc"
-            coreProductDomain -> kongApiGateway "route to payment domain service via gateway" "grpc" "rpc"            
-            coreCardDomain -> kongApiGateway "route to payment domain service via gateway" "grpc" "rpc"
-            coreLedgerDomain -> kongApiGateway "route to payment domain service via gateway" "grpc" "rpc"
+            coreCustomerDomain -> kongApiGateway "route to customer domain service via gateway" "grpc" "rpc"
+            coreProductDomain -> kongApiGateway "route to product domain service via gateway" "grpc" "rpc"            
+            coreCardDomain -> kongApiGateway "route to card domain service via gateway" "grpc" "rpc"
+            coreLedgerDomain -> kongApiGateway "route to ledger domain service via gateway" "grpc" "rpc"
             corePaymentsDomain -> kongApiGateway "route to payment domain service via gateway" "grpc" "rpc"
-            coreAccountsDomain -> kongApiGateway "route to payment domain service via gateway" "grpc" "rpc"                                                
+            coreAccountsDomain -> kongApiGateway "route to account domain service via gateway" "grpc" "rpc"                                                
 
-            fiServeDomain -> kongApiGateway "route to fiserve service(s) via gateway" "grpc" "rpc"                                                
-            kongApiGateway -> fiServeDomain "route from fiserve service(s) via gateway" "grpc" "rpc"                                                
-
+            coreAccountsDomain -> fiServeDomain  "route to fiserve service(s) via gateway" "grpc" "rpc"                                                
+            fiServeDomain -> coreAccountsDomain "route from fiserve service(s) via gateway" "grpc" "rpc"                                                
 
             aoDomain ->  postgresDb "persists data" "ORM" "pdb"
             abDomain ->  postgresDb "persists data" "Ruby ORM" "pdb"
@@ -126,10 +136,23 @@ workspace extends https://raw.githubusercontent.com/ttobba71/structurizr_poc/mai
             corePaymentsDomain -> postgresDb "persists data" "django ORM" "pdb"
 
             aoService -> kafkaCluster "produces messages" "avro" "qmsg"
+            fiServeDomain -> kafkaCluster "produces messages" "avro" "qmsg"
+            coreAccountsDomain -> kafkaCluster "produces messages" "avro" "qmsg"
+
             kafkaCluster -> aoService "consumes messages" "avro" "qmsg"
+            
 
             coreCardService -> kafkaCluster "produces messages" "avro" "qmsg"
             kafkaCluster -> coreCardService "consumes messages" "avro" "qmsg"
+
+            //included models
+            customer -> cdn "uses mobile application with their IOS or Android device" "https vis cdn" "cdnCache"
+            customer -> cdn "uses web application with Chrome, Firefox, or Safari web browser" "https via cdn" "cdnCache"
+            mobileApp -> kongApiGateway "routes through" "https" "externalWeb"
+            webSite -> kongApiGateway "routes through" "https" "externalWeb"
+            cdn -> mobileApp  "dynamic request pass through cdn" "https" "externalWeb"
+            cdn -> webSite "dynamic requests pass through cdn" "https" "externalWeb"
+
 
             //demo add kafka to core payments service and publish
 
@@ -211,6 +234,19 @@ workspace extends https://raw.githubusercontent.com/ttobba71/structurizr_poc/mai
              include *
              autoLayout
         }
+        //Card
+        systemContext coreAccountsDomain "AccountDomain" {
+             include *
+             autoLayout
+        }
+        container coreAccountsDomain "AccountApi" {
+             include *
+             autoLayout
+        }
+        component coreAccountsService "AccountAPIOrServices" "The APIs or Services supported in this service" {
+             include *
+             autoLayout
+        }
 
         //fiserve
         systemContext fiServeDomain "FiserveDomain" {
@@ -226,18 +262,12 @@ workspace extends https://raw.githubusercontent.com/ttobba71/structurizr_poc/mai
              autoLayout
         }
 
+    !include https://raw.githubusercontent.com/ttobba71/structurizr_poc/main/digital-services/gateway/styles/app.dsl
 
     theme https://static.structurizr.com/themes/kubernetes-v0.3/theme.json
 
     terminology {
         enterprise Cloud
-    // person Customer
-    // softwareSystem <term>
-    // container <term>
-    // component <term>
-    // deploymentNode <term>
-    // infrastructureNode <term>
-    // relationship <term>
     }
     }
 }
