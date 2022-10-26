@@ -3,7 +3,7 @@
   "name" : "Structurizr Engineering Workflow",
   "description" : "Description",
   "revision" : 0,
-  "lastModifiedDate" : "2022-10-26T05:24:03Z",
+  "lastModifiedDate" : "2022-10-26T05:44:27Z",
   "lastModifiedAgent" : "structurizr-web/2848/diagram",
   "properties" : {
     "structurizr.dsl" : "I3dvcmtzcGFjZSBleHRlbmRzIGh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS90dG9iYmE3MS9zdHJ1Y3R1cml6cl9wb2MvbWFpbi9kaWdpdGFsLXNlcnZpY2VzL2dhdGV3YXkvd29ya3NwYWNlLmRzbCB7CndvcmtzcGFjZSAiU3RydWN0dXJpenIgRW5naW5lZXJpbmcgV29ya2Zsb3ciIHsKICAgICFhZHJzIGRvY3MvYWRyCiAgICAhZG9jcyBkb2N1bWVudGF0aW9uCgogICAgbW9kZWwgewogICAgICAgIGVudGVycHJpc2UgIkF2YW50IEVuZ2luZWVyaW5nIiB7CiAgICAgICAgICAgIGRldmVsb3BlciA9IHBlcnNvbiAiRW5naW5lZXIiCiAgICAgICAgICAgIGdyb3VwICJFbmdpbmVlciBMYXB0b3AiIHsKICAgICAgICAgICAgICAgIGlkZSA9IHNvZnR3YXJlU3lzdGVtICJJREUgb2YgQ2hvaWNlIiAiUHlDaGFybSBvciBWUyBDb2RlIG9yIGFueSBJREUgb3IgZWRpdG9yIHRoYXQgc3VwcG9ydHMgZWRpdGluZyBZQU1MIGZpbGVzIGFuZCBjcmVhdGluZyBtYXJrZG93bi4iICJkZXZTeXN0ZW0iIHsKICAgICAgICAgICAgICAgICAgICBjb250YWluZXIgImFkciB1dGlsaXR5IiAiQWNoaXRlY3R1cmUgZGVjaXNpb24gcmVjb3JkIHV0aWxpdHkgdXNlZCBieSB0aGUgZW5naW5lZXJpbmcgdG8gZ2VuZXJhdGUgdGhlIGFyY2hpdGVjdHVyZSBkZWNpc2lvbiBsb2cuIiAiYWRyVG9vbCIgCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBzdHJ1Y3R1cml6ckxpdGUgPSBzb2Z0d2FyZVN5c3RlbSAiU3RydWN0dXJlIExpdGUgRG9ja2VyIENvbnRhaW5lciIgIkEgZG9ja2VyIGNvbnRhaW5lciB0aGF0IGNvbnRhaW5zIGEgc2ltcGxlIGNvbmZpZ3VyYXRpb24gb2YgdGhlIFN0cnVjdHVyaXpyIHNvZnR3YXJlLiAgVGhpcyBzb2Z0d2FyZSBpcyB1c2VkIHRvIHZhbGlkYXRlIGFuZCBwcmV2aWV3IGRzbCBmaWxlcyBsb2NhbGx5LiIgInN0cnVjdHVyaXpyTGl0ZSIgewoKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGFkciA9IHNvZnR3YXJlU3lzdGVtICJBcmNoaXRlY3R1cmUgRGVjaXNpb24gUmVjb3JkIFV0aWxpdHkiICJUaGUgYWRyIHV0aWxpdHkgY2FuIGJlIGluc3RhbGxlZCB1c2luZyBicmV3IGFuZCBlbmdpbmVlcnMgY2FuIHVzZSBpdCB0byBsb2cgYXJjaGl0ZWN0dXJhbCBkZWNpc2lvbnMuIiAiYWRyIiB7CiAgICAgICAgICAgICAgICB9IAogICAgICAgICAgICB9CiAgICAgICAgICAgIHN0cnVjdHVyaXpyT25QcmVtaXNlID0gc29mdHdhcmVTeXN0ZW0gIlN0cnVjdHVyZSBPblByZW1pc2UgQ29udGFpbmVyIiAiQSBkb2NrZXIgY29udGFpbmVyIHRoYXQgY29udGFpbnMgdGhlIG9uLXByZW1pc2UgU3RydWN0dXJpenIgc29mdHdhcmUuIiAic3RydWN0dXJpeiIgewogICAgICAgICAgICAgICAgc3RydWN0dXJpenJXYXIgPSBjb250YWluZXIgIlNwcmluZyBCb290IEphdmEgV2ViIEFwcGxpY2F0aW9uIiAiVGhlIFN0cnVjdHVyaXpyIHdlYiBhcHBsaWNhdGlvbiIgImphdmEiCiAgICAgICAgICAgICAgICBkYXRhYmFzZSA9IGNvbnRhaW5lciAiRGF0YWJhc2UiICJBc3N1bWVkIGRhdGFiYXNlIGFwcGxpY2F0aW9uIHVzZWQgdG8gcGVyc2lzdCBkYXRhLiIgInJkYiIKICAgICAgICAgICAgICAgIHMzT2JqZWN0ID0gY29udGFpbmVyICJTMyBPYmplY3QgU3RvcmFnZSIgIlMzIHN0b3JhZ2UiICJzMyIKICAgICAgICAgICAgfQoKCiAgICAgICAgfQoKICAgICAgICBnaXRIdWIgPSBzb2Z0d2FyZVN5c3RlbSAiR2l0SHViIFNvdXJjZSBDb250cm9sIiAiU291cmNlIGNvbnRyb2wgYW5kIENJL0NEIHNvbHV0aW9uIiAiZ2l0aHViIiB7CiAgICAgICAgICAgIGdpdGh1YkFjdGlvbiA9IGNvbnRhaW5lciAiR2l0SHViIEFjdGlvbiIgIkdpdEh1YiBBY3Rpb24gZXhlY3V0ZWQgb24gbWVyZ2UuIiAiczMiCiAgICAgICAgfQoKICAgICAgICBkZXZlbG9wZXIgLT4gaWRlICJDcmVhdGVzIERTTCBmaWxlIGNvbnRhaW5pbmcgbW9kZWwgYW5kIHZpZXdzLiIKICAgICAgICBkZXZlbG9wZXIgLT4gc3RydWN0dXJpenJMaXRlICJWYWxpZGF0ZXMgZHNsIGZpbGVzIGxvY2FsbHkgdXNpbmcuIgogICAgICAgIGRldmVsb3BlciAtPiBzdHJ1Y3R1cml6ck9uUHJlbWlzZSAiTWFudWFsIHB1c2hlcyB0byBkZXZlbG9wbWVudCBlbnZpcm9ubWVudC4iCiAgICAgICAgZGV2ZWxvcGVyIC0+IGdpdEh1YiAiUHVzaGVzIGNvZGUgdG8gcmVtb3RlIHJlcG8gYW5kIG9wZW5zIGEgcHVsbCByZXF1ZXN0LiIKICAgICAgICBkZXZlbG9wZXIgLT4gYWRyICJVc2VzIHVudGlsaXR5IHRvIGNyZWF0ZSBhcmNoaXRlY3R1cmUgZGVjaXNpb24gbG9nIGZpbGVzLiIgICAgIAogICAgICAgIGdpdEh1YiAtPiBzdHJ1Y3R1cml6ck9uUHJlbWlzZSAiT24gbWVyZ2UgR2l0SHViIEFjdGlvbiBwdXNoZXMgd29ya3NwYWNlLmRzbCBpbnRvIFN0cnVjdHVyaXpyLiIKCiAgICAgICAgc3RydWN0dXJpenJXYXIgLT4gZGF0YWJhc2UgIlBlcmZvcm1zIENSVUQgRGF0YSBPcGVyYXRpb25zLiIKCgogICAgICAgIGRldmVsb3BtZW50ID0gZGVwbG95bWVudEVudmlyb25tZW50ICJEZXZlbG9wbWVudCIgewogICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiQVdTIEVLUyIgIlRlcnJhZm9ybWVkIENsdXN0ZXIgYW5kIERlcGxveW1lbnQiICIiICJhd3Nla3MiIDEgewogICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkRvY2tlciBDb250YWluZXIiICJTdHJ1Y3R1cml6ciBPbi1QcmVtaXNlIENvbnRhaW5lciIgIiIgImRvY2tlciIgMSB7CiAgICAgICAgICAgICAgICAgICAgY29udGFpbmVySW5zdGFuY2Ugc3RydWN0dXJpenJXYXIKICAgICAgICAgICAgICAgICAgICBjb250YWluZXJJbnN0YW5jZSBkYXRhYmFzZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgaW5mcmFzdHJ1Y3R1cmVOb2RlICJzMyBPYmplY3QgU3RvcmFnZSIgIiIgIiIgInMzIiB7CiAgICAgICAgICAgICAgICB9ICAgICAgICAgICAgICAgCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgfQoKICAgIHZpZXdzIHsKICAgICAgICBzeXN0ZW1sYW5kc2NhcGUgZW5naW5lZXJpbmdMYXB0b3AgIkVuZ2luZWVyaW5nU3RydWN0dXJpenJMYW5kc2NhcGUiIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGF1dG9MYXlvdXQgdGIKICAgICAgICB9CiAgICAgICAgZGVwbG95bWVudCAqIGRldmVsb3BtZW50IHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGF1dG9MYXlvdXQgbHIKICAgICAgICB9CiAgICAgICAgc3lzdGVtQ29udGV4dCBpZGUgIkxvY2FsRGV2ZWxvcG1lbnRVdGlsaXR5IiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0IGxyCiAgICAgICAgfQogICAgICAgIHN5c3RlbUNvbnRleHQgc3RydWN0dXJpenJMaXRlICJMb2NhbFN0cnVjdHVyaXpyTGl0ZUNvbnRhaW5lciIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgYXV0b0xheW91dCBscgogICAgICAgIH0KICAgICAgICBzdHlsZXMgewogICAgICAgICAgICBlbGVtZW50ICJQZXJzb24iIHsKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzRFQzVGMQogICAgICAgICAgICAgICAgZm9udFNpemUgMTYKICAgICAgICAgICAgICAgIHNoYXBlIFBlcnNvbgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkVsZW1lbnQiIHsKICAgICAgICAgICAgICAgIHNoYXBlIFJvdW5kZWRCb3ggICAgICAgICAgICAgICAgCiAgICAgICAgICAgIH0KCiAgICAgICAgfQoKICAgIH0KCn0K"
@@ -18,11 +18,11 @@
       "tags" : "Element,Person",
       "name" : "Engineer",
       "relationships" : [ {
-        "id" : "15",
+        "id" : "16",
         "tags" : "Relationship",
         "sourceId" : "1",
-        "destinationId" : "10",
-        "description" : "Pushes code to remote repo and opens a pull request."
+        "destinationId" : "5",
+        "description" : "Uses untility to create architecture decision log files."
       }, {
         "id" : "12",
         "tags" : "Relationship",
@@ -36,77 +36,21 @@
         "destinationId" : "6",
         "description" : "Manual pushes to development environment."
       }, {
+        "id" : "15",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "10",
+        "description" : "Pushes code to remote repo and opens a pull request."
+      }, {
         "id" : "13",
         "tags" : "Relationship",
         "sourceId" : "1",
         "destinationId" : "4",
         "description" : "Validates dsl files locally using."
-      }, {
-        "id" : "16",
-        "tags" : "Relationship",
-        "sourceId" : "1",
-        "destinationId" : "5",
-        "description" : "Uses untility to create architecture decision log files."
       } ],
       "location" : "Internal"
     } ],
     "softwareSystems" : [ {
-      "id" : "2",
-      "tags" : "Element,Software System,devSystem",
-      "name" : "IDE of Choice",
-      "description" : "PyCharm or VS Code or any IDE or editor that supports editing YAML files and creating markdown.",
-      "group" : "Engineer Laptop",
-      "location" : "Internal",
-      "containers" : [ {
-        "id" : "3",
-        "tags" : "Element,Container",
-        "name" : "adr utility",
-        "description" : "Achitecture decision record utility used by the engineering to generate the architecture decision log.",
-        "technology" : "adrTool"
-      } ],
-      "documentation" : { }
-    }, {
-      "id" : "4",
-      "tags" : "Element,Software System,structurizrLite",
-      "name" : "Structure Lite Docker Container",
-      "description" : "A docker container that contains a simple configuration of the Structurizr software.  This software is used to validate and preview dsl files locally.",
-      "group" : "Engineer Laptop",
-      "location" : "Internal",
-      "documentation" : { }
-    }, {
-      "id" : "6",
-      "tags" : "Element,Software System,structuriz",
-      "name" : "Structure OnPremise Container",
-      "description" : "A docker container that contains the on-premise Structurizr software.",
-      "location" : "Internal",
-      "containers" : [ {
-        "id" : "9",
-        "tags" : "Element,Container",
-        "name" : "S3 Object Storage",
-        "description" : "S3 storage",
-        "technology" : "s3"
-      }, {
-        "id" : "7",
-        "tags" : "Element,Container",
-        "name" : "Spring Boot Java Web Application",
-        "description" : "The Structurizr web application",
-        "relationships" : [ {
-          "id" : "18",
-          "tags" : "Relationship",
-          "sourceId" : "7",
-          "destinationId" : "8",
-          "description" : "Performs CRUD Data Operations."
-        } ],
-        "technology" : "java"
-      }, {
-        "id" : "8",
-        "tags" : "Element,Container",
-        "name" : "Database",
-        "description" : "Assumed database application used to persist data.",
-        "technology" : "rdb"
-      } ],
-      "documentation" : { }
-    }, {
       "id" : "10",
       "tags" : "Element,Software System,github",
       "name" : "GitHub Source Control",
@@ -128,12 +72,68 @@
       } ],
       "documentation" : { }
     }, {
+      "id" : "2",
+      "tags" : "Element,Software System,devSystem",
+      "name" : "IDE of Choice",
+      "description" : "PyCharm or VS Code or any IDE or editor that supports editing YAML files and creating markdown.",
+      "group" : "Engineer Laptop",
+      "location" : "Internal",
+      "containers" : [ {
+        "id" : "3",
+        "tags" : "Element,Container",
+        "name" : "adr utility",
+        "description" : "Achitecture decision record utility used by the engineering to generate the architecture decision log.",
+        "technology" : "adrTool"
+      } ],
+      "documentation" : { }
+    }, {
       "id" : "5",
       "tags" : "Element,Software System,adr",
       "name" : "Architecture Decision Record Utility",
       "description" : "The adr utility can be installed using brew and engineers can use it to log architectural decisions.",
       "group" : "Engineer Laptop",
       "location" : "Internal",
+      "documentation" : { }
+    }, {
+      "id" : "4",
+      "tags" : "Element,Software System,structurizrLite",
+      "name" : "Structure Lite Docker Container",
+      "description" : "A docker container that contains a simple configuration of the Structurizr software.  This software is used to validate and preview dsl files locally.",
+      "group" : "Engineer Laptop",
+      "location" : "Internal",
+      "documentation" : { }
+    }, {
+      "id" : "6",
+      "tags" : "Element,Software System,structuriz",
+      "name" : "Structure OnPremise Container",
+      "description" : "A docker container that contains the on-premise Structurizr software.",
+      "location" : "Internal",
+      "containers" : [ {
+        "id" : "7",
+        "tags" : "Element,Container",
+        "name" : "Spring Boot Java Web Application",
+        "description" : "The Structurizr web application",
+        "relationships" : [ {
+          "id" : "18",
+          "tags" : "Relationship",
+          "sourceId" : "7",
+          "destinationId" : "8",
+          "description" : "Performs CRUD Data Operations."
+        } ],
+        "technology" : "java"
+      }, {
+        "id" : "8",
+        "tags" : "Element,Container",
+        "name" : "Database",
+        "description" : "Assumed database application used to persist data.",
+        "technology" : "rdb"
+      }, {
+        "id" : "9",
+        "tags" : "Element,Container",
+        "name" : "S3 Object Storage",
+        "description" : "S3 storage",
+        "technology" : "s3"
+      } ],
       "documentation" : { }
     } ],
     "deploymentNodes" : [ {

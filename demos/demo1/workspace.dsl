@@ -1,5 +1,5 @@
-workspace extends https://raw.githubusercontent.com/ttobba71/structurizr_poc/main/digital-services/gateway/workspace.dsl {
-#workspace "Structurizr Engineering Workflow" {
+#workspace extends https://raw.githubusercontent.com/ttobba71/structurizr_poc/main/digital-services/gateway/workspace.dsl {
+workspace "Structurizr Engineering Workflow" {
     !adrs docs/adr
     !docs documentation
 

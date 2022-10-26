@@ -50,23 +50,23 @@ workspace "Avant Gateway" "The high level architecture of customer entry and sha
             cdn -> mobileApp  "dynamic request pass through cdn" "https" "externalWeb"
             cdn -> webSite "dynamic requests pass through cdn" "https" "externalWeb"
 
-            developmentEnv = deploymentEnvironment "Local Development" {
-                deploymentNode "Developer Laptop" {
-                    containerInstance kongApiGateway.kongManagement
-                    deploymentNode "Kafka Cluster" {
-                        containerInstance kafkaCluster.zookeeper
-                        containerInstance kafkaCluster.kafka
-                    }
-                }
-            }            
+            // developmentEnv = deploymentEnvironment "Local Development" {
+            //     deploymentNode "Developer Laptop" {
+            //         containerInstance kongApiGateway.kongManagement
+            //         deploymentNode "Kafka Cluster" {
+            //             containerInstance kafkaCluster.zookeeper
+            //             containerInstance kafkaCluster.kafka
+            //         }
+            //     }
+            // }            
 
     }
     views {
-        deployment * developmentEnv {
-            include *
-            exclude cdn
-            autoLayout lr
-        }
+        // deployment * developmentEnv {
+        //     include *
+        //     exclude cdn
+        //     autoLayout lr
+        // }
         systemlandscape "GatewayLandscape" {
             title "Shared Services and the API Gateway"
             include *
