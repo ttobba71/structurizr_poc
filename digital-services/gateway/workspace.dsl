@@ -50,7 +50,7 @@ workspace "Avant Gateway" "The high level architecture of customer entry and sha
             cdn -> mobileApp  "dynamic request pass through cdn" "https" "externalWeb"
             cdn -> webSite "dynamic requests pass through cdn" "https" "externalWeb"
 
-            development = deploymentEnvironment "Local Development" {
+            developmentEnv = deploymentEnvironment "Local Development" {
                 deploymentNode "Developer Laptop" {
                     containerInstance kongApiGateway.kongManagement
                     deploymentNode "Kafka Cluster" {
@@ -62,7 +62,7 @@ workspace "Avant Gateway" "The high level architecture of customer entry and sha
 
     }
     views {
-        deployment * development {
+        deployment * developmentEnv {
             include *
             exclude cdn
             autoLayout lr
