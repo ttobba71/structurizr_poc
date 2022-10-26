@@ -1,0 +1,1 @@
+        customer = person "Customers" "Anyone who uses Avant's loan, credit card, or banking systems." "End Users"
