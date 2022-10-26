@@ -1,0 +1,5 @@
+Workspace ID: 4
+API URL: https://structurizr-eks-kong-gzo6ajtw.dev.global.avant.com/api
+API key: f2e09ea8-2532-4581-9061-92e0ee1741cf
+API secret: 4ebbc26a-6d57-40ae-85a5-d5e82a057ccd
+Structurizr CLI: -url https://structurizr-eks-kong-gzo6ajtw.dev.global.avant.com/api -id 4 -key f2e09ea8-2532-4581-9061-92e0ee1741cf -secret 4ebbc26a-6d57-40ae-85a5-d5e82a057ccd

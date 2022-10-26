@@ -1,0 +1,399 @@
+{
+  "id" : 1,
+  "name" : "Structurizr Engineering Workflow",
+  "description" : "Description",
+  "revision" : 0,
+  "lastModifiedDate" : "2022-10-26T05:24:03Z",
+  "lastModifiedAgent" : "structurizr-web/2848/diagram",
+  "properties" : {
+    "structurizr.dsl" : "I3dvcmtzcGFjZSBleHRlbmRzIGh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS90dG9iYmE3MS9zdHJ1Y3R1cml6cl9wb2MvbWFpbi9kaWdpdGFsLXNlcnZpY2VzL2dhdGV3YXkvd29ya3NwYWNlLmRzbCB7CndvcmtzcGFjZSAiU3RydWN0dXJpenIgRW5naW5lZXJpbmcgV29ya2Zsb3ciIHsKICAgICFhZHJzIGRvY3MvYWRyCiAgICAhZG9jcyBkb2N1bWVudGF0aW9uCgogICAgbW9kZWwgewogICAgICAgIGVudGVycHJpc2UgIkF2YW50IEVuZ2luZWVyaW5nIiB7CiAgICAgICAgICAgIGRldmVsb3BlciA9IHBlcnNvbiAiRW5naW5lZXIiCiAgICAgICAgICAgIGdyb3VwICJFbmdpbmVlciBMYXB0b3AiIHsKICAgICAgICAgICAgICAgIGlkZSA9IHNvZnR3YXJlU3lzdGVtICJJREUgb2YgQ2hvaWNlIiAiUHlDaGFybSBvciBWUyBDb2RlIG9yIGFueSBJREUgb3IgZWRpdG9yIHRoYXQgc3VwcG9ydHMgZWRpdGluZyBZQU1MIGZpbGVzIGFuZCBjcmVhdGluZyBtYXJrZG93bi4iICJkZXZTeXN0ZW0iIHsKICAgICAgICAgICAgICAgICAgICBjb250YWluZXIgImFkciB1dGlsaXR5IiAiQWNoaXRlY3R1cmUgZGVjaXNpb24gcmVjb3JkIHV0aWxpdHkgdXNlZCBieSB0aGUgZW5naW5lZXJpbmcgdG8gZ2VuZXJhdGUgdGhlIGFyY2hpdGVjdHVyZSBkZWNpc2lvbiBsb2cuIiAiYWRyVG9vbCIgCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBzdHJ1Y3R1cml6ckxpdGUgPSBzb2Z0d2FyZVN5c3RlbSAiU3RydWN0dXJlIExpdGUgRG9ja2VyIENvbnRhaW5lciIgIkEgZG9ja2VyIGNvbnRhaW5lciB0aGF0IGNvbnRhaW5zIGEgc2ltcGxlIGNvbmZpZ3VyYXRpb24gb2YgdGhlIFN0cnVjdHVyaXpyIHNvZnR3YXJlLiAgVGhpcyBzb2Z0d2FyZSBpcyB1c2VkIHRvIHZhbGlkYXRlIGFuZCBwcmV2aWV3IGRzbCBmaWxlcyBsb2NhbGx5LiIgInN0cnVjdHVyaXpyTGl0ZSIgewoKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGFkciA9IHNvZnR3YXJlU3lzdGVtICJBcmNoaXRlY3R1cmUgRGVjaXNpb24gUmVjb3JkIFV0aWxpdHkiICJUaGUgYWRyIHV0aWxpdHkgY2FuIGJlIGluc3RhbGxlZCB1c2luZyBicmV3IGFuZCBlbmdpbmVlcnMgY2FuIHVzZSBpdCB0byBsb2cgYXJjaGl0ZWN0dXJhbCBkZWNpc2lvbnMuIiAiYWRyIiB7CiAgICAgICAgICAgICAgICB9IAogICAgICAgICAgICB9CiAgICAgICAgICAgIHN0cnVjdHVyaXpyT25QcmVtaXNlID0gc29mdHdhcmVTeXN0ZW0gIlN0cnVjdHVyZSBPblByZW1pc2UgQ29udGFpbmVyIiAiQSBkb2NrZXIgY29udGFpbmVyIHRoYXQgY29udGFpbnMgdGhlIG9uLXByZW1pc2UgU3RydWN0dXJpenIgc29mdHdhcmUuIiAic3RydWN0dXJpeiIgewogICAgICAgICAgICAgICAgc3RydWN0dXJpenJXYXIgPSBjb250YWluZXIgIlNwcmluZyBCb290IEphdmEgV2ViIEFwcGxpY2F0aW9uIiAiVGhlIFN0cnVjdHVyaXpyIHdlYiBhcHBsaWNhdGlvbiIgImphdmEiCiAgICAgICAgICAgICAgICBkYXRhYmFzZSA9IGNvbnRhaW5lciAiRGF0YWJhc2UiICJBc3N1bWVkIGRhdGFiYXNlIGFwcGxpY2F0aW9uIHVzZWQgdG8gcGVyc2lzdCBkYXRhLiIgInJkYiIKICAgICAgICAgICAgICAgIHMzT2JqZWN0ID0gY29udGFpbmVyICJTMyBPYmplY3QgU3RvcmFnZSIgIlMzIHN0b3JhZ2UiICJzMyIKICAgICAgICAgICAgfQoKCiAgICAgICAgfQoKICAgICAgICBnaXRIdWIgPSBzb2Z0d2FyZVN5c3RlbSAiR2l0SHViIFNvdXJjZSBDb250cm9sIiAiU291cmNlIGNvbnRyb2wgYW5kIENJL0NEIHNvbHV0aW9uIiAiZ2l0aHViIiB7CiAgICAgICAgICAgIGdpdGh1YkFjdGlvbiA9IGNvbnRhaW5lciAiR2l0SHViIEFjdGlvbiIgIkdpdEh1YiBBY3Rpb24gZXhlY3V0ZWQgb24gbWVyZ2UuIiAiczMiCiAgICAgICAgfQoKICAgICAgICBkZXZlbG9wZXIgLT4gaWRlICJDcmVhdGVzIERTTCBmaWxlIGNvbnRhaW5pbmcgbW9kZWwgYW5kIHZpZXdzLiIKICAgICAgICBkZXZlbG9wZXIgLT4gc3RydWN0dXJpenJMaXRlICJWYWxpZGF0ZXMgZHNsIGZpbGVzIGxvY2FsbHkgdXNpbmcuIgogICAgICAgIGRldmVsb3BlciAtPiBzdHJ1Y3R1cml6ck9uUHJlbWlzZSAiTWFudWFsIHB1c2hlcyB0byBkZXZlbG9wbWVudCBlbnZpcm9ubWVudC4iCiAgICAgICAgZGV2ZWxvcGVyIC0+IGdpdEh1YiAiUHVzaGVzIGNvZGUgdG8gcmVtb3RlIHJlcG8gYW5kIG9wZW5zIGEgcHVsbCByZXF1ZXN0LiIKICAgICAgICBkZXZlbG9wZXIgLT4gYWRyICJVc2VzIHVudGlsaXR5IHRvIGNyZWF0ZSBhcmNoaXRlY3R1cmUgZGVjaXNpb24gbG9nIGZpbGVzLiIgICAgIAogICAgICAgIGdpdEh1YiAtPiBzdHJ1Y3R1cml6ck9uUHJlbWlzZSAiT24gbWVyZ2UgR2l0SHViIEFjdGlvbiBwdXNoZXMgd29ya3NwYWNlLmRzbCBpbnRvIFN0cnVjdHVyaXpyLiIKCiAgICAgICAgc3RydWN0dXJpenJXYXIgLT4gZGF0YWJhc2UgIlBlcmZvcm1zIENSVUQgRGF0YSBPcGVyYXRpb25zLiIKCgogICAgICAgIGRldmVsb3BtZW50ID0gZGVwbG95bWVudEVudmlyb25tZW50ICJEZXZlbG9wbWVudCIgewogICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiQVdTIEVLUyIgIlRlcnJhZm9ybWVkIENsdXN0ZXIgYW5kIERlcGxveW1lbnQiICIiICJhd3Nla3MiIDEgewogICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkRvY2tlciBDb250YWluZXIiICJTdHJ1Y3R1cml6ciBPbi1QcmVtaXNlIENvbnRhaW5lciIgIiIgImRvY2tlciIgMSB7CiAgICAgICAgICAgICAgICAgICAgY29udGFpbmVySW5zdGFuY2Ugc3RydWN0dXJpenJXYXIKICAgICAgICAgICAgICAgICAgICBjb250YWluZXJJbnN0YW5jZSBkYXRhYmFzZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgaW5mcmFzdHJ1Y3R1cmVOb2RlICJzMyBPYmplY3QgU3RvcmFnZSIgIiIgIiIgInMzIiB7CiAgICAgICAgICAgICAgICB9ICAgICAgICAgICAgICAgCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgfQoKICAgIHZpZXdzIHsKICAgICAgICBzeXN0ZW1sYW5kc2NhcGUgZW5naW5lZXJpbmdMYXB0b3AgIkVuZ2luZWVyaW5nU3RydWN0dXJpenJMYW5kc2NhcGUiIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGF1dG9MYXlvdXQgdGIKICAgICAgICB9CiAgICAgICAgZGVwbG95bWVudCAqIGRldmVsb3BtZW50IHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGF1dG9MYXlvdXQgbHIKICAgICAgICB9CiAgICAgICAgc3lzdGVtQ29udGV4dCBpZGUgIkxvY2FsRGV2ZWxvcG1lbnRVdGlsaXR5IiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0IGxyCiAgICAgICAgfQogICAgICAgIHN5c3RlbUNvbnRleHQgc3RydWN0dXJpenJMaXRlICJMb2NhbFN0cnVjdHVyaXpyTGl0ZUNvbnRhaW5lciIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgYXV0b0xheW91dCBscgogICAgICAgIH0KICAgICAgICBzdHlsZXMgewogICAgICAgICAgICBlbGVtZW50ICJQZXJzb24iIHsKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzRFQzVGMQogICAgICAgICAgICAgICAgZm9udFNpemUgMTYKICAgICAgICAgICAgICAgIHNoYXBlIFBlcnNvbgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkVsZW1lbnQiIHsKICAgICAgICAgICAgICAgIHNoYXBlIFJvdW5kZWRCb3ggICAgICAgICAgICAgICAgCiAgICAgICAgICAgIH0KCiAgICAgICAgfQoKICAgIH0KCn0K"
+  },
+  "configuration" : { },
+  "model" : {
+    "enterprise" : {
+      "name" : "Avant Engineering"
+    },
+    "people" : [ {
+      "id" : "1",
+      "tags" : "Element,Person",
+      "name" : "Engineer",
+      "relationships" : [ {
+        "id" : "15",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "10",
+        "description" : "Pushes code to remote repo and opens a pull request."
+      }, {
+        "id" : "12",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "2",
+        "description" : "Creates DSL file containing model and views."
+      }, {
+        "id" : "14",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "6",
+        "description" : "Manual pushes to development environment."
+      }, {
+        "id" : "13",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "4",
+        "description" : "Validates dsl files locally using."
+      }, {
+        "id" : "16",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "5",
+        "description" : "Uses untility to create architecture decision log files."
+      } ],
+      "location" : "Internal"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "2",
+      "tags" : "Element,Software System,devSystem",
+      "name" : "IDE of Choice",
+      "description" : "PyCharm or VS Code or any IDE or editor that supports editing YAML files and creating markdown.",
+      "group" : "Engineer Laptop",
+      "location" : "Internal",
+      "containers" : [ {
+        "id" : "3",
+        "tags" : "Element,Container",
+        "name" : "adr utility",
+        "description" : "Achitecture decision record utility used by the engineering to generate the architecture decision log.",
+        "technology" : "adrTool"
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "4",
+      "tags" : "Element,Software System,structurizrLite",
+      "name" : "Structure Lite Docker Container",
+      "description" : "A docker container that contains a simple configuration of the Structurizr software.  This software is used to validate and preview dsl files locally.",
+      "group" : "Engineer Laptop",
+      "location" : "Internal",
+      "documentation" : { }
+    }, {
+      "id" : "6",
+      "tags" : "Element,Software System,structuriz",
+      "name" : "Structure OnPremise Container",
+      "description" : "A docker container that contains the on-premise Structurizr software.",
+      "location" : "Internal",
+      "containers" : [ {
+        "id" : "9",
+        "tags" : "Element,Container",
+        "name" : "S3 Object Storage",
+        "description" : "S3 storage",
+        "technology" : "s3"
+      }, {
+        "id" : "7",
+        "tags" : "Element,Container",
+        "name" : "Spring Boot Java Web Application",
+        "description" : "The Structurizr web application",
+        "relationships" : [ {
+          "id" : "18",
+          "tags" : "Relationship",
+          "sourceId" : "7",
+          "destinationId" : "8",
+          "description" : "Performs CRUD Data Operations."
+        } ],
+        "technology" : "java"
+      }, {
+        "id" : "8",
+        "tags" : "Element,Container",
+        "name" : "Database",
+        "description" : "Assumed database application used to persist data.",
+        "technology" : "rdb"
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "10",
+      "tags" : "Element,Software System,github",
+      "name" : "GitHub Source Control",
+      "description" : "Source control and CI/CD solution",
+      "relationships" : [ {
+        "id" : "17",
+        "tags" : "Relationship",
+        "sourceId" : "10",
+        "destinationId" : "6",
+        "description" : "On merge GitHub Action pushes workspace.dsl into Structurizr."
+      } ],
+      "location" : "External",
+      "containers" : [ {
+        "id" : "11",
+        "tags" : "Element,Container",
+        "name" : "GitHub Action",
+        "description" : "GitHub Action executed on merge.",
+        "technology" : "s3"
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "5",
+      "tags" : "Element,Software System,adr",
+      "name" : "Architecture Decision Record Utility",
+      "description" : "The adr utility can be installed using brew and engineers can use it to log architectural decisions.",
+      "group" : "Engineer Laptop",
+      "location" : "Internal",
+      "documentation" : { }
+    } ],
+    "deploymentNodes" : [ {
+      "id" : "19",
+      "tags" : "Element,Deployment Node,awseks",
+      "name" : "AWS EKS",
+      "description" : "Terraformed Cluster and Deployment",
+      "environment" : "Development",
+      "instances" : 1,
+      "children" : [ {
+        "id" : "20",
+        "tags" : "Element,Deployment Node,docker",
+        "name" : "Docker Container",
+        "description" : "Structurizr On-Premise Container",
+        "environment" : "Development",
+        "instances" : 1,
+        "containerInstances" : [ {
+          "id" : "22",
+          "tags" : "Container Instance",
+          "environment" : "Development",
+          "deploymentGroups" : [ "Default" ],
+          "instanceId" : 1,
+          "containerId" : "8"
+        }, {
+          "id" : "21",
+          "tags" : "Container Instance",
+          "relationships" : [ {
+            "id" : "23",
+            "sourceId" : "21",
+            "destinationId" : "22",
+            "description" : "Performs CRUD Data Operations.",
+            "linkedRelationshipId" : "18"
+          } ],
+          "environment" : "Development",
+          "deploymentGroups" : [ "Default" ],
+          "instanceId" : 1,
+          "containerId" : "7"
+        } ]
+      } ],
+      "infrastructureNodes" : [ {
+        "id" : "24",
+        "tags" : "Element,Infrastructure Node,s3",
+        "name" : "s3 Object Storage",
+        "environment" : "Development"
+      } ]
+    } ]
+  },
+  "documentation" : {
+    "sections" : [ {
+      "title" : "Workspace",
+      "content" : "# Structurizr Workflow Model\nThe demo1 folder contains the C4 model diagrams showing the interaction between the components used in the Structurizr workflow.  \n\n## Workspace\nYou can find the demo deployed at https://structurizr-eks-kong-gzo6ajtw.dev.global.avant.com/workspace/4.",
+      "format" : "Markdown",
+      "filename" : "Readme.md",
+      "order" : 1
+    } ],
+    "decisions" : [ {
+      "title" : "Record architecture decisions",
+      "content" : "# 1. Record architecture decisions\n\nDate: 2022-10-26\n\n## Status\n\nAccepted\n\n## Context\n\nWe need to record the architectural decisions made on this project.\n\n## Decision\n\nWe will use Architecture Decision Records, as [described by Michael Nygard](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions).\n\n## Consequences\n\nSee Michael Nygard's article, linked above. For a lightweight ADR toolset, see Nat Pryce's [adr-tools](https://github.com/npryce/adr-tools).\n",
+      "format" : "Markdown",
+      "id" : "1",
+      "date" : "2022-10-26T00:00:00Z",
+      "status" : "Accepted"
+    }, {
+      "title" : "Github Action Behavior",
+      "content" : "# 2. Github Action Behavior\n\nDate: 2022-10-26\n\n## Status\n\nAccepted\n\n## Context\n\nThe autosync behavior provided with the structurizr/lite requires an additional properties file to exist in every repository documents folder.  The file contains sensitive information that we don't want to store in the repository.  This is a security concern.  Also, complicates each engineer's environment.  Also, it doesn't work properly when views aren't configured to use autoLayout.  \n\n## Decision\n\nInstead of using the default autosyncing behavior the structurizr/live container supports, we created a GitHub Action template that each repository will implement.  When code is merged into the mainline, the github action will upload the workspace.dsl file to the on-premise server.  This removes secret management overhead and solves the autoLayout limitation the on premise software contains.\n\n## Consequences\n\nThe engineer has less to be concerned with after the Github Action is configured on repository.\n",
+      "format" : "Markdown",
+      "id" : "2",
+      "date" : "2022-10-26T00:00:00Z",
+      "status" : "Accepted"
+    } ]
+  },
+  "views" : {
+    "systemLandscapeViews" : [ {
+      "description" : "EngineeringStructurizrLandscape",
+      "key" : "engineeringLaptop",
+      "order" : 1,
+      "paperSize" : "A3_Landscape",
+      "dimensions" : {
+        "width" : 4108,
+        "height" : 1762
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 1874,
+        "y" : 307
+      }, {
+        "id" : "2",
+        "x" : 1849,
+        "y" : 1007
+      }, {
+        "id" : "4",
+        "x" : 1099,
+        "y" : 1007
+      }, {
+        "id" : "5",
+        "x" : 349,
+        "y" : 1007
+      }, {
+        "id" : "6",
+        "x" : 2599,
+        "y" : 1007
+      }, {
+        "id" : "10",
+        "x" : 3349,
+        "y" : 1007
+      } ],
+      "relationships" : [ {
+        "id" : "17",
+        "vertices" : [ {
+          "x" : 3324,
+          "y" : 1157
+        } ]
+      }, {
+        "id" : "16",
+        "vertices" : [ {
+          "x" : 949,
+          "y" : 903
+        } ]
+      }, {
+        "id" : "15",
+        "vertices" : [ {
+          "x" : 3228,
+          "y" : 903
+        } ]
+      }, {
+        "id" : "14"
+      }, {
+        "id" : "13"
+      }, {
+        "id" : "12"
+      } ]
+    } ],
+    "systemContextViews" : [ {
+      "softwareSystemId" : "2",
+      "key" : "LocalDevelopmentUtility",
+      "order" : 3,
+      "paperSize" : "A5_Landscape",
+      "dimensions" : {
+        "width" : 1912,
+        "height" : 1166
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 329,
+        "y" : 383
+      }, {
+        "id" : "2",
+        "x" : 1029,
+        "y" : 433
+      } ],
+      "relationships" : [ {
+        "id" : "12"
+      } ]
+    }, {
+      "softwareSystemId" : "4",
+      "key" : "LocalStructurizrLiteContainer",
+      "order" : 4,
+      "paperSize" : "A5_Landscape",
+      "dimensions" : {
+        "width" : 1912,
+        "height" : 1166
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 329,
+        "y" : 383
+      }, {
+        "id" : "4",
+        "x" : 1029,
+        "y" : 433
+      } ],
+      "relationships" : [ {
+        "id" : "13"
+      } ]
+    } ],
+    "deploymentViews" : [ {
+      "key" : "Development-Deployment",
+      "order" : 2,
+      "paperSize" : "A4_Landscape",
+      "dimensions" : {
+        "width" : 2066,
+        "height" : 1779
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "environment" : "Development",
+      "elements" : [ {
+        "id" : "22",
+        "x" : 1183,
+        "y" : 550
+      }, {
+        "id" : "24",
+        "x" : 433,
+        "y" : 1150
+      }, {
+        "id" : "19",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "20",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "21",
+        "x" : 433,
+        "y" : 550
+      } ],
+      "relationships" : [ {
+        "id" : "23"
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "Person",
+          "background" : "#4ec5f1",
+          "color" : "#ffffff",
+          "fontSize" : 16,
+          "shape" : "Person"
+        }, {
+          "tag" : "Element",
+          "shape" : "RoundedBox"
+        } ]
+      },
+      "terminology" : { },
+      "lastSavedView" : "engineeringLaptop"
+    }
+  }
+}
